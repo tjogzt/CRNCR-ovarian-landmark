@@ -19,7 +19,14 @@ authors:
     given-names: Tao
     orcid: "https://orcid.org/0009-0001-0779-2245"
 license: MIT
-abstract: "Reproducible analysis code and manuscript sources for a landmark analysis of first-line response and subsequent survival in the TCGA ovarian cancer cohort."
+version: "1.0.0"
+date-released: "2026-11-08"
+repository-code: "https://github.com/tjogzt/CRNCR-ovarian-landmark"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24055538"
+    description: "Zenodo archive of version 1.0.0; concept DOI 10.5281/zenodo.24055537"
+abstract: "Reproducible analysis code, versioned configuration and formal result tables for a landmark analysis of first-line response and subsequent survival in the TCGA ovarian cancer cohort."
 keywords:
   - ovarian cancer
   - complete response

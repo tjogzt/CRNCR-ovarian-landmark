@@ -4,7 +4,7 @@ This public repository contains the reproducible analysis code, configuration an
 
 > **Objective response obscures the prognostic difference between complete and partial response in ovarian cancer: a TCGA-OV landmark analysis**
 
-**Publication scope (2026-11-08).** This mirror publishes the analysis code, versioned configuration and formal result tables. Manuscript sources, submission PDFs, the STROBE checklist, the author-only Chinese review edition and internal review archives are withheld while the manuscript is under review. Targets that build the manuscript (`make manuscript`, `make latex`, `make zh`, `make zh-check`) and the Chinese-sync step inside `make check` therefore cannot run here; `make repo-check` and the analysis stages can. A Zenodo DOI will be minted from the `v1.0.0` release and then recorded in `CITATION.cff`.
+**Publication scope (2026-11-08).** This mirror publishes the analysis code, versioned configuration and formal result tables. Manuscript sources, submission PDFs, the STROBE checklist, the author-only Chinese review edition and internal review archives are withheld while the manuscript is under review. Targets that build the manuscript (`make manuscript`, `make latex`, `make zh`, `make zh-check`) and the Chinese-sync step inside `make check` therefore cannot run here; `make repo-check` and the analysis stages can. The archived snapshot is deposited at Zenodo (DOI 10.5281/zenodo.24055538; concept DOI 10.5281/zenodo.24055537).
 
 ## Scientific scope
 
@@ -147,4 +147,4 @@ The submitted figures, tables, and case-level supplementary data are under `resu
 
 ## License and release
 
-Code and documentation are released under the MIT License (`LICENSE.md`). Public source data remain subject to the terms of their original providers. Citation metadata are in `CITATION.cff`. The code and result tables in this repository are public. The manuscript remains under review and is not posted as a preprint. A Zenodo DOI will be minted from the `v1.0.0` GitHub release and recorded in `CITATION.cff`.
+Code and documentation are released under the MIT License (`LICENSE.md`). Public source data remain subject to the terms of their original providers. Citation metadata are in `CITATION.cff`. The code and result tables in this repository are public. The manuscript remains under review and is not posted as a preprint. The archived snapshot is deposited at Zenodo (DOI 10.5281/zenodo.24055538) and recorded in `CITATION.cff`.
