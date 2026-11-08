@@ -1,0 +1,72 @@
+# Local R state
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Private local paths and secrets
+config/paths.yml
+.env
+.env.*
+!.env.example
+
+# Raw and cached public-source data (download through documented scripts)
+data/external/*
+!data/external/.gitkeep
+
+# Generated temporary files and logs
+logs/
+*.log
+manuscript/submission/*_review_copy_with_figures.*
+manuscript/zh/build/
+# Transient page renders used for visual review of the Chinese edition.
+manuscript/zh/*.png
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fls
+*.fdb_latexmk
+*.out
+*.toc
+*.xdv
+*.synctex.gz
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Rebuildable processed objects and detailed analysis intermediates
+# (gdc_tcga_treatment_records.csv is shipped: it is the hash-verified input of
+# the stage-31 treatment-date audit published as Supplementary Data 3.)
+data/processed/external_geo_response_cohorts.rds
+data/processed/msigdb_*.rds
+data/processed/tcga_ov_hallmark_reactome_gsva.rds
+data/processed/tcga_ov_hrr_mutation_status.rds
+data/processed/tcga_ov_u133a_expression_qc.rds
+results/figures/KM_*
+results/figures/bulk_multiscale_integration/
+results/figures/expression_qc/
+results/figures/molecular_topology/
+results/figures/pathway_enrichment/
+results/figures/phase3_hrr_mutations/
+results/figures/phase3_replication_multiomics/
+results/figures/wgcna/
+results/figures/wgcna_sensitivity/
+results/tables/*.csv
+!results/tables/cohort_flow.csv
+results/tables/bulk_multiscale_integration/
+results/tables/expression_qc/
+results/tables/molecular_topology/
+results/tables/pathway_enrichment/
+results/tables/wgcna/
+results/tables/wgcna_sensitivity/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
+*.swp

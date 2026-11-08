@@ -1,0 +1,24 @@
+dataset,histology,label,n
+GSE30009_eset,clearcell,Unknown,1
+GSE30009_eset,ser,CR,54
+GSE30009_eset,ser,PD,19
+GSE30009_eset,ser,PR,9
+GSE30009_eset,ser,SD,1
+GSE30009_eset,ser,Unknown,19
+GSE30161_eset,clearcell,CR (completely response),2
+GSE30161_eset,clearcell,PR (partial response),3
+GSE30161_eset,endo,CR (completely response),1
+GSE30161_eset,mucinous,PR (partial response),1
+GSE30161_eset,other,CR (completely response),1
+GSE30161_eset,ser,CR (completely response),26
+GSE30161_eset,ser,PD (progress of disease),1
+GSE30161_eset,ser,PR (partial response),18
+GSE30161_eset,ser,unknown,2
+GSE30161_eset,undifferentiated,CR (completely response),1
+GSE30161_eset,NA,CR (completely response),1
+GSE30161_eset,NA,Unknown,1
+PMID17290060_eset,ser,0,32
+PMID17290060_eset,ser,1,85
+PMID19318476_eset,ser,CR,23
+PMID19318476_eset,ser,NR,12
+PMID19318476_eset,ser,NA,7

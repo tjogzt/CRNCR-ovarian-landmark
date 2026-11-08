@@ -1,0 +1,29 @@
+check,passed,detail
+Protected baseline: results,True,213 files; differences ['results/tables/manuscript/manuscript_claim_audit.csv']
+Protected baseline: data/processed,True,6 files; differences []
+Protected baseline: data/supplementary,True,3 files; differences []
+Scientific code/configuration unchanged,True,25 files; []
+Cover source unchanged,True,
+Cover assembled Markdown unchanged,True,
+Audit passes: manuscript_claim_audit.csv,True,258
+Audit passes: figure_provenance_audit.csv,True,16
+All six supplementary tables resolved,True,
+Display terminology corrected,True,
+No unapproved added modelling,True,
+DOCX ZIP integrity: manuscript,True,
+Upload DOCX has no embedded figures,True,
+PDF text usable: manuscript,True,18 pages
+DOCX/PDF non-table body parity: manuscript,True,37031 vs 37031 characters
+DOCX ZIP integrity: supplementary_appendix,True,
+Word TOC field and update-on-open enabled,True,
+All Word supplementary table cells match Markdown,True,17 tables
+PDF text usable: supplementary_appendix,True,28 pages
+DOCX/PDF non-table body parity: supplementary_appendix,True,36365 vs 36365 characters
+PDF six table bookmarks point to their actual pages,True,
+No title-only or empty PDF pages,True,[]
+DOCX ZIP integrity: cover_letter,True,
+PDF text usable: cover_letter,True,2 pages
+DOCX/PDF non-table body parity: cover_letter,True,4108 vs 4108 characters
+STROBE Word integrity and updated navigation,True,
+Review copy adds only three figure pages,True,18 shared pages
+Review shared pages pixel-identical,True,

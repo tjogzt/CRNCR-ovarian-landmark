@@ -1,0 +1,7 @@
+source,file,requested_features,missing_features,primary_project_samples,primary_project_patients
+HRD,xena_dir/TCGA.HRD_withSampleID.txt.gz,ai1;lst1;hrd-loh;HRD,,438,438
+CNV_continuous,xena_dir/Gistic2_CopyNumber_Gistic2_all_data_by_genes.gz,BRCA1;BRCA2;CCNE1,,449,449
+CNV_thresholded,xena_dir/Gistic2_CopyNumber_Gistic2_all_thresholded.by_genes.gz,BRCA1;BRCA2;CCNE1,,449,449
+cBioPortal_PanCancer_Atlas_mutations,processed_data_dir/tcga_ov_hrr_mutation_status.csv,BRCA_any;BRCA_lof;HRR_core_any;HRR_core_lof;HRR_extended_any;HRR_extended_lof,,409,409
+methylation27,xena_dir/HumanMethylation27.gz,cg07054526;cg19531713;cg19088651;cg08993267;cg04658354;cg06973652;cg11964474,,453,453
+RPPA,xena_dir/TCGA-RPPA-pancan-clean.xena.gz,ATM;CDK1;CHK1;CHK1_pS345;CHK2;CHK2_pT68;CYCLINE1;P53;RAD51;RB_pS807S811;BRCA2;CYCLINE2;PARPCLEAVED;RB;CDK1_pY15;CHK1_pS296;PARP1;PARPAB3,,330,323

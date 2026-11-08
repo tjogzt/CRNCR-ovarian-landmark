@@ -1,0 +1,4 @@
+group,n,events,median_days,median_low,median_high
+included_NCR,99,80,1032,914,1199
+excluded_NCR,35,28,760,506,1004
+excluded_PD,11,10,189,74,NA

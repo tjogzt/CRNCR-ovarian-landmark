@@ -1,0 +1,20 @@
+# Purpose: Provide a safe template for machine-local data and output paths.
+# Author: Project authors
+# Created: 2026-10-15
+# Inputs: User-selected local data locations or corresponding environment variables.
+# Outputs: A private config/paths.yml copied from this template.
+#
+# Copy this file to config/paths.yml and enter local source locations.
+# config/paths.yml is ignored by Git and must never be committed or contain credentials.
+# Prefer repository-relative paths where practical; do not edit paths into analysis scripts.
+# Environment variables override corresponding values in the private file.
+
+# TCGA Xena root; override with TCGA_XENA_DIR.
+xena_dir: ''
+
+# Optional local caches; relative paths are resolved from the repository root.
+# Override with CRNCR_EXTERNAL_DATA_DIR, CRNCR_PROCESSED_DATA_DIR,
+# and CRNCR_RESULTS_DIR respectively.
+external_data_dir: data/external
+processed_data_dir: data/processed
+results_dir: results

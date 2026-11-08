@@ -1,0 +1,455 @@
+patient,response4,label_source,response_conflict,age,stage_group,grade,residual_group,OS_days,OS_event,PFI_days,PFI_event,fl_start,fl_end,fl_agents,regimen,therapy_end,main_landmark_cohort,exclusion_reason
+TCGA-04-1331,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,78,III,G3,1-10 mm,1336,1,459,1,36,169,Carboplatin;Paclitaxel,Platinum-taxane doublet,169,TRUE,included
+TCGA-04-1336,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G3,R0,1495,0,1495,0,50,144,Carboplatin;Docetaxel,Platinum-taxane doublet,144,TRUE,included
+TCGA-04-1341,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,85,NA,G3,NA,33,0,33,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-04-1342,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,80,IV,G2,>20 mm,563,1,563,1,32,142,Carboplatin,Other platinum-based,142,TRUE,included
+TCGA-04-1343,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,72,IV,G3,>20 mm,361,1,361,1,50,170,Carboplatin;Gemcitabine;Paclitaxel,Other platinum-based,170,TRUE,included
+TCGA-04-1346,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,73,III,G2,NA,1993,0,1993,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-04-1347,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,81,IV,G3,R0,1919,0,1919,0,19,173,Carboplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,173,TRUE,included
+TCGA-04-1348,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,44,III,G3,1-10 mm,1483,1,575,1,2,184,Carboplatin;Paclitaxel,Platinum-taxane doublet,184,TRUE,included
+TCGA-04-1349,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,69,IV,G3,NA,656,1,428,1,1,373,Cisplatin;Paclitaxel,Platinum-taxane doublet,373,FALSE,implausible end date (<60 or >365 d)
+TCGA-04-1350,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,46,III,G3,>20 mm,1946,1,111,1,216,NA,Carboplatin;Paclitaxel,Platinum-taxane doublet,NA,FALSE,no therapy end date
+TCGA-04-1351,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,76,III,G2,NA,1991,0,1658,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-04-1356,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,62,I-II,G3,NA,1499,1,156,1,161,312,Carboplatin;Paclitaxel,Platinum-taxane doublet,312,TRUE,included
+TCGA-04-1361,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,R0,989,0,927,1,53,844,Carboplatin;Paclitaxel,Platinum-taxane doublet,844,FALSE,implausible end date (<60 or >365 d)
+TCGA-04-1364,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,III,G3,1-10 mm,1024,1,288,1,35,188,Carboplatin;Paclitaxel;Pegylated Liposomal Doxorubicin Hydrochloride,Other platinum-based,188,TRUE,included
+TCGA-04-1365,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,87,III,G3,NA,2329,0,1328,1,21,189,Carboplatin;Gemcitabine,Other platinum-based,189,TRUE,included
+TCGA-04-1367,CR,"TCGA-CDR, discordant clinical-matrix label",TRUE,50,III,G3,R0,3145,0,2997,1,24,199,Carboplatin;Paclitaxel,Platinum-taxane doublet,199,TRUE,included
+TCGA-04-1514,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,III,G2,R0,1720,1,1221,1,34,185,Cisplatin;Paclitaxel,Platinum-taxane doublet,185,TRUE,included
+TCGA-04-1516,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,48,I-II,G3,R0,1265,0,1265,0,37,157,Carboplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,157,TRUE,included
+TCGA-04-1517,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,79,III,G3,>20 mm,608,1,349,1,35,144,Carboplatin;Docetaxel,Platinum-taxane doublet,144,TRUE,included
+TCGA-04-1525,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,47,III,G3,1-10 mm,1167,1,213,1,16,184,Carboplatin;Docetaxel,Platinum-taxane doublet,184,TRUE,included
+TCGA-04-1530,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,68,III,G3,1-10 mm,3622,1,350,1,43,153,Cisplatin;Paclitaxel,Platinum-taxane doublet,153,TRUE,included
+TCGA-04-1542,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,52,III,G2,1-10 mm,2561,1,1020,1,2,167,Carboplatin;Gemcitabine;Paclitaxel,Other platinum-based,167,TRUE,included
+TCGA-04-1644,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,48,III,G3,>20 mm,1487,1,634,1,17,221,Carboplatin;Gemcitabine,Other platinum-based,221,TRUE,included
+TCGA-04-1652,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,76,III,G2,NA,969,1,880,1,60,199,Carboplatin;Gemcitabine;Paclitaxel,Other platinum-based,199,TRUE,included
+TCGA-09-0364,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,80,I-II,G3,11-20 mm,887,1,395,1,31,188,Carboplatin;Paclitaxel,Platinum-taxane doublet,188,TRUE,included
+TCGA-09-0365,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,70,III,G3,R0,288,1,251,1,15,70,Carboplatin;Paclitaxel,Platinum-taxane doublet,70,TRUE,included
+TCGA-09-0366,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G3,1-10 mm,1757,1,190,1,5,113,Carboplatin;Paclitaxel,Platinum-taxane doublet,113,TRUE,included
+TCGA-09-0367,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,67,III,G3,1-10 mm,547,1,547,1,9,92,Carboplatin;Paclitaxel,Platinum-taxane doublet,92,TRUE,included
+TCGA-09-0369,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,G3,R0,1082,1,274,1,8,74,Carboplatin;Paclitaxel,Platinum-taxane doublet,74,TRUE,included
+TCGA-09-1659,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G3,>20 mm,304,1,304,1,16,137,Cisplatin;Paclitaxel,Platinum-taxane doublet,137,TRUE,included
+TCGA-09-1661,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,75,III,G3,1-10 mm,1169,1,1169,1,58,165,Carboplatin;Paclitaxel,Platinum-taxane doublet,165,TRUE,included
+TCGA-09-1662,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,IV,G3,1-10 mm,2717,1,1046,1,15,141,Carboplatin;Cisplatin;Gemcitabine Hydrochloride;Paclitaxel,Other platinum-based,141,TRUE,included
+TCGA-09-1664,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,37,III,G1,1-10 mm,2279,1,2279,0,15,139,Carboplatin;Docetaxel,Platinum-taxane doublet,139,TRUE,included
+TCGA-09-1665,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,73,III,G2,R0,1266,1,468,1,33,208,Carboplatin;Paclitaxel,Platinum-taxane doublet,208,TRUE,included
+TCGA-09-1666,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,R0,1752,0,480,1,27,73,Carboplatin;Paclitaxel,Platinum-taxane doublet,73,TRUE,included
+TCGA-09-1667,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,I-II,G2,R0,1882,0,460,1,7,118,Carboplatin;Paclitaxel,Platinum-taxane doublet,118,TRUE,included
+TCGA-09-1668,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,NA,1684,0,1684,0,31,135,Carboplatin;Docetaxel,Platinum-taxane doublet,135,TRUE,included
+TCGA-09-1669,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,54,III,G3,R0,928,0,928,0,27,132,Carboplatin;Paclitaxel,Platinum-taxane doublet,132,TRUE,included
+TCGA-09-1670,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,R0,547,0,547,1,74,179,Carboplatin;Paclitaxel,Platinum-taxane doublet,179,TRUE,included
+TCGA-09-1674,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,79,III,G3,1-10 mm,260,0,260,0,41,145,Carboplatin;Paclitaxel,Platinum-taxane doublet,145,TRUE,included
+TCGA-09-1675,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,I-II,G2,R0,2967,0,2967,0,54,187,Carboplatin;Paclitaxel,Platinum-taxane doublet,187,TRUE,included
+TCGA-09-2043,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,69,I-II,G3,R0,188,0,188,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-09-2044,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,77,I-II,G3,R0,186,0,186,0,32,151,Carboplatin;Paclitaxel,Platinum-taxane doublet,151,TRUE,included
+TCGA-09-2045,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,IV,G2,1-10 mm,1069,1,631,1,11,11,Carboplatin;Paclitaxel,Platinum-taxane doublet,11,FALSE,implausible end date (<60 or >365 d)
+TCGA-09-2048,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,63,III,G3,1-10 mm,138,1,138,1,60,NA,NA,Non-platinum,NA,FALSE,no therapy end date
+TCGA-09-2049,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,64,III,G3,>20 mm,3419,0,953,1,42,172,Carboplatin;Paclitaxel,Platinum-taxane doublet,172,TRUE,included
+TCGA-09-2050,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,I-II,G2,R0,2163,0,2163,0,5,110,Carboplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,110,TRUE,included
+TCGA-09-2051,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,42,III,G3,R0,1919,0,583,1,8,155,Carboplatin;Paclitaxel,Platinum-taxane doublet,155,TRUE,included
+TCGA-09-2053,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,72,III,G3,R0,1209,0,1209,0,34,138,Carboplatin;Paclitaxel,Platinum-taxane doublet,138,TRUE,included
+TCGA-09-2054,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G3,1-10 mm,637,1,637,1,37,161,Carboplatin;Paclitaxel,Platinum-taxane doublet,161,TRUE,included
+TCGA-09-2055,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,48,I-II,G3,R0,819,0,819,0,5,189,Carboplatin;Paclitaxel,Platinum-taxane doublet,189,TRUE,included
+TCGA-09-2056,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,62,III,G3,R0,379,0,379,0,25,147,Carboplatin;Paclitaxel,Platinum-taxane doublet,147,TRUE,included
+TCGA-10-0925,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G1,1-10 mm,1652,1,558,1,20,125,Carboplatin;Paclitaxel,Platinum-taxane doublet,125,TRUE,included
+TCGA-10-0926,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,63,III,G3,11-20 mm,788,1,287,1,8,143,Carboplatin;Paclitaxel,Platinum-taxane doublet,143,TRUE,included
+TCGA-10-0927,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,III,G2,1-10 mm,2490,1,1001,1,9,121,Carboplatin;Paclitaxel,Platinum-taxane doublet,121,TRUE,included
+TCGA-10-0930,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,70,III,G3,1-10 mm,1040,1,680,1,8,124,Carboplatin;Paclitaxel,Platinum-taxane doublet,124,TRUE,included
+TCGA-10-0931,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,44,III,G3,1-10 mm,1000,1,300,1,19,124,Carboplatin;Paclitaxel;Trastuzumab,Other platinum-based,124,TRUE,included
+TCGA-10-0933,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,77,III,G3,R0,446,1,356,1,20,132,Carboplatin;Paclitaxel,Platinum-taxane doublet,132,TRUE,included
+TCGA-10-0934,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,III,G3,1-10 mm,204,1,111,1,40,56,Carboplatin;Paclitaxel,Platinum-taxane doublet,56,FALSE,implausible end date (<60 or >365 d)
+TCGA-10-0936,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,69,III,G3,>20 mm,1123,1,1123,1,20,62,Paclitaxel,Non-platinum,62,TRUE,included
+TCGA-10-0937,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,44,III,G3,1-10 mm,608,1,235,1,33,146,Carboplatin;Paclitaxel,Platinum-taxane doublet,146,TRUE,included
+TCGA-10-0938,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,80,III,G3,>20 mm,636,1,362,1,30,188,Carboplatin;Docetaxel;Letrozole;Leuprolide Acetate,Other platinum-based,188,TRUE,included
+TCGA-13-0714,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,IV,G3,1-10 mm,189,1,110,1,12,NA,Carboplatin;Gemcitabine;Paclitaxel,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-13-0717,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,54,III,G3,>20 mm,748,1,294,1,9,182,Carboplatin;Paclitaxel,Platinum-taxane doublet,182,TRUE,included
+TCGA-13-0720,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,48,III,G3,1-10 mm,1355,1,292,1,7,180,Carboplatin;Paclitaxel,Platinum-taxane doublet,180,TRUE,included
+TCGA-13-0723,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,63,III,G3,>20 mm,1204,1,210,1,28,200,Carboplatin;Paclitaxel,Platinum-taxane doublet,200,TRUE,included
+TCGA-13-0724,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,72,IV,G3,1-10 mm,83,1,83,1,75,75,Carboplatin,Other platinum-based,75,TRUE,included
+TCGA-13-0725,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,44,III,G3,1-10 mm,377,1,190,1,15,131,Carboplatin;Paclitaxel,Platinum-taxane doublet,131,TRUE,included
+TCGA-13-0726,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,GX,1-10 mm,949,1,392,1,29,169,Carboplatin;Paclitaxel,Platinum-taxane doublet,169,TRUE,included
+TCGA-13-0727,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,1-10 mm,462,1,253,1,9,120,Carboplatin;Paclitaxel,Platinum-taxane doublet,120,TRUE,included
+TCGA-13-0751,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,44,III,GX,1-10 mm,1678,1,653,1,7,126,Carboplatin;Paclitaxel,Platinum-taxane doublet,126,TRUE,included
+TCGA-13-0755,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,75,IV,G3,1-10 mm,76,1,34,1,19,41,Carboplatin,Other platinum-based,41,FALSE,implausible end date (<60 or >365 d)
+TCGA-13-0757,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,1-10 mm,340,1,293,1,36,154,Carboplatin;Paclitaxel,Platinum-taxane doublet,154,TRUE,included
+TCGA-13-0758,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,60,IV,G3,1-10 mm,346,1,212,1,14,161,Carboplatin;Paclitaxel,Platinum-taxane doublet,161,TRUE,included
+TCGA-13-0761,CR,TCGA-CDR only,FALSE,51,IV,G3,R0,1156,1,424,1,53,221,Carboplatin;Docetaxel,Platinum-taxane doublet,221,TRUE,included
+TCGA-13-0762,CR,TCGA-CDR only,FALSE,65,III,G3,R0,3400,0,1003,1,28,141,Cisplatin;Paclitaxel,Platinum-taxane doublet,141,TRUE,included
+TCGA-13-0764,PR,TCGA-CDR only,FALSE,62,IV,G3,1-10 mm,1881,1,272,1,55,160,Bevacizumab;Carboplatin;Paclitaxel,Other platinum-based,160,TRUE,included
+TCGA-13-0765,CR,TCGA-CDR only,FALSE,50,III,G3,1-10 mm,1389,1,668,1,50,163,Bevacizumab;Cisplatin;Paclitaxel,Other platinum-based,163,TRUE,included
+TCGA-13-0766,CR,TCGA-CDR only,FALSE,42,III,G3,1-10 mm,1725,1,628,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-13-0768,CR,TCGA-CDR only,FALSE,73,III,G3,1-10 mm,1784,1,398,1,36,148,Carboplatin;Cisplatin;Paclitaxel,Platinum-taxane doublet,148,TRUE,included
+TCGA-13-0791,CR,TCGA-CDR only,FALSE,58,III,G3,R0,1224,1,281,1,36,141,Carboplatin;Paclitaxel,Platinum-taxane doublet,141,TRUE,included
+TCGA-13-0792,CR,TCGA-CDR only,FALSE,40,III,G3,R0,3602,0,816,1,34,160,Cisplatin;Paclitaxel,Platinum-taxane doublet,160,TRUE,included
+TCGA-13-0793,CR,TCGA-CDR only,FALSE,40,IV,G3,1-10 mm,3263,0,351,1,47,159,Carboplatin;Paclitaxel,Platinum-taxane doublet,159,TRUE,included
+TCGA-13-0794,CR,TCGA-CDR only,FALSE,60,III,G3,1-10 mm,1919,1,845,1,26,132,Carboplatin;Docetaxel,Platinum-taxane doublet,132,TRUE,included
+TCGA-13-0795,CR,TCGA-CDR only,FALSE,66,III,G3,>20 mm,619,1,325,1,101,205,Carboplatin;Paclitaxel,Platinum-taxane doublet,205,TRUE,included
+TCGA-13-0797,CR,TCGA-CDR only,FALSE,49,III,G3,1-10 mm,2121,0,525,1,42,146,Carboplatin;Paclitaxel,Platinum-taxane doublet,146,TRUE,included
+TCGA-13-0799,CR,TCGA-CDR only,FALSE,44,III,G3,R0,2535,0,1262,1,36,146,Cisplatin;Paclitaxel,Platinum-taxane doublet,146,TRUE,included
+TCGA-13-0800,CR,TCGA-CDR only,FALSE,52,III,G3,R0,2661,0,1396,1,30,142,Cisplatin;Paclitaxel,Platinum-taxane doublet,142,TRUE,included
+TCGA-13-0801,CR,TCGA-CDR only,FALSE,46,III,G3,R0,1399,1,345,1,32,144,Cisplatin;Paclitaxel,Platinum-taxane doublet,144,TRUE,included
+TCGA-13-0802,CR,TCGA-CDR only,FALSE,79,III,G3,R0,1552,1,510,1,62,188,Carboplatin;Paclitaxel,Platinum-taxane doublet,188,TRUE,included
+TCGA-13-0803,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,81,III,G3,R0,1334,1,337,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-13-0804,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,73,III,G3,1-10 mm,1073,1,329,1,26,161,Carboplatin;Paclitaxel,Platinum-taxane doublet,161,TRUE,included
+TCGA-13-0805,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,1-10 mm,1074,1,177,1,17,151,Carboplatin;Paclitaxel,Platinum-taxane doublet,151,TRUE,included
+TCGA-13-0883,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,III,G3,1-10 mm,2097,1,819,1,31,143,Carboplatin;Paclitaxel,Platinum-taxane doublet,143,TRUE,included
+TCGA-13-0884,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,39,III,G3,1-10 mm,3260,1,1251,1,55,191,Carboplatin;Gemcitabine;Paclitaxel,Other platinum-based,191,TRUE,included
+TCGA-13-0885,CR,TCGA-CDR only,FALSE,70,III,G3,11-20 mm,3388,0,3388,0,6,110,Carboplatin;Paclitaxel,Platinum-taxane doublet,110,TRUE,included
+TCGA-13-0886,CR,TCGA-CDR only,FALSE,67,III,G3,1-10 mm,4665,0,4665,0,12,132,Carboplatin;Paclitaxel,Platinum-taxane doublet,132,TRUE,included
+TCGA-13-0887,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,42,III,G3,1-10 mm,2028,1,514,1,7,114,Carboplatin;Paclitaxel,Platinum-taxane doublet,114,TRUE,included
+TCGA-13-0889,CR,TCGA-CDR only,FALSE,75,IV,GX,1-10 mm,2894,1,2894,0,54,159,Carboplatin;Paclitaxel,Platinum-taxane doublet,159,TRUE,included
+TCGA-13-0890,CR,TCGA-CDR only,FALSE,56,III,G3,1-10 mm,4424,0,4424,0,15,235,Carboplatin;Paclitaxel,Platinum-taxane doublet,235,TRUE,included
+TCGA-13-0891,CR,TCGA-CDR only,FALSE,73,IV,G3,R0,3128,1,762,1,71,183,Carboplatin;Paclitaxel,Platinum-taxane doublet,183,TRUE,included
+TCGA-13-0893,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,48,III,G3,11-20 mm,1319,1,461,1,80,284,Carboplatin;Paclitaxel,Platinum-taxane doublet,284,TRUE,included
+TCGA-13-0894,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,III,G3,1-10 mm,1509,1,565,1,47,216,Carboplatin;Paclitaxel,Platinum-taxane doublet,216,TRUE,included
+TCGA-13-0897,CR,TCGA-CDR only,FALSE,54,III,G3,1-10 mm,2182,1,554,1,35,140,Carboplatin;Paclitaxel,Platinum-taxane doublet,140,TRUE,included
+TCGA-13-0899,CR,TCGA-CDR only,FALSE,60,III,G3,1-10 mm,2012,1,547,1,16,126,Carboplatin;Paclitaxel,Platinum-taxane doublet,126,TRUE,included
+TCGA-13-0900,CR,TCGA-CDR only,FALSE,59,III,G3,NA,4077,0,4077,0,38,162,Carboplatin;Paclitaxel,Platinum-taxane doublet,162,TRUE,included
+TCGA-13-0901,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,41,III,G3,>20 mm,589,0,390,1,44,165,Cetuximab;Cisplatin;Paclitaxel,Other platinum-based,165,TRUE,included
+TCGA-13-0903,CR,TCGA-CDR only,FALSE,42,IV,G3,R0,3887,0,3887,0,22,141,Carboplatin;Cetuximab;Paclitaxel,Other platinum-based,141,TRUE,included
+TCGA-13-0904,PR,TCGA-CDR only,FALSE,63,III,G3,>20 mm,1532,1,330,1,63,251,Carboplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,251,TRUE,included
+TCGA-13-0905,CR,TCGA-CDR only,FALSE,51,III,G3,NA,3746,0,1535,1,20,125,Carboplatin;Paclitaxel,Platinum-taxane doublet,125,TRUE,included
+TCGA-13-0906,CR,TCGA-CDR only,FALSE,50,III,G3,1-10 mm,3619,0,3619,0,35,147,Cisplatin;Paclitaxel,Platinum-taxane doublet,147,TRUE,included
+TCGA-13-0908,CR,TCGA-CDR only,FALSE,58,IV,G3,1-10 mm,1843,1,552,1,24,135,Carboplatin;Paclitaxel,Platinum-taxane doublet,135,TRUE,included
+TCGA-13-0910,CR,TCGA-CDR only,FALSE,58,III,G3,1-10 mm,3548,0,1212,1,70,175,Carboplatin;Paclitaxel,Platinum-taxane doublet,175,TRUE,included
+TCGA-13-0911,PR,TCGA-CDR only,FALSE,55,IV,G3,1-10 mm,1355,1,279,1,49,189,Carboplatin;Paclitaxel,Platinum-taxane doublet,189,TRUE,included
+TCGA-13-0912,CR,TCGA-CDR only,FALSE,58,III,G3,R0,1145,1,469,1,35,147,Cisplatin;Paclitaxel,Platinum-taxane doublet,147,TRUE,included
+TCGA-13-0913,CR,TCGA-CDR only,FALSE,53,III,G3,R0,3325,0,871,1,35,161,Cisplatin;Paclitaxel,Platinum-taxane doublet,161,TRUE,included
+TCGA-13-0916,CR,TCGA-CDR only,FALSE,49,III,G3,R0,1785,0,1785,0,35,182,Bevacizumab;Cisplatin;Paclitaxel,Other platinum-based,182,TRUE,included
+TCGA-13-0919,CR,TCGA-CDR only,FALSE,52,III,G3,R0,2571,0,2571,0,42,160,Carboplatin;Paclitaxel,Platinum-taxane doublet,160,TRUE,included
+TCGA-13-0920,CR,TCGA-CDR only,FALSE,65,III,G3,1-10 mm,1484,1,297,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-13-0921,CR,TCGA-CDR only,FALSE,72,III,G3,R0,1483,1,1483,0,35,140,Cisplatin;Paclitaxel,Platinum-taxane doublet,140,TRUE,included
+TCGA-13-0923,CR,TCGA-CDR only,FALSE,74,III,G3,R0,2547,0,1719,1,39,151,Cisplatin;Paclitaxel,Platinum-taxane doublet,151,TRUE,included
+TCGA-13-0924,CR,TCGA-CDR only,FALSE,45,IV,G3,1-10 mm,2614,0,962,1,38,143,Carboplatin;Clinical Trial;Paclitaxel,Other platinum-based,143,TRUE,included
+TCGA-13-1403,CR,TCGA-CDR only,FALSE,48,III,G3,NA,2345,1,418,1,27,142,Cisplatin;Paclitaxel,Platinum-taxane doublet,142,TRUE,included
+TCGA-13-1404,CR,TCGA-CDR only,FALSE,48,III,G3,1-10 mm,2469,0,1581,1,50,156,Carboplatin;Paclitaxel,Platinum-taxane doublet,156,TRUE,included
+TCGA-13-1405,CR,TCGA-CDR only,FALSE,49,IV,G3,1-10 mm,868,1,228,1,23,147,Carboplatin;Paclitaxel,Platinum-taxane doublet,147,TRUE,included
+TCGA-13-1407,CR,TCGA-CDR only,FALSE,51,III,G3,NA,2534,0,1333,1,42,184,Carboplatin;Paclitaxel,Platinum-taxane doublet,184,TRUE,included
+TCGA-13-1408,PR,TCGA-CDR only,FALSE,59,III,G3,>20 mm,1680,1,765,1,8,91,Carboplatin;Paclitaxel,Platinum-taxane doublet,91,TRUE,included
+TCGA-13-1410,CR,TCGA-CDR only,FALSE,57,IV,GX,NA,2464,0,319,1,39,83,Carboplatin;Paclitaxel,Platinum-taxane doublet,83,TRUE,included
+TCGA-13-1411,PR,TCGA-CDR only,FALSE,81,III,G3,>20 mm,531,1,238,1,8,128,Carboplatin;Paclitaxel,Platinum-taxane doublet,128,TRUE,included
+TCGA-13-1412,CR,TCGA-CDR only,FALSE,41,IV,G3,1-10 mm,984,1,409,1,37,121,Carboplatin;Paclitaxel,Platinum-taxane doublet,121,TRUE,included
+TCGA-13-1477,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,49,IV,G2,1-10 mm,1662,1,235,1,57,206,Carboplatin;Paclitaxel,Platinum-taxane doublet,206,TRUE,included
+TCGA-13-1481,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,76,III,G2,1-10 mm,2648,1,2648,0,11,131,Carboplatin;Paclitaxel,Platinum-taxane doublet,131,TRUE,included
+TCGA-13-1482,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,52,IV,G2,>20 mm,1877,1,602,1,33,152,Carboplatin;Paclitaxel,Platinum-taxane doublet,152,TRUE,included
+TCGA-13-1483,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,III,G3,>20 mm,895,1,297,1,35,176,Carboplatin;Paclitaxel,Platinum-taxane doublet,176,TRUE,included
+TCGA-13-1484,CR,TCGA-CDR only,FALSE,62,III,G3,NA,3785,1,497,1,86,191,Carboplatin;Paclitaxel,Platinum-taxane doublet,191,TRUE,included
+TCGA-13-1485,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,48,IV,G2,1-10 mm,629,1,170,1,45,149,Carboplatin;Paclitaxel,Platinum-taxane doublet,149,TRUE,included
+TCGA-13-1487,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,74,IV,GX,NA,681,1,412,1,17,129,Carboplatin;Docetaxel,Platinum-taxane doublet,129,TRUE,included
+TCGA-13-1488,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,59,IV,G3,11-20 mm,2154,1,351,1,8,165,Carboplatin;Paclitaxel,Platinum-taxane doublet,165,TRUE,included
+TCGA-13-1489,CR,TCGA-CDR only,FALSE,70,III,G2,NA,2553,1,806,1,41,181,Carboplatin;Paclitaxel,Platinum-taxane doublet,181,TRUE,included
+TCGA-13-1491,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G3,NA,1595,1,508,1,42,154,Carboplatin;Paclitaxel,Platinum-taxane doublet,154,TRUE,included
+TCGA-13-1492,CR,TCGA-CDR only,FALSE,66,III,G3,NA,3819,1,3819,0,48,247,Carboplatin;Paclitaxel,Platinum-taxane doublet,247,TRUE,included
+TCGA-13-1494,CR,TCGA-CDR only,FALSE,43,IV,G3,NA,2856,1,693,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-13-1495,CR,TCGA-CDR only,FALSE,60,III,G2,1-10 mm,2749,1,977,1,21,140,Carboplatin;Cetuximab;Paclitaxel,Other platinum-based,140,TRUE,included
+TCGA-13-1497,CR,TCGA-CDR only,FALSE,47,III,G3,NA,3871,0,813,1,22,127,Carboplatin;Cetuximab;Paclitaxel,Other platinum-based,127,TRUE,included
+TCGA-13-1498,PR,TCGA-CDR only,FALSE,73,III,G3,>20 mm,2012,1,534,1,7,216,Carboplatin;Paclitaxel,Platinum-taxane doublet,216,TRUE,included
+TCGA-13-1499,CR,TCGA-CDR only,FALSE,56,III,G3,NA,3500,0,583,1,76,187,Carboplatin;Cisplatin;Paclitaxel,Platinum-taxane doublet,187,TRUE,included
+TCGA-13-1500,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,11-20 mm,425,1,253,1,197,225,Cisplatin,Other platinum-based,225,TRUE,included
+TCGA-13-1501,PR,TCGA-CDR only,FALSE,50,IV,G3,>20 mm,1314,1,392,1,78,183,Carboplatin;Paclitaxel,Platinum-taxane doublet,183,TRUE,included
+TCGA-13-1504,CR,TCGA-CDR only,FALSE,68,III,G3,NA,1059,1,548,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-13-1505,CR,TCGA-CDR only,FALSE,63,III,G3,1-10 mm,1998,0,1561,1,27,167,Cisplatin;Paclitaxel,Platinum-taxane doublet,167,TRUE,included
+TCGA-13-1506,CR,TCGA-CDR only,FALSE,45,III,G3,NA,1039,1,666,1,50,80,Cisplatin;Docetaxel;Gemcitabine,Other platinum-based,80,TRUE,included
+TCGA-13-1507,CR,TCGA-CDR only,FALSE,77,III,G3,1-10 mm,1993,1,324,1,54,166,Cisplatin;Paclitaxel,Platinum-taxane doublet,166,TRUE,included
+TCGA-13-1509,CR,TCGA-CDR only,FALSE,64,IV,G3,1-10 mm,2438,0,578,1,21,127,Carboplatin;Paclitaxel,Platinum-taxane doublet,127,TRUE,included
+TCGA-13-1511,PR,TCGA-CDR only,FALSE,52,IV,G3,>20 mm,1650,1,459,1,21,46,Carboplatin,Other platinum-based,46,FALSE,implausible end date (<60 or >365 d)
+TCGA-13-1817,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,G3,>20 mm,1024,1,541,1,7,122,Carboplatin;Paclitaxel,Platinum-taxane doublet,122,TRUE,included
+TCGA-13-1819,CR,TCGA-CDR only,FALSE,59,I-II,G3,R0,2025,1,429,1,37,149,Carboplatin;Paclitaxel,Platinum-taxane doublet,149,TRUE,included
+TCGA-13-2057,CR,TCGA-CDR only,FALSE,59,III,G3,R0,2434,0,897,1,51,159,Carboplatin;Paclitaxel,Platinum-taxane doublet,159,TRUE,included
+TCGA-13-2059,CR,TCGA-CDR only,FALSE,50,III,G3,1-10 mm,2387,0,1005,1,46,158,Cisplatin;Paclitaxel,Platinum-taxane doublet,158,TRUE,included
+TCGA-13-2060,CR,TCGA-CDR only,FALSE,51,IV,G3,1-10 mm,2369,0,1475,1,31,143,Cisplatin;Paclitaxel,Platinum-taxane doublet,143,TRUE,included
+TCGA-13-2061,CR,TCGA-CDR only,FALSE,58,III,G3,R0,2339,0,2339,0,63,112,Cisplatin;Paclitaxel,Platinum-taxane doublet,112,TRUE,included
+TCGA-13-2065,CR,TCGA-CDR only,FALSE,71,III,G3,1-10 mm,1993,0,946,1,16,68,Carboplatin,Other platinum-based,68,TRUE,included
+TCGA-13-2066,CR,TCGA-CDR only,FALSE,49,IV,G3,1-10 mm,2133,1,1028,1,61,169,Carboplatin;Paclitaxel,Platinum-taxane doublet,169,TRUE,included
+TCGA-13-2071,CR,TCGA-CDR only,FALSE,63,IV,G3,1-10 mm,773,1,322,1,41,146,Carboplatin;Paclitaxel,Platinum-taxane doublet,146,TRUE,included
+TCGA-20-0991,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,78,I-II,G3,R0,797,0,797,0,71,NA,Carboplatin,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-20-1682,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,GX,11-20 mm,837,0,837,0,40,145,Carboplatin;Paclitaxel,Platinum-taxane doublet,145,TRUE,included
+TCGA-20-1683,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,III,G3,R0,772,0,618,1,17,135,Carboplatin;Paclitaxel,Platinum-taxane doublet,135,TRUE,included
+TCGA-20-1684,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G3,1-10 mm,581,0,581,0,42,120,Bevacizumab;Carboplatin;Paclitaxel,Other platinum-based,120,TRUE,included
+TCGA-20-1685,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,III,G3,1-10 mm,508,0,508,0,39,144,Bevacizumab;Carboplatin;Paclitaxel,Other platinum-based,144,TRUE,included
+TCGA-20-1686,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,75,III,G3,R0,89,0,89,0,26,131,Carboplatin;Paclitaxel,Platinum-taxane doublet,131,FALSE,death/censoring before therapy end
+TCGA-20-1687,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,46,IV,G3,R0,81,0,81,0,42,172,Carboplatin;Paclitaxel,Platinum-taxane doublet,172,FALSE,death/censoring before therapy end
+TCGA-23-1021,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,IV,G3,>20 mm,1446,1,1446,1,14,119,Carboplatin;Paclitaxel,Platinum-taxane doublet,119,TRUE,included
+TCGA-23-1022,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,67,III,G3,1-10 mm,1511,1,450,1,29,162,Carboplatin;Paclitaxel,Platinum-taxane doublet,162,TRUE,included
+TCGA-23-1024,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,52,IV,G3,1-10 mm,468,0,468,0,13,304,Carboplatin;Cisplatin;Paclitaxel,Platinum-taxane doublet,304,TRUE,included
+TCGA-23-1026,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,III,G3,1-10 mm,816,0,797,1,7,108,Carboplatin;Paclitaxel,Platinum-taxane doublet,108,TRUE,included
+TCGA-23-1027,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,48,III,G3,1-10 mm,976,1,114,1,26,129,Carboplatin;Paclitaxel,Platinum-taxane doublet,129,TRUE,included
+TCGA-23-1028,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,43,III,G3,1-10 mm,1503,0,133,1,26,110,Carboplatin;Paclitaxel,Platinum-taxane doublet,110,TRUE,included
+TCGA-23-1029,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,46,III,G3,1-10 mm,268,0,268,0,30,78,Cisplatin;Paclitaxel,Platinum-taxane doublet,78,TRUE,included
+TCGA-23-1030,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,64,III,G3,1-10 mm,886,0,544,1,62,165,Carboplatin;Paclitaxel,Platinum-taxane doublet,165,TRUE,included
+TCGA-23-1031,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,60,IV,G3,1-10 mm,575,1,575,1,26,166,Carboplatin;Paclitaxel,Platinum-taxane doublet,166,TRUE,included
+TCGA-23-1109,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,62,III,G3,1-10 mm,1562,1,987,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-23-1110,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,42,III,G3,R0,1658,0,326,1,6,110,Carboplatin;Paclitaxel,Platinum-taxane doublet,110,TRUE,included
+TCGA-23-1113,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,48,IV,G3,1-10 mm,949,1,949,1,27,74,Carboplatin;Paclitaxel,Platinum-taxane doublet,74,TRUE,included
+TCGA-23-1114,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G3,R0,2089,1,634,1,43,182,Carboplatin;Paclitaxel,Platinum-taxane doublet,182,TRUE,included
+TCGA-23-1116,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,83,III,G3,>20 mm,592,1,286,1,19,187,Carboplatin;Paclitaxel,Platinum-taxane doublet,187,TRUE,included
+TCGA-23-1117,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,42,III,G3,1-10 mm,1013,1,418,1,22,294,Carboplatin,Other platinum-based,294,TRUE,included
+TCGA-23-1118,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,III,G3,>20 mm,2616,0,2616,0,56,196,Carboplatin,Other platinum-based,196,TRUE,included
+TCGA-23-1119,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,64,III,G3,1-10 mm,3953,0,3378,1,18,125,Carboplatin,Other platinum-based,125,TRUE,included
+TCGA-23-1120,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,60,III,G3,1-10 mm,130,0,130,0,63,146,Cisplatin;Paclitaxel,Platinum-taxane doublet,146,FALSE,death/censoring before therapy end
+TCGA-23-1122,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,III,G3,1-10 mm,1189,1,447,1,27,244,Carboplatin,Other platinum-based,244,TRUE,included
+TCGA-23-1123,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,59,III,G3,11-20 mm,1018,1,1018,1,7,250,Carboplatin;Paclitaxel,Platinum-taxane doublet,250,TRUE,included
+TCGA-23-1124,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,62,III,G3,R0,1768,1,641,1,19,197,Carboplatin,Other platinum-based,197,TRUE,included
+TCGA-23-2072,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,IV,G3,>20 mm,759,1,476,1,26,151,Carboplatin;Paclitaxel,Platinum-taxane doublet,151,TRUE,included
+TCGA-23-2077,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,III,G3,R0,3525,0,1232,1,22,155,Carboplatin;Paclitaxel,Platinum-taxane doublet,155,TRUE,included
+TCGA-23-2078,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,66,III,G3,R0,2661,0,2661,0,35,149,Carboplatin;Paclitaxel,Platinum-taxane doublet,149,TRUE,included
+TCGA-23-2079,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,46,III,G3,R0,2788,0,283,1,4,125,Carboplatin;Paclitaxel,Platinum-taxane doublet,125,TRUE,included
+TCGA-23-2081,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,49,IV,G3,1-10 mm,2342,1,2342,1,16,173,Carboplatin;Paclitaxel,Platinum-taxane doublet,173,TRUE,included
+TCGA-23-2084,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,IV,G3,R0,1516,1,619,1,6,155,Carboplatin;Paclitaxel,Platinum-taxane doublet,155,TRUE,included
+TCGA-23-2643,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,74,III,G3,1-10 mm,143,0,143,0,24,129,Carboplatin;Cisplatin;Paclitaxel,Platinum-taxane doublet,129,TRUE,included
+TCGA-24-0966,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,78,III,G3,>20 mm,232,0,232,0,21,120,Carboplatin;Paclitaxel,Platinum-taxane doublet,120,TRUE,included
+TCGA-24-0968,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,59,III,G3,1-10 mm,NA,1,NA,1,35,119,Carboplatin;Paclitaxel,Platinum-taxane doublet,119,FALSE,no OS
+TCGA-24-0970,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,63,III,G3,>20 mm,354,1,280,1,25,314,Carboplatin;Paclitaxel;Pegylated Liposomal Doxorubicin Hydrochloride,Other platinum-based,314,TRUE,included
+TCGA-24-0975,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G3,1-10 mm,663,1,663,1,22,NA,Carboplatin;Gemcitabine;Paclitaxel;Pegylated Liposomal Doxorubicin Hydrochloride,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-24-0979,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,IV,G3,>20 mm,1264,1,428,1,15,187,Carboplatin;Paclitaxel,Platinum-taxane doublet,357,TRUE,included
+TCGA-24-0980,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,III,G3,>20 mm,233,1,145,1,77,178,Carboplatin;Paclitaxel,Platinum-taxane doublet,178,TRUE,included
+TCGA-24-0982,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,77,III,G3,1-10 mm,679,1,153,1,13,125,Carboplatin;Paclitaxel,Platinum-taxane doublet,125,TRUE,included
+TCGA-24-1103,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,III,G3,1-10 mm,1646,1,678,1,19,127,Carboplatin;Paclitaxel,Platinum-taxane doublet,127,TRUE,included
+TCGA-24-1104,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,IV,G3,>20 mm,1933,1,959,1,30,175,Carboplatin;Cisplatin;Paclitaxel,Platinum-taxane doublet,175,TRUE,included
+TCGA-24-1105,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,36,III,G3,1-10 mm,1442,1,470,1,25,178,Carboplatin;Paclitaxel,Platinum-taxane doublet,178,TRUE,included
+TCGA-24-1413,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G3,1-10 mm,192,0,192,0,34,145,Carboplatin;Paclitaxel,Platinum-taxane doublet,145,TRUE,included
+TCGA-24-1416,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,34,IV,G3,1-10 mm,194,0,194,0,16,170,Carboplatin;Cisplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,170,TRUE,included
+TCGA-24-1417,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,54,IV,G3,1-10 mm,238,0,238,0,25,156,Carboplatin;Paclitaxel,Platinum-taxane doublet,156,TRUE,included
+TCGA-24-1418,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,68,III,G3,>20 mm,243,0,243,0,23,231,Carboplatin;Clinical Trial;Paclitaxel,Other platinum-based,231,TRUE,included
+TCGA-24-1419,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,62,III,G3,11-20 mm,239,0,239,0,17,131,Carboplatin;Docetaxel,Platinum-taxane doublet,131,TRUE,included
+TCGA-24-1423,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,III,G3,1-10 mm,190,0,190,0,21,151,Cisplatin;Doxorubicin;Paclitaxel,Other platinum-based,151,TRUE,included
+TCGA-24-1424,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,67,III,G3,1-10 mm,183,0,183,0,8,120,Carboplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,120,TRUE,included
+TCGA-24-1425,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,III,G3,1-10 mm,181,0,181,0,27,145,Carboplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,145,TRUE,included
+TCGA-24-1426,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,43,III,G3,1-10 mm,163,0,163,0,-8,142,Cisplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,142,TRUE,included
+TCGA-24-1427,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G3,>20 mm,147,0,147,0,14,147,Carboplatin;Paclitaxel,Platinum-taxane doublet,147,FALSE,death/censoring before therapy end
+TCGA-24-1428,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,III,G3,1-10 mm,529,0,448,1,46,130,Cisplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,130,TRUE,included
+TCGA-24-1430,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,68,III,G3,>20 mm,863,1,449,1,22,106,Amifostine;Cisplatin;Paclitaxel,Other platinum-based,106,TRUE,included
+TCGA-24-1434,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,59,III,G3,1-10 mm,568,1,337,1,45,228,Carboplatin;Gemcitabine Hydrochloride;Paclitaxel,Other platinum-based,228,TRUE,included
+TCGA-24-1435,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,1-10 mm,1324,1,505,1,27,149,Carboplatin;Paclitaxel,Platinum-taxane doublet,149,TRUE,included
+TCGA-24-1436,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,1-10 mm,260,1,260,1,24,135,Carboplatin;Paclitaxel,Platinum-taxane doublet,135,TRUE,included
+TCGA-24-1463,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,70,III,G3,>20 mm,2218,1,971,1,18,123,Carboplatin;Paclitaxel,Platinum-taxane doublet,123,TRUE,included
+TCGA-24-1466,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,74,III,G3,1-10 mm,1373,1,491,1,12,145,Carboplatin;Paclitaxel,Platinum-taxane doublet,145,TRUE,included
+TCGA-24-1467,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G3,1-10 mm,3224,1,1253,1,6,110,Carboplatin;Paclitaxel,Platinum-taxane doublet,110,TRUE,included
+TCGA-24-1469,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,1-10 mm,277,0,277,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-24-1470,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,54,III,G3,1-10 mm,105,0,105,0,17,83,Cisplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,83,TRUE,included
+TCGA-24-1474,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,1-10 mm,676,1,332,1,18,123,Carboplatin;Paclitaxel,Platinum-taxane doublet,123,TRUE,included
+TCGA-24-1544,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,1-10 mm,820,1,643,1,18,203,Carboplatin;Paclitaxel;Topotecan,Other platinum-based,203,TRUE,included
+TCGA-24-1545,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,69,III,G3,>20 mm,1746,1,861,1,14,285,Carboplatin;Paclitaxel,Platinum-taxane doublet,285,TRUE,included
+TCGA-24-1548,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,1-10 mm,493,1,207,1,6,123,Carboplatin;Paclitaxel,Platinum-taxane doublet,123,TRUE,included
+TCGA-24-1549,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G3,NA,1721,1,1042,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-24-1550,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,49,III,G3,1-10 mm,1249,1,892,1,8,174,Cisplatin;Paclitaxel,Platinum-taxane doublet,174,TRUE,included
+TCGA-24-1551,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,III,G3,1-10 mm,1579,1,764,1,10,135,Carboplatin;Paclitaxel,Platinum-taxane doublet,135,TRUE,included
+TCGA-24-1552,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,77,III,G3,1-10 mm,1259,1,403,1,53,265,Carboplatin;Paclitaxel,Platinum-taxane doublet,265,TRUE,included
+TCGA-24-1553,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,III,G3,1-10 mm,1767,1,553,1,17,154,Carboplatin;Paclitaxel,Platinum-taxane doublet,154,TRUE,included
+TCGA-24-1555,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,III,G3,NA,2692,1,1577,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-24-1556,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,I-II,G3,1-10 mm,2148,1,539,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-24-1557,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,49,III,G3,>20 mm,1213,1,447,1,27,281,Carboplatin;Paclitaxel;Topotecan,Other platinum-based,281,TRUE,included
+TCGA-24-1558,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,73,III,G3,1-10 mm,594,1,273,1,37,247,Carboplatin;Paclitaxel;Topotecan,Other platinum-based,247,TRUE,included
+TCGA-24-1560,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G4,1-10 mm,1341,1,143,1,15,117,Carboplatin;Paclitaxel,Platinum-taxane doublet,117,TRUE,included
+TCGA-24-1562,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,67,III,G3,1-10 mm,1384,1,229,1,21,152,Cisplatin;Paclitaxel,Platinum-taxane doublet,152,TRUE,included
+TCGA-24-1563,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,66,III,G3,1-10 mm,1451,1,396,1,22,144,Carboplatin;Paclitaxel,Platinum-taxane doublet,144,TRUE,included
+TCGA-24-1564,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,67,III,G3,1-10 mm,787,1,221,1,8,116,Cisplatin;Paclitaxel,Platinum-taxane doublet,116,TRUE,included
+TCGA-24-1565,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,74,III,G3,1-10 mm,312,1,145,1,39,123,Cisplatin;Paclitaxel,Platinum-taxane doublet,123,TRUE,included
+TCGA-24-1603,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,III,G3,NA,2742,1,992,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-24-1604,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,66,III,G3,NA,2688,1,2688,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-24-1614,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,1-10 mm,1470,1,644,1,22,188,Carboplatin;Paclitaxel,Platinum-taxane doublet,188,TRUE,included
+TCGA-24-1616,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,G3,1-10 mm,1163,1,405,1,18,165,Carboplatin;Paclitaxel,Platinum-taxane doublet,165,TRUE,included
+TCGA-24-1842,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,49,III,G3,1-10 mm,253,0,253,0,24,253,Carboplatin;Clinical Trial;Paclitaxel,Other platinum-based,253,FALSE,death/censoring before therapy end
+TCGA-24-1843,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,66,III,G3,1-10 mm,106,0,106,0,20,134,Carboplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,134,FALSE,death/censoring before therapy end
+TCGA-24-1847,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,IV,G3,1-10 mm,343,0,343,0,28,143,Cisplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,143,TRUE,included
+TCGA-24-1849,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,80,III,G3,1-10 mm,176,0,176,0,36,141,Carboplatin;Docetaxel,Platinum-taxane doublet,141,TRUE,included
+TCGA-24-1850,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,72,III,G3,1-10 mm,168,0,168,0,34,138,Carboplatin;Docetaxel,Platinum-taxane doublet,138,TRUE,included
+TCGA-24-1852,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G3,1-10 mm,2201,1,1009,1,6,128,Carboplatin;Paclitaxel,Platinum-taxane doublet,128,TRUE,included
+TCGA-24-1920,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,74,III,G3,1-10 mm,298,0,298,0,24,144,Carboplatin;Cisplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,144,TRUE,included
+TCGA-24-1923,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G3,1-10 mm,690,1,343,1,35,233,Carboplatin;Paclitaxel;Pegylated Liposomal Doxorubicin Hydrochloride,Other platinum-based,233,TRUE,included
+TCGA-24-1924,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,III,G3,1-10 mm,919,1,320,1,21,161,Carboplatin;Paclitaxel,Platinum-taxane doublet,161,TRUE,included
+TCGA-24-1928,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,77,III,G3,11-20 mm,336,1,70,1,14,126,Cisplatin;Paclitaxel,Platinum-taxane doublet,126,TRUE,included
+TCGA-24-1930,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,III,G3,1-10 mm,2467,1,544,1,14,274,Amifostine;Carboplatin;Cisplatin;Paclitaxel,Other platinum-based,274,TRUE,included
+TCGA-24-2020,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,67,III,G3,1-10 mm,4624,1,723,1,44,176,Cisplatin,Other platinum-based,176,TRUE,included
+TCGA-24-2023,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,54,III,G3,1-10 mm,1364,1,1069,1,6,214,Carboplatin;Paclitaxel,Platinum-taxane doublet,214,TRUE,included
+TCGA-24-2024,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,72,III,G3,1-10 mm,1769,1,421,1,10,120,Carboplatin;Paclitaxel,Platinum-taxane doublet,120,TRUE,included
+TCGA-24-2027,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,IV,G3,>20 mm,3337,1,617,1,6,258,Carboplatin;Paclitaxel,Platinum-taxane doublet,258,TRUE,included
+TCGA-24-2029,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,75,III,G3,>20 mm,439,1,372,1,8,218,Carboplatin;Paclitaxel,Platinum-taxane doublet,218,TRUE,included
+TCGA-24-2030,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,87,III,G3,>20 mm,1701,1,646,1,13,127,Carboplatin;Paclitaxel,Platinum-taxane doublet,127,TRUE,included
+TCGA-24-2033,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,87,III,G3,>20 mm,562,1,351,1,38,232,Carboplatin;Paclitaxel,Platinum-taxane doublet,232,TRUE,included
+TCGA-24-2035,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,III,G3,1-10 mm,857,1,287,1,343,679,Topotecan,Non-platinum,679,FALSE,implausible end date (<60 or >365 d)
+TCGA-24-2036,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,III,G3,1-10 mm,1947,1,914,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-24-2038,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,68,III,GB,1-10 mm,1354,1,1169,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-24-2254,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,66,III,G3,1-10 mm,1736,1,606,1,17,165,Carboplatin;Paclitaxel;Pegylated Liposomal Doxorubicin Hydrochloride,Other platinum-based,165,TRUE,included
+TCGA-24-2260,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,74,III,G3,1-10 mm,1100,1,667,1,24,135,Cisplatin;Paclitaxel,Platinum-taxane doublet,135,TRUE,included
+TCGA-24-2267,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,I-II,G3,R0,1446,1,512,1,6,219,Carboplatin;Cyclophosphamide,Other platinum-based,219,TRUE,included
+TCGA-24-2280,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,74,III,G3,1-10 mm,2143,0,535,1,17,178,Carboplatin;Paclitaxel;Pegylated Liposomal Doxorubicin Hydrochloride,Other platinum-based,178,TRUE,included
+TCGA-24-2281,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,68,I-II,G3,1-10 mm,1357,0,1357,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-24-2289,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,68,IV,G3,>20 mm,2049,1,568,1,4,183,Cisplatin;Paclitaxel,Platinum-taxane doublet,183,TRUE,included
+TCGA-24-2290,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,G3,1-10 mm,1102,1,324,1,7,119,Carboplatin;Paclitaxel,Platinum-taxane doublet,119,TRUE,included
+TCGA-24-2293,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,47,NA,G3,>20 mm,506,1,506,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-24-2295,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,69,III,G3,>20 mm,1007,1,281,1,6,133,Carboplatin;Paclitaxel,Platinum-taxane doublet,133,TRUE,included
+TCGA-24-2297,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,G3,>20 mm,1699,1,1699,0,19,153,Carboplatin;Cyclophosphamide,Other platinum-based,153,TRUE,included
+TCGA-24-2298,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G3,>20 mm,1620,1,469,1,12,218,Carboplatin;Cyclophosphamide,Other platinum-based,218,TRUE,included
+TCGA-25-1313,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,62,IV,G3,1-10 mm,820,1,394,1,29,151,Carboplatin;Paclitaxel,Platinum-taxane doublet,151,TRUE,included
+TCGA-25-1314,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,42,IV,G3,1-10 mm,1004,1,274,1,31,NA,Carboplatin;Cisplatin;Paclitaxel,Platinum-taxane doublet,NA,FALSE,no therapy end date
+TCGA-25-1315,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,III,G3,1-10 mm,1583,1,153,1,30,153,Cisplatin;Paclitaxel,Platinum-taxane doublet,153,TRUE,included
+TCGA-25-1316,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G3,1-10 mm,1279,1,276,1,61,214,Carboplatin;Paclitaxel,Platinum-taxane doublet,214,TRUE,included
+TCGA-25-1318,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,54,III,G3,1-10 mm,1064,1,185,1,30,122,Carboplatin;Paclitaxel,Platinum-taxane doublet,122,TRUE,included
+TCGA-25-1320,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,III,G3,1-10 mm,1155,1,424,1,28,181,Carboplatin;Paclitaxel;Topotecan,Other platinum-based,181,TRUE,included
+TCGA-25-1321,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,III,G3,R0,1033,1,454,1,28,181,Carboplatin;Gemcitabine Hydrochloride;Paclitaxel,Other platinum-based,181,TRUE,included
+TCGA-25-1323,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,72,III,G3,1-10 mm,395,1,365,1,30,122,Carboplatin;Paclitaxel,Platinum-taxane doublet,122,TRUE,included
+TCGA-25-1326,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,III,G3,1-10 mm,1249,1,396,1,31,153,Carboplatin;Paclitaxel;Topotecan,Other platinum-based,153,TRUE,included
+TCGA-25-1328,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,38,III,G3,1-10 mm,2009,1,244,1,30,214,Carboplatin;Paclitaxel,Platinum-taxane doublet,214,TRUE,included
+TCGA-25-1623,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,IV,G3,R0,565,1,342,1,16,138,Carboplatin;Paclitaxel,Platinum-taxane doublet,138,TRUE,included
+TCGA-25-1625,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,66,III,G3,1-10 mm,840,1,526,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-25-1626,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,III,G3,>20 mm,518,1,318,1,21,208,Carboplatin;Gemcitabine Hydrochloride;Paclitaxel,Other platinum-based,208,TRUE,included
+TCGA-25-1628,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,67,III,G3,1-10 mm,627,1,287,1,35,182,Carboplatin;Paclitaxel,Platinum-taxane doublet,182,TRUE,included
+TCGA-25-1630,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,73,III,G3,1-10 mm,1162,1,1162,0,33,NA,Carboplatin;Paclitaxel,Platinum-taxane doublet,NA,FALSE,no therapy end date
+TCGA-25-1632,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,68,IV,G3,1-10 mm,1799,1,537,1,82,200,Carboplatin;Paclitaxel;Pegylated Liposomal Doxorubicin Hydrochloride,Other platinum-based,200,TRUE,included
+TCGA-25-1633,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,64,III,G3,1-10 mm,1891,1,616,1,26,184,Carboplatin;Gemcitabine Hydrochloride;Paclitaxel,Other platinum-based,184,TRUE,included
+TCGA-25-1634,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,75,III,G3,R0,1091,1,380,1,29,206,Carboplatin;Paclitaxel;Topotecan,Other platinum-based,206,TRUE,included
+TCGA-25-1635,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,1-10 mm,1583,1,614,1,24,233,Carboplatin;Gemcitabine Hydrochloride;Paclitaxel,Other platinum-based,233,TRUE,included
+TCGA-25-1870,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,59,III,G3,11-20 mm,455,1,243,1,31,NA,Carboplatin;Cyclophosphamide,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-25-1871,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,70,III,G3,11-20 mm,760,1,230,1,47,NA,Carboplatin;Cisplatin,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-25-1877,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,81,III,G3,1-10 mm,730,1,549,1,31,NA,Carboplatin;Cyclophosphamide,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-25-1878,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,60,III,G3,1-10 mm,2587,1,971,1,61,NA,Cisplatin;Cyclophosphamide,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-25-2042,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,60,III,G3,>20 mm,396,1,396,1,0,123,Carboplatin;Paclitaxel,Platinum-taxane doublet,123,TRUE,included
+TCGA-25-2391,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,>20 mm,1492,1,1492,0,31,153,Carboplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,153,TRUE,included
+TCGA-25-2393,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,81,III,G3,11-20 mm,1157,1,305,1,31,123,Carboplatin;Paclitaxel,Platinum-taxane doublet,123,TRUE,included
+TCGA-25-2398,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,1-10 mm,1369,1,577,1,31,151,Carboplatin;Paclitaxel,Platinum-taxane doublet,151,TRUE,included
+TCGA-25-2399,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,80,III,G3,>20 mm,608,1,243,1,61,182,Carboplatin;Paclitaxel,Platinum-taxane doublet,182,TRUE,included
+TCGA-25-2400,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,76,III,G3,R0,1278,1,577,1,61,182,Carboplatin;Paclitaxel,Platinum-taxane doublet,182,TRUE,included
+TCGA-25-2404,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,38,III,G3,R0,883,1,426,1,0,122,Carboplatin;Paclitaxel,Platinum-taxane doublet,122,TRUE,included
+TCGA-25-2408,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,37,IV,G2,1-10 mm,943,1,334,1,61,NA,Carboplatin;Paclitaxel,Platinum-taxane doublet,NA,FALSE,no therapy end date
+TCGA-25-2409,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,IV,G3,1-10 mm,821,1,304,1,31,182,Carboplatin;Docetaxel,Platinum-taxane doublet,182,TRUE,included
+TCGA-29-1688,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,39,III,G2,NA,2400,1,184,1,197,NA,Cisplatin;Etoposide,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-29-1691,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G2,1-10 mm,1470,1,613,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-29-1692,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G2,11-20 mm,2872,1,544,1,5,NA,Cisplatin;Paclitaxel,Platinum-taxane doublet,NA,FALSE,no therapy end date
+TCGA-29-1693,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,72,III,G3,>20 mm,3096,0,694,1,19,191,Carboplatin;Paclitaxel,Platinum-taxane doublet,191,TRUE,included
+TCGA-29-1694,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,III,GX,11-20 mm,1187,1,1187,1,43,161,Carboplatin;Paclitaxel,Platinum-taxane doublet,161,TRUE,included
+TCGA-29-1696,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,43,III,G2,1-10 mm,1032,1,342,1,17,171,Carboplatin;Paclitaxel,Platinum-taxane doublet,171,TRUE,included
+TCGA-29-1697,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,62,III,G3,>20 mm,949,1,500,1,28,182,Carboplatin;Gemcitabine,Other platinum-based,182,TRUE,included
+TCGA-29-1698,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,III,G3,1-10 mm,2078,0,181,1,8,237,Carboplatin;Paclitaxel,Platinum-taxane doublet,237,TRUE,included
+TCGA-29-1701,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,G3,NA,515,1,298,1,31,160,Carboplatin;Paclitaxel,Platinum-taxane doublet,160,TRUE,included
+TCGA-29-1702,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,84,III,G3,1-10 mm,728,1,286,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-29-1703,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,G2,1-10 mm,1815,1,324,1,16,163,Carboplatin;Paclitaxel,Platinum-taxane doublet,163,TRUE,included
+TCGA-29-1704,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,III,G3,11-20 mm,1587,0,568,1,21,169,Carboplatin;Paclitaxel,Platinum-taxane doublet,169,TRUE,included
+TCGA-29-1705,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,47,III,G2,>20 mm,555,1,283,1,13,167,Carboplatin;Paclitaxel,Platinum-taxane doublet,167,TRUE,included
+TCGA-29-1707,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,41,I-II,G3,R0,1277,0,1201,1,24,143,Carboplatin;Paclitaxel,Platinum-taxane doublet,143,TRUE,included
+TCGA-29-1710,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,54,III,G2,1-10 mm,951,1,315,1,31,52,Bevacizumab;Docetaxel;Oxaliplatin,Other platinum-based,52,FALSE,implausible end date (<60 or >365 d)
+TCGA-29-1711,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,III,G2,R0,1053,0,1053,0,30,234,Bevacizumab;Docetaxel;Oxaliplatin,Other platinum-based,234,TRUE,included
+TCGA-29-1761,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,80,III,G3,>20 mm,528,1,528,1,49,202,Carboplatin,Other platinum-based,202,TRUE,included
+TCGA-29-1762,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,59,IV,G2,>20 mm,2634,1,1375,1,7,140,Carboplatin;Paclitaxel,Platinum-taxane doublet,140,TRUE,included
+TCGA-29-1763,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,43,I-II,G2,1-10 mm,2032,0,428,1,15,100,Carboplatin;Paclitaxel,Platinum-taxane doublet,100,TRUE,included
+TCGA-29-1764,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,49,III,G2,>20 mm,1914,0,792,1,15,167,Carboplatin;Gemcitabine,Other platinum-based,167,TRUE,included
+TCGA-29-1766,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,74,III,G2,11-20 mm,1199,1,672,1,39,196,Gemcitabine,Non-platinum,196,TRUE,included
+TCGA-29-1768,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,IV,G3,>20 mm,952,1,547,1,19,252,Carboplatin;Clinical Trial;Paclitaxel,Other platinum-based,252,TRUE,included
+TCGA-29-1769,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,40,III,G3,1-10 mm,699,0,699,0,20,150,Carboplatin;Cisplatin;Paclitaxel,Platinum-taxane doublet,150,TRUE,included
+TCGA-29-1770,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,54,III,G2,1-10 mm,741,0,377,1,19,68,Carboplatin;Paclitaxel,Platinum-taxane doublet,68,TRUE,included
+TCGA-29-1771,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,76,III,G2,>20 mm,686,0,595,1,27,140,Carboplatin;Paclitaxel,Platinum-taxane doublet,140,TRUE,included
+TCGA-29-1774,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,82,III,G3,>20 mm,527,0,234,1,14,37,Carboplatin,Other platinum-based,37,FALSE,implausible end date (<60 or >365 d)
+TCGA-29-1775,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G2,1-10 mm,376,0,341,1,29,166,Carboplatin;Paclitaxel,Platinum-taxane doublet,166,TRUE,included
+TCGA-29-1776,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,63,III,G3,>20 mm,360,0,360,0,32,154,Carboplatin;Paclitaxel,Platinum-taxane doublet,154,TRUE,included
+TCGA-29-1777,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,47,III,G2,>20 mm,374,0,374,0,87,303,Carboplatin,Other platinum-based,303,TRUE,included
+TCGA-29-1778,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,77,III,G3,R0,454,0,454,0,17,80,Carboplatin;Paclitaxel,Platinum-taxane doublet,80,TRUE,included
+TCGA-29-1781,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,69,III,G3,R0,255,0,255,0,52,255,Carboplatin;Paclitaxel,Platinum-taxane doublet,255,FALSE,death/censoring before therapy end
+TCGA-29-1784,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G3,R0,163,0,163,0,17,136,Carboplatin;Gemcitabine Hydrochloride;Nab-paclitaxel;Paclitaxel,Other platinum-based,136,TRUE,included
+TCGA-29-1785,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G3,>20 mm,1104,1,473,1,51,73,Carboplatin,Other platinum-based,73,TRUE,included
+TCGA-29-2414,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,75,III,G2,11-20 mm,2621,1,552,1,3,131,Cisplatin;Paclitaxel,Platinum-taxane doublet,131,TRUE,included
+TCGA-29-2425,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,60,III,G2,>20 mm,1977,0,1577,1,10,202,Carboplatin;Gemcitabine Hydrochloride,Other platinum-based,202,TRUE,included
+TCGA-29-2427,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,60,III,G3,>20 mm,1900,0,1582,1,7,49,Carboplatin;Paclitaxel,Platinum-taxane doublet,49,FALSE,implausible end date (<60 or >365 d)
+TCGA-29-2428,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G3,>20 mm,1372,0,1372,0,18,141,Carboplatin;Paclitaxel,Platinum-taxane doublet,141,TRUE,included
+TCGA-29-2431,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,59,III,G2,1-10 mm,1285,0,960,1,33,390,Bevacizumab;Docetaxel;Oxaliplatin,Other platinum-based,390,FALSE,implausible end date (<60 or >365 d)
+TCGA-29-2432,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,III,G3,11-20 mm,653,1,174,1,14,157,Bevacizumab;Carboplatin;Paclitaxel,Other platinum-based,157,TRUE,included
+TCGA-29-2434,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,52,III,G3,R0,349,0,349,0,28,140,Cisplatin;Paclitaxel,Platinum-taxane doublet,140,TRUE,included
+TCGA-29-2436,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,36,III,G2,1-10 mm,297,0,297,0,17,191,Carboplatin;Paclitaxel,Platinum-taxane doublet,191,TRUE,included
+TCGA-30-1714,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,68,IV,G3,1-10 mm,1158,1,241,1,15,123,Carboplatin;Paclitaxel,Platinum-taxane doublet,123,TRUE,included
+TCGA-30-1853,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G3,1-10 mm,1103,1,634,1,42,126,Carboplatin;Paclitaxel,Platinum-taxane doublet,126,TRUE,included
+TCGA-30-1856,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,G3,1-10 mm,477,1,220,1,17,195,Carboplatin;Doxorubicin Hydrochloride;Gemcitabine;Paclitaxel;Topotecan,Other platinum-based,195,TRUE,included
+TCGA-30-1859,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,NA,G3,1-10 mm,1463,1,1463,1,31,199,Carboplatin;Doxorubicin Hydrochloride;Gemcitabine;Paclitaxel;Topotecan,Other platinum-based,199,TRUE,included
+TCGA-30-1860,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G3,>20 mm,1366,1,397,1,22,207,Carboplatin;Paclitaxel,Platinum-taxane doublet,207,TRUE,included
+TCGA-30-1866,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,IV,G2,1-10 mm,1114,1,285,1,19,126,Carboplatin;Paclitaxel,Platinum-taxane doublet,126,TRUE,included
+TCGA-30-1880,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,G3,R0,1751,1,348,1,46,152,Carboplatin;Paclitaxel,Platinum-taxane doublet,152,TRUE,included
+TCGA-30-1887,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,67,III,G2,1-10 mm,738,1,738,1,27,134,Carboplatin;Paclitaxel,Platinum-taxane doublet,134,TRUE,included
+TCGA-30-1891,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,III,G2,1-10 mm,914,1,181,1,15,141,Carboplatin;Paclitaxel,Platinum-taxane doublet,141,TRUE,included
+TCGA-30-1892,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,52,III,G3,1-10 mm,1484,1,253,1,10,132,Carboplatin;Paclitaxel,Platinum-taxane doublet,132,TRUE,included
+TCGA-31-1944,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,47,III,G3,R0,1386,0,678,1,7,126,Carboplatin;Paclitaxel,Platinum-taxane doublet,126,TRUE,included
+TCGA-31-1950,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,76,III,G2,1-10 mm,571,0,349,1,33,144,Carboplatin,Other platinum-based,144,TRUE,included
+TCGA-31-1953,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,52,III,G3,NA,204,0,70,1,23,65,Carboplatin;Paclitaxel,Platinum-taxane doublet,65,TRUE,included
+TCGA-36-1568,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,52,III,G3,NA,875,0,548,1,10,123,Carboplatin;Paclitaxel,Platinum-taxane doublet,123,TRUE,included
+TCGA-36-1569,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,52,III,G3,1-10 mm,885,0,885,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-36-1570,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,49,III,G3,>20 mm,655,0,375,1,23,133,Carboplatin;Paclitaxel,Platinum-taxane doublet,133,TRUE,included
+TCGA-36-1571,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,III,G3,R0,695,1,375,1,32,173,Carboplatin;Paclitaxel,Platinum-taxane doublet,173,TRUE,included
+TCGA-36-1574,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,48,III,G3,>20 mm,686,0,648,1,15,204,Carboplatin;Paclitaxel,Platinum-taxane doublet,204,TRUE,included
+TCGA-36-1576,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,76,III,G3,>20 mm,915,0,817,1,12,222,Carboplatin;Paclitaxel,Platinum-taxane doublet,222,TRUE,included
+TCGA-36-1577,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,43,I-II,G2,R0,783,0,783,0,28,84,Carboplatin;Paclitaxel,Platinum-taxane doublet,156,TRUE,included
+TCGA-36-1581,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,63,I-II,G3,R0,751,0,702,1,29,141,Carboplatin;Paclitaxel,Platinum-taxane doublet,141,TRUE,included
+TCGA-36-2529,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,>20 mm,1066,0,567,1,17,136,Carboplatin;Paclitaxel,Platinum-taxane doublet,136,TRUE,included
+TCGA-36-2530,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,38,III,G3,11-20 mm,1004,0,630,1,21,135,Carboplatin;Paclitaxel,Platinum-taxane doublet,135,TRUE,included
+TCGA-36-2534,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,72,III,G3,>20 mm,907,0,383,1,27,154,Carboplatin;Docetaxel,Platinum-taxane doublet,154,TRUE,included
+TCGA-36-2537,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,39,III,G3,>20 mm,788,0,431,1,20,125,Carboplatin;Paclitaxel,Platinum-taxane doublet,125,TRUE,included
+TCGA-36-2538,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,37,III,G3,11-20 mm,763,0,523,1,72,212,Carboplatin;Paclitaxel,Platinum-taxane doublet,212,TRUE,included
+TCGA-36-2540,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,26,III,G1,>20 mm,724,0,665,1,46,185,Carboplatin;Paclitaxel,Platinum-taxane doublet,185,TRUE,included
+TCGA-36-2542,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,59,III,G3,1-10 mm,657,0,657,0,25,159,Carboplatin;Paclitaxel,Platinum-taxane doublet,159,TRUE,included
+TCGA-36-2543,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,85,III,G3,>20 mm,68,1,27,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-36-2544,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G3,>20 mm,638,0,325,1,23,128,Carboplatin;Paclitaxel,Platinum-taxane doublet,128,TRUE,included
+TCGA-36-2551,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,>20 mm,492,0,338,1,16,198,Carboplatin;Paclitaxel,Platinum-taxane doublet,198,TRUE,included
+TCGA-42-2582,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,49,III,G3,R0,1447,1,616,1,36,185,Cisplatin;Docetaxel;Paclitaxel,Platinum-taxane doublet,185,TRUE,included
+TCGA-42-2587,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,75,III,G3,>20 mm,722,0,722,0,17,94,Carboplatin;Paclitaxel,Platinum-taxane doublet,94,TRUE,included
+TCGA-42-2588,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,IV,G3,>20 mm,880,1,112,1,22,104,Carboplatin;Paclitaxel,Platinum-taxane doublet,104,TRUE,included
+TCGA-42-2589,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,54,III,G3,1-10 mm,1278,0,364,1,21,132,Carboplatin;Cisplatin;Paclitaxel,Platinum-taxane doublet,132,TRUE,included
+TCGA-42-2590,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,IV,G2,>20 mm,317,1,226,1,31,NA,Carboplatin;Gemcitabine,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-42-2591,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,GX,R0,1240,0,1240,0,23,204,Carboplatin;Paclitaxel,Platinum-taxane doublet,204,TRUE,included
+TCGA-57-1582,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,III,G3,1-10 mm,731,1,731,1,17,170,Carboplatin;Docetaxel,Platinum-taxane doublet,170,TRUE,included
+TCGA-57-1585,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,11-20 mm,53,1,53,1,18,53,Carboplatin;Paclitaxel,Platinum-taxane doublet,53,FALSE,implausible end date (<60 or >365 d)
+TCGA-57-1992,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,62,I-II,G3,R0,882,0,882,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-59-2348,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,59,III,G3,NA,5481,0,5481,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-59-2349,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,I-II,G3,R0,2437,1,2437,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-59-2350,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,44,IV,G3,1-10 mm,679,1,211,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-59-2351,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G3,1-10 mm,3532,0,2139,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-59-2354,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,63,III,G3,1-10 mm,1046,1,462,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-59-2363,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,40,III,G3,R0,165,0,165,0,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-61-1721,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,38,IV,G1,NA,338,0,338,0,2,338,Carboplatin;Paclitaxel,Platinum-taxane doublet,338,FALSE,death/censoring before therapy end
+TCGA-61-1722,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,89,I-II,G3,R0,246,0,246,0,19,19,Cyclophosphamide;Dexamethasone;Mitoxantrone;Vincristine,Non-platinum,19,FALSE,implausible end date (<60 or >365 d)
+TCGA-61-1724,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,47,III,G3,R0,637,1,637,1,287,NA,Cisplatin,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-61-1725,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,40,III,G3,11-20 mm,956,0,844,1,45,158,Cisplatin;Paclitaxel,Platinum-taxane doublet,158,TRUE,included
+TCGA-61-1727,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,74,I-II,G3,R0,564,0,564,0,62,153,Carboplatin;Docetaxel,Platinum-taxane doublet,153,TRUE,included
+TCGA-61-1728,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,59,IV,G3,1-10 mm,848,0,533,1,43,204,Carboplatin;Paclitaxel,Platinum-taxane doublet,204,TRUE,included
+TCGA-61-1733,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,R0,967,0,175,1,22,127,Carboplatin;Docetaxel,Platinum-taxane doublet,127,TRUE,included
+TCGA-61-1734,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,52,I-II,G3,NA,866,0,866,0,46,158,Carboplatin;Paclitaxel,Platinum-taxane doublet,158,TRUE,included
+TCGA-61-1736,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,III,G3,NA,1484,1,764,1,34,138,Carboplatin;Paclitaxel,Platinum-taxane doublet,138,TRUE,included
+TCGA-61-1737,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,42,IV,G3,1-10 mm,1364,0,1364,0,43,106,Carboplatin;Docetaxel,Platinum-taxane doublet,106,TRUE,included
+TCGA-61-1738,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,60,III,G3,1-10 mm,1089,1,276,1,21,135,Carboplatin;Paclitaxel,Platinum-taxane doublet,135,TRUE,included
+TCGA-61-1740,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,>20 mm,74,1,74,1,23,74,Tamoxifen,Non-platinum,74,FALSE,death/censoring before therapy end
+TCGA-61-1741,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,76,III,G3,>20 mm,1024,1,488,1,12,180,Carboplatin;Paclitaxel,Platinum-taxane doublet,180,TRUE,included
+TCGA-61-1743,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,I-II,G2,R0,1329,1,809,1,40,172,Carboplatin;Paclitaxel,Platinum-taxane doublet,172,TRUE,included
+TCGA-61-1895,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,52,III,G3,R0,44,0,44,0,44,156,Carboplatin;Docetaxel,Platinum-taxane doublet,156,FALSE,death/censoring before therapy end
+TCGA-61-1899,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,81,III,G3,R0,256,0,256,0,52,159,Carboplatin;Paclitaxel,Platinum-taxane doublet,159,TRUE,included
+TCGA-61-1900,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G3,R0,176,0,176,0,35,76,Cisplatin;Paclitaxel,Platinum-taxane doublet,76,TRUE,included
+TCGA-61-1901,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,IV,G3,NA,347,1,329,1,28,294,Carboplatin;Docetaxel,Platinum-taxane doublet,337,TRUE,included
+TCGA-61-1903,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,I-II,G3,NA,396,0,396,0,32,147,Cisplatin;Paclitaxel,Platinum-taxane doublet,147,TRUE,included
+TCGA-61-1904,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,60,III,G3,1-10 mm,276,0,276,0,42,161,Cisplatin;Docetaxel,Platinum-taxane doublet,161,TRUE,included
+TCGA-61-1906,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G3,11-20 mm,1038,1,236,1,27,153,Carboplatin;Paclitaxel,Platinum-taxane doublet,153,TRUE,included
+TCGA-61-1907,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,63,III,G3,11-20 mm,952,0,743,1,37,357,Bevacizumab;Docetaxel;Oxaliplatin,Other platinum-based,357,TRUE,included
+TCGA-61-1910,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,I-II,G3,1-10 mm,1127,0,1127,0,56,161,Carboplatin;Paclitaxel,Platinum-taxane doublet,161,TRUE,included
+TCGA-61-1911,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,I-II,G3,NA,1293,0,844,1,34,144,Carboplatin;Paclitaxel,Platinum-taxane doublet,144,TRUE,included
+TCGA-61-1913,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,48,III,G3,1-10 mm,1488,0,1488,0,21,127,Carboplatin;Docetaxel,Platinum-taxane doublet,127,TRUE,included
+TCGA-61-1914,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,III,G3,>20 mm,1722,0,1674,1,22,193,Carboplatin;Paclitaxel,Platinum-taxane doublet,193,TRUE,included
+TCGA-61-1915,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,50,I-II,G3,NA,2061,0,2061,0,25,143,Carboplatin;Paclitaxel,Platinum-taxane doublet,143,TRUE,included
+TCGA-61-1917,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,60,III,G3,NA,1321,1,1321,0,19,NA,Carboplatin;Gemcitabine Hydrochloride;Paclitaxel,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-61-1918,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,45,IV,G3,R0,479,1,413,1,9,146,Carboplatin;Gemcitabine;Paclitaxel,Other platinum-based,146,TRUE,included
+TCGA-61-1919,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,58,III,G2,NA,1161,1,439,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-61-1995,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,43,III,G3,1-10 mm,61,0,61,0,67,132,Cisplatin;Paclitaxel,Platinum-taxane doublet,132,FALSE,death/censoring before therapy end
+TCGA-61-2000,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,67,III,G3,R0,441,0,339,1,28,231,Carboplatin;Cisplatin;Paclitaxel,Platinum-taxane doublet,231,TRUE,included
+TCGA-61-2002,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,46,III,G3,11-20 mm,547,0,547,0,24,129,Carboplatin;Paclitaxel,Platinum-taxane doublet,129,TRUE,included
+TCGA-61-2003,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,III,G2,1-10 mm,122,0,122,0,52,121,Carboplatin;Paclitaxel,Platinum-taxane doublet,121,TRUE,included
+TCGA-61-2008,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,40,I-II,G2,R0,932,0,818,1,29,149,Carboplatin;Docetaxel,Platinum-taxane doublet,149,TRUE,included
+TCGA-61-2009,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,65,III,G3,11-20 mm,1212,0,101,1,41,83,Carboplatin;Paclitaxel,Platinum-taxane doublet,83,TRUE,included
+TCGA-61-2016,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,51,III,G3,R0,36,1,36,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record
+TCGA-61-2017,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,64,III,G1,1-10 mm,1398,0,1006,1,34,NA,Carboplatin;Paclitaxel,Platinum-taxane doublet,NA,FALSE,no therapy end date
+TCGA-61-2018,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,62,I-II,G3,R0,1381,0,1381,0,18,60,Carboplatin;Paclitaxel,Platinum-taxane doublet,60,TRUE,included
+TCGA-61-2087,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,49,I-II,G3,R0,146,0,146,0,1,NA,Carboplatin;Cisplatin;Paclitaxel,Platinum-taxane doublet,NA,FALSE,no therapy end date
+TCGA-61-2092,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,57,III,G3,R0,1573,0,1573,0,41,160,Carboplatin;Paclitaxel,Platinum-taxane doublet,160,TRUE,included
+TCGA-61-2094,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,63,III,G3,NA,2182,0,2182,0,24,166,Carboplatin;Paclitaxel,Platinum-taxane doublet,166,TRUE,included
+TCGA-61-2095,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,54,III,G2,R0,1875,1,445,1,59,602,Carboplatin;Paclitaxel,Platinum-taxane doublet,602,FALSE,implausible end date (<60 or >365 d)
+TCGA-61-2096,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,I-II,G2,R0,1776,0,421,1,29,79,Carboplatin;Paclitaxel,Platinum-taxane doublet,79,TRUE,included
+TCGA-61-2097,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,I-II,G2,1-10 mm,1844,0,1844,0,48,167,Carboplatin;Paclitaxel;Recombinant Interferon Gamma,Other platinum-based,167,TRUE,included
+TCGA-61-2098,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,62,III,G2,11-20 mm,1993,0,1993,0,14,145,Carboplatin;Paclitaxel,Platinum-taxane doublet,145,TRUE,included
+TCGA-61-2101,PR,"TCGA-CDR, concordant clinical-matrix label",FALSE,55,III,G2,11-20 mm,1688,1,1688,1,2,117,Cisplatin;Paclitaxel,Platinum-taxane doublet,117,TRUE,included
+TCGA-61-2104,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,53,I-II,G2,R0,2338,0,1680,1,6,NA,Carboplatin;Paclitaxel,Platinum-taxane doublet,NA,FALSE,no therapy end date
+TCGA-61-2110,PD,"TCGA-CDR, concordant clinical-matrix label",FALSE,56,III,NA,R0,1354,1,213,1,20,161,Carboplatin;Paclitaxel,Platinum-taxane doublet,161,TRUE,included
+TCGA-61-2111,CR,"TCGA-CDR, concordant clinical-matrix label",FALSE,61,IV,G3,NA,3825,0,2205,1,29,133,Carboplatin;Paclitaxel,Platinum-taxane doublet,133,TRUE,included
+TCGA-61-2612,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,63,III,G3,1-10 mm,193,1,179,1,20,151,Carboplatin;Paclitaxel,Platinum-taxane doublet,151,TRUE,included
+TCGA-61-2613,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,73,III,G3,11-20 mm,945,1,358,1,86,NA,Carboplatin,Other platinum-based,NA,FALSE,no therapy end date
+TCGA-61-2614,SD,"TCGA-CDR, concordant clinical-matrix label",FALSE,71,III,G3,1-10 mm,262,1,38,1,NA,NA,NA,No first-line record,NA,FALSE,no first-line regimen record

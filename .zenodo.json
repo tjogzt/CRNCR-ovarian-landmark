@@ -1,0 +1,26 @@
+{
+  "title": "Objective response obscures the prognostic difference between complete and partial response in ovarian cancer: a TCGA-OV landmark analysis (analysis code and result tables)",
+  "upload_type": "software",
+  "publication_date": "2026-11-08",
+  "version": "1.0.0",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {"name": "Mo, Qingqing"},
+    {"name": "Chen, Pingbo"},
+    {"name": "Xu, Cheng"},
+    {"name": "Wang, Ya"},
+    {"name": "Hu, Ting"},
+    {"name": "Sun, Qian"},
+    {"name": "Zhu, Tao", "orcid": "0009-0001-0779-2245"}
+  ],
+  "keywords": [
+    "ovarian cancer",
+    "complete response",
+    "partial response",
+    "objective response",
+    "landmark analysis",
+    "guarantee-time bias"
+  ],
+  "description": "<p>Reproducible analysis code, versioned configuration and formal result tables for a landmark analysis of first-line response and subsequent survival in the TCGA ovarian cancer cohort. The manuscript is under review and is not included in this release.</p>"
+}

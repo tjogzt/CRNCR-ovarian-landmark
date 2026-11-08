@@ -1,0 +1,6 @@
+# Python dependencies observed in the local verification environment.
+# Install with: python3 -m pip install -r environment/python_requirements.txt
+PyYAML==6.0.2
+PyMuPDF==1.27.2.2
+pypdf==5.5.0
+pillow==11.3.0

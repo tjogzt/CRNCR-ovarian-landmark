@@ -1,0 +1,25 @@
+# Text sources: keep LF endings in the repository and in checkouts.
+*.md text eol=lf
+*.R text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.tex text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
+*.txt text eol=lf
+
+# Rendered and archived artefacts: never attempt text conversion or diff.
+*.pdf binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tif binary
+*.tiff binary
+*.zip binary
+*.rds binary
+*.RData binary
+*.gz binary

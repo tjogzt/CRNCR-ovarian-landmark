@@ -1,0 +1,5 @@
+adjustment,n,constraint,LRT_p
+none,372,PR = CR (1 df),1.063195289255797e-10
+none,372,SD = PD (1 df),0.8327226511466995
+age+stage+residual,343,PR = CR (1 df),5.6758842243107596e-8
+age+stage+residual,343,SD = PD (1 df),0.591000622049547

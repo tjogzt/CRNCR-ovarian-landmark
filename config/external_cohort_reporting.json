@@ -1,0 +1,26 @@
+{
+  "description": "Reporting-only crosswalk for original response and death fields. Counts are read from existing inventory, cohort audit and landmark tables; no models are fitted.",
+  "cohorts": [
+    {
+      "cohort": "GSE63885",
+      "inventory_dataset": "GSE63885",
+      "response_field": "GEO: clinical status post 1st line",
+      "response_values": "CR, PR, SD, P (mapped to PD)",
+      "death_definition": "DOD = event; AWD/NED censored"
+    },
+    {
+      "cohort": "GSE23554",
+      "inventory_dataset": "GSE23554",
+      "response_field": "GEO: cisplatin response",
+      "response_values": "CR; IR (incomplete response, mapped to NCR)",
+      "death_definition": "vital status = Dead; otherwise censored"
+    },
+    {
+      "cohort": "GSE30161",
+      "inventory_dataset": "GSE30161_eset",
+      "response_field": "curatedOvarianData author metadata: chemoresponse",
+      "response_values": "CR, PR, PD; no SD in the analysed serous cases",
+      "death_definition": "vital_status = deceased; otherwise censored"
+    }
+  ]
+}

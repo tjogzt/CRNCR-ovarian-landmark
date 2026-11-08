@@ -1,0 +1,130 @@
+dataset,sample,response4,histology,grade,stage,chemo,platinum_sensitivity,response_binary
+GSE63885,GSM1559299,PD,serous,G4,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559300,PD,serous,G4,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559301,PD,serous,G3,IV,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559302,PD,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559303,PD,serous,G2,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559304,PR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559305,PR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559306,SD,serous,G3,IV,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559307,PR,serous,G3,IIIA,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559308,PR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559309,PD,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559310,PR,undifferentiated,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559311,PR,serous,G4,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559312,PR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559313,PR,serous,G4,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559314,PR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559315,PD,serous,G4,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559316,PR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559317,PR,serous,G3,IV,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559318,PR,serous,G4,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559319,PR,undifferentiated,G4,IV,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559320,SD,serous,G3,IV,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559321,PR,serous,G4,IIIB,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559322,PR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559323,SD,serous,G2,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559324,CR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559325,CR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559326,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559327,CR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559328,CR,serous,G4,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559329,CR,serous,G4,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559330,CR,serous,G3,IIIB,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559331,CR,serous,G3,IV,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559332,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): resistant,NA
+GSE63885,GSM1559333,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559334,CR,serous,G4,IV,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559335,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559336,CR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559337,CR,serous,G2,IV,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559338,CR,serous,G3,IV,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559339,CR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559340,CR,undifferentiated,G4,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559341,CR,serous,G3,IV,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559342,CR,serous,G4,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559343,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559344,CR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559345,CR,serous,G4,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559346,CR,serous,G4,IIIA,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559347,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559348,CR,serous,G3,IIIB,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559349,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559350,CR,serous,G4,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559351,CR,serous,G2,IIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559352,CR,endometrioid,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559353,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559354,CR,serous,G2,IIIB,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559355,CR,serous,G3,IIIA,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559356,CR,serous,G3,IIIB,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559357,CR,serous,G3,IIIB,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559358,CR,serous,G2,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559359,CR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559360,CR,serous,G4,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): moderately sensitive,NA
+GSE63885,GSM1559361,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559362,CR,serous,G3,IIIA,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559363,CR,undifferentiated,G4,IIIA,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559364,CR,serous,G2,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559365,CR,serous,G2,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559366,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559367,CR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559368,CR,serous,G3,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559369,CR,serous,G3,IIIB,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559370,CR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559371,CR,serous,G3,IIB,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559372,CR,serous,G3,IIIC,platinum/cyclophosphamide,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559373,CR,serous,G2,IIIC,taxane/platinum,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): highly sensitive,NA
+GSE63885,GSM1559374,NA,undifferentiated,G4,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559375,NA,serous,G3,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559376,NA,serous,G3,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559377,NA,serous,G2,IV,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559378,NA,undifferentiated,G3,IIIC,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559379,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559380,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559381,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559382,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559383,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559384,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559385,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559386,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559387,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559388,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559389,NA,undifferentiated,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559390,NA,endometrioid,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559391,NA,clearcell,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559392,NA,clearcell,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559393,NA,clearcell,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559394,NA,clearcell,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559395,NA,clearcell,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559396,NA,clearcell,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559397,NA,clearcell,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559398,NA,clearcell,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE63885,GSM1559399,NA,clearcell,NA,NA,NA,DFS<180 days; moderately sensitive: 180>DFS>732; highly sensitive: DFS>732 days): NA,NA
+GSE23554,GSM577823,NA,serous,3,advanced,cisplatin-based,NA,IR
+GSE23554,GSM577824,NA,serous,2,advanced,cisplatin-based,NA,IR
+GSE23554,GSM577825,NA,serous,3,advanced,cisplatin-based,NA,IR
+GSE23554,GSM577826,NA,serous,3,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577827,NA,serous,3,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577828,NA,serous,3,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577829,NA,serous,3,advanced,cisplatin-based,NA,IR
+GSE23554,GSM577830,NA,serous,2,advanced,cisplatin-based,NA,IR
+GSE23554,GSM577831,NA,serous,3,advanced,cisplatin-based,NA,IR
+GSE23554,GSM577832,NA,serous,3,advanced,cisplatin-based,NA,IR
+GSE23554,GSM577833,NA,serous,1,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577834,NA,serous,3,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577835,NA,serous,2,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577836,NA,serous,2,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577837,NA,serous,3,advanced,cisplatin-based,NA,IR
+GSE23554,GSM577838,NA,serous,3,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577839,NA,serous,3,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577840,NA,serous,3,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577841,NA,serous,2,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577842,NA,serous,3,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577843,NA,serous,2,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577844,NA,serous,3,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577845,NA,serous,3,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577846,NA,serous,3,advanced,cisplatin-based,NA,IR
+GSE23554,GSM577847,NA,serous,2,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577848,NA,serous,3,advanced,cisplatin-based,NA,IR
+GSE23554,GSM577849,NA,serous,1,advanced,cisplatin-based,NA,CR
+GSE23554,GSM577850,NA,serous,2,advanced,cisplatin-based,NA,CR

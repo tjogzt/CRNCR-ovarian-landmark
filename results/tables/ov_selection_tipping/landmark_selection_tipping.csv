@@ -1,0 +1,50 @@
+scenario,description,n,events,HR,CI_low,CI_high,p
+observed,372 landmark-eligible patients; no re-inclusion,372,220,3.91206,2.91077,5.2578,1.52538e-19
+adverse_extreme,All 46 excluded CR patients die at 0.01 month; all 36 excluded NCR patients censored at 0.01 month,454,266,2.23355,1.69104,2.9501,1.50937e-8
+favourable_extreme,All 36 excluded NCR patients die at 0.01 month; all 46 excluded CR patients censored at 0.01 month,454,256,5.17087,3.95139,6.76671,4.94789e-33
+excluded_CR_deaths_1,1 excluded CR deaths at 0.01 month; all other excluded patients censored,454,221,3.8572,2.87136,5.1815,3.12387e-19
+excluded_CR_deaths_2,2 excluded CR deaths at 0.01 month; all other excluded patients censored,454,222,3.8035,2.83277,5.10689,6.34539e-19
+excluded_CR_deaths_3,3 excluded CR deaths at 0.01 month; all other excluded patients censored,454,223,3.75094,2.79497,5.0339,1.2784800000000001e-18
+excluded_CR_deaths_4,4 excluded CR deaths at 0.01 month; all other excluded patients censored,454,224,3.69949,2.75793,4.96249,2.55517e-18
+excluded_CR_deaths_5,5 excluded CR deaths at 0.01 month; all other excluded patients censored,454,225,3.6491,2.72164,4.89262,5.065880000000001e-18
+excluded_CR_deaths_6,6 excluded CR deaths at 0.01 month; all other excluded patients censored,454,226,3.59976,2.68608,4.82424,9.96376e-18
+excluded_CR_deaths_7,7 excluded CR deaths at 0.01 month; all other excluded patients censored,454,227,3.55143,2.65122,4.75731,1.94422e-17
+excluded_CR_deaths_8,8 excluded CR deaths at 0.01 month; all other excluded patients censored,454,228,3.50409,2.61705,4.69179,3.76394e-17
+excluded_CR_deaths_9,9 excluded CR deaths at 0.01 month; all other excluded patients censored,454,229,3.45771,2.58355,4.62763,7.22999e-17
+excluded_CR_deaths_10,10 excluded CR deaths at 0.01 month; all other excluded patients censored,454,230,3.41226,2.55071,4.56481,1.37802e-16
+excluded_CR_deaths_11,11 excluded CR deaths at 0.01 month; all other excluded patients censored,454,231,3.36772,2.5185,4.50328,2.60625e-16
+excluded_CR_deaths_12,12 excluded CR deaths at 0.01 month; all other excluded patients censored,454,232,3.32406,2.48691,4.443,4.89152e-16
+excluded_CR_deaths_13,13 excluded CR deaths at 0.01 month; all other excluded patients censored,454,233,3.28126,2.45592,4.38395,9.11097e-16
+excluded_CR_deaths_14,14 excluded CR deaths at 0.01 month; all other excluded patients censored,454,234,3.23929,2.42552,4.32609,1.68423e-15
+excluded_CR_deaths_15,15 excluded CR deaths at 0.01 month; all other excluded patients censored,454,235,3.19815,2.3957,4.26938,3.09013e-15
+excluded_CR_deaths_16,16 excluded CR deaths at 0.01 month; all other excluded patients censored,454,236,3.15779,2.36643,4.2138,5.62753e-15
+excluded_CR_deaths_17,17 excluded CR deaths at 0.01 month; all other excluded patients censored,454,237,3.11821,2.3377,4.15932,1.0173e-14
+excluded_CR_deaths_18,18 excluded CR deaths at 0.01 month; all other excluded patients censored,454,238,3.07938,2.30951,4.1059,1.82554e-14
+excluded_CR_deaths_19,19 excluded CR deaths at 0.01 month; all other excluded patients censored,454,239,3.04129,2.28183,4.05353,3.25217e-14
+excluded_CR_deaths_20,20 excluded CR deaths at 0.01 month; all other excluded patients censored,454,240,3.00391,2.25465,4.00216,5.752e-14
+excluded_CR_deaths_21,21 excluded CR deaths at 0.01 month; all other excluded patients censored,454,241,2.96723,2.22797,3.95178,1.01007e-13
+excluded_CR_deaths_22,22 excluded CR deaths at 0.01 month; all other excluded patients censored,454,242,2.93123,2.20177,3.90236,1.76117e-13
+excluded_CR_deaths_23,23 excluded CR deaths at 0.01 month; all other excluded patients censored,454,243,2.89589,2.17604,3.85387,3.0492e-13
+excluded_CR_deaths_24,24 excluded CR deaths at 0.01 month; all other excluded patients censored,454,244,2.86119,2.15076,3.8063,5.24247e-13
+excluded_CR_deaths_25,25 excluded CR deaths at 0.01 month; all other excluded patients censored,454,245,2.82713,2.12593,3.75961,8.95105e-13
+excluded_CR_deaths_26,26 excluded CR deaths at 0.01 month; all other excluded patients censored,454,246,2.79368,2.10153,3.71379,1.51784e-12
+excluded_CR_deaths_27,27 excluded CR deaths at 0.01 month; all other excluded patients censored,454,247,2.76083,2.07756,3.66881,2.55632e-12
+excluded_CR_deaths_28,28 excluded CR deaths at 0.01 month; all other excluded patients censored,454,248,2.72856,2.05401,3.62466,4.27631e-12
+excluded_CR_deaths_29,29 excluded CR deaths at 0.01 month; all other excluded patients censored,454,249,2.69687,2.03085,3.5813,7.10575e-12
+excluded_CR_deaths_30,30 excluded CR deaths at 0.01 month; all other excluded patients censored,454,250,2.66573,2.0081,3.53874,1.17291e-11
+excluded_CR_deaths_31,31 excluded CR deaths at 0.01 month; all other excluded patients censored,454,251,2.63514,1.98573,3.49693,1.92334e-11
+excluded_CR_deaths_32,32 excluded CR deaths at 0.01 month; all other excluded patients censored,454,252,2.60508,1.96374,3.45587,3.13336e-11
+excluded_CR_deaths_33,33 excluded CR deaths at 0.01 month; all other excluded patients censored,454,253,2.57553,1.94212,3.41554,5.07166e-11
+excluded_CR_deaths_34,34 excluded CR deaths at 0.01 month; all other excluded patients censored,454,254,2.5465,1.92085,3.37592,8.15644e-11
+excluded_CR_deaths_35,35 excluded CR deaths at 0.01 month; all other excluded patients censored,454,255,2.51795,1.89994,3.33699,1.30343e-10
+excluded_CR_deaths_36,36 excluded CR deaths at 0.01 month; all other excluded patients censored,454,256,2.48989,1.87938,3.29873,2.06981e-10
+excluded_CR_deaths_37,37 excluded CR deaths at 0.01 month; all other excluded patients censored,454,257,2.4623,1.85915,3.26114,3.26632e-10
+excluded_CR_deaths_38,38 excluded CR deaths at 0.01 month; all other excluded patients censored,454,258,2.43518,1.83925,3.22419,5.12263e-10
+excluded_CR_deaths_39,39 excluded CR deaths at 0.01 month; all other excluded patients censored,454,259,2.4085,1.81967,3.18787,7.98467e-10
+excluded_CR_deaths_40,40 excluded CR deaths at 0.01 month; all other excluded patients censored,454,260,2.38226,1.8004,3.15217,1.23701e-9
+excluded_CR_deaths_41,41 excluded CR deaths at 0.01 month; all other excluded patients censored,454,261,2.3564600000000002,1.78145,3.11706,1.90489e-9
+excluded_CR_deaths_42,42 excluded CR deaths at 0.01 month; all other excluded patients censored,454,262,2.33107,1.76279,3.08255,2.91584e-9
+excluded_CR_deaths_43,43 excluded CR deaths at 0.01 month; all other excluded patients censored,454,263,2.3061,1.74443,3.04861,4.43691e-9
+excluded_CR_deaths_44,44 excluded CR deaths at 0.01 month; all other excluded patients censored,454,264,2.28152,1.72635,3.01523,6.71187e-9
+excluded_CR_deaths_45,45 excluded CR deaths at 0.01 month; all other excluded patients censored,454,265,2.25734,1.70856,2.98239,1.00943e-8
+excluded_CR_deaths_46,46 excluded CR deaths at 0.01 month; all other excluded patients censored,454,266,2.23355,1.69104,2.9501,1.50937e-8

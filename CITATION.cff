@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or the accompanying analysis, please cite it using the metadata below."
+title: "Objective response obscures the prognostic difference between complete and partial response in ovarian cancer: a TCGA-OV landmark analysis"
+type: software
+authors:
+  - family-names: Mo
+    given-names: Qingqing
+  - family-names: Chen
+    given-names: Pingbo
+  - family-names: Xu
+    given-names: Cheng
+  - family-names: Wang
+    given-names: Ya
+  - family-names: Hu
+    given-names: Ting
+  - family-names: Sun
+    given-names: Qian
+  - family-names: Zhu
+    given-names: Tao
+    orcid: "https://orcid.org/0009-0001-0779-2245"
+license: MIT
+abstract: "Reproducible analysis code and manuscript sources for a landmark analysis of first-line response and subsequent survival in the TCGA ovarian cancer cohort."
+keywords:
+  - ovarian cancer
+  - complete response
+  - partial response
+  - objective response
+  - landmark analysis
+  - guarantee-time bias

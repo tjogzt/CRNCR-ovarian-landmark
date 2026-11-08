@@ -1,0 +1,3904 @@
+{
+  "claims": [
+    {
+      "claim_id": "main_landmark_counts",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "formed the landmark cohort",
+      "pattern": "(?P<n>\\d+) met the landmark criteria and formed the landmark cohort \\(CR (?P<CR>\\d+), PR (?P<PR>\\d+), SD (?P<SD>\\d+), PD (?P<PD>\\d+); (?P<events>\\d+) deaths",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n",
+        "CR": "CR",
+        "PR": "PR",
+        "SD": "SD",
+        "PD": "PD",
+        "events": "events"
+      },
+      "display_precision": {
+        "n": 0,
+        "CR": 0,
+        "PR": 0,
+        "SD": 0,
+        "PD": 0,
+        "events": 0
+      },
+      "tolerance": {
+        "n": 0,
+        "CR": 0,
+        "PR": 0,
+        "SD": 0,
+        "PD": 0,
+        "events": 0
+      },
+      "description": "Primary therapy-end landmark size, response counts, and deaths."
+    },
+    {
+      "claim_id": "main_unadjusted_hr_ci",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Unadjusted HRs versus CR",
+      "pattern": "Unadjusted HRs versus CR were (?P<HR_PR>[0-9.]+) \\(95% CI (?P<HR_PR_low>[0-9.]+)–(?P<HR_PR_high>[0-9.]+)\\) for PR, (?P<HR_SD>[0-9.]+) \\((?P<HR_SD_low>[0-9.]+)–(?P<HR_SD_high>[0-9.]+)\\) for SD and (?P<HR_PD>[0-9.]+) \\((?P<HR_PD_low>[0-9.]+)–(?P<HR_PD_high>[0-9.]+)\\) for PD\\. The NCR HR was (?P<HR_NonCR>[0-9.]+) \\((?P<HR_NonCR_low>[0-9.]+)–(?P<HR_NonCR_high>[0-9.]+)\\) unadjusted",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "HR_PR": "HR_PR",
+        "HR_PR_low": "HR_PR_low",
+        "HR_PR_high": "HR_PR_high",
+        "HR_SD": "HR_SD",
+        "HR_SD_low": "HR_SD_low",
+        "HR_SD_high": "HR_SD_high",
+        "HR_PD": "HR_PD",
+        "HR_PD_low": "HR_PD_low",
+        "HR_PD_high": "HR_PD_high",
+        "HR_NonCR": "HR_NonCR",
+        "HR_NonCR_low": "HR_NonCR_low",
+        "HR_NonCR_high": "HR_NonCR_high"
+      },
+      "display_precision": {
+        "HR_PR": 2,
+        "HR_PR_low": 2,
+        "HR_PR_high": 2,
+        "HR_SD": 2,
+        "HR_SD_low": 2,
+        "HR_SD_high": 2,
+        "HR_PD": 2,
+        "HR_PD_low": 2,
+        "HR_PD_high": 2,
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2
+      },
+      "tolerance": {
+        "HR_PR": 0.005,
+        "HR_PR_low": 0.005,
+        "HR_PR_high": 0.005,
+        "HR_SD": 0.005,
+        "HR_SD_low": 0.005,
+        "HR_SD_high": 0.005,
+        "HR_PD": 0.005,
+        "HR_PD_low": 0.005,
+        "HR_PD_high": 0.005,
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005
+      },
+      "description": "Primary unadjusted category-specific and NCR hazard ratios with 95% confidence intervals."
+    },
+    {
+      "claim_id": "main_constraint_p_values",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "The objective-response constraint was rejected unadjusted",
+      "pattern": "objective-response constraint was rejected unadjusted \\(P=(?P<ORR_p>[0-9.]+×10[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+)\\).*?plateau constraint was not rejected \\(P=(?P<plateau_p>[0-9.]+) unadjusted",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "ORR_p": "ORR_p",
+        "plateau_p": "plateau_p"
+      },
+      "display_precision": {
+        "ORR_p": 11,
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "ORR_p": 5e-12,
+        "plateau_p": 0.005
+      },
+      "description": "Primary ORR-constraint and plateau-test P values."
+    },
+    {
+      "claim_id": "cover_letter_category_hr",
+      "manuscript_file": "manuscript/source/cover_letter.md",
+      "anchor": "PR was associated with a hazard ratio for death of 3.61 versus CR",
+      "pattern": "PR was associated with a hazard ratio for death of (?P<HR_PR>[0-9.]+) versus CR \\(95% CI (?P<HR_PR_low>[0-9.]+)–(?P<HR_PR_high>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "HR_PR": "HR_PR",
+        "HR_PR_low": "HR_PR_low",
+        "HR_PR_high": "HR_PR_high"
+      },
+      "display_precision": {
+        "HR_PR": 2,
+        "HR_PR_low": 2,
+        "HR_PR_high": 2
+      },
+      "tolerance": {
+        "HR_PR": 0.005,
+        "HR_PR_low": 0.005,
+        "HR_PR_high": 0.005
+      },
+      "description": "Cover letter: unadjusted PR-versus-CR hazard ratio and interval; framed as a ratio, not a fold increase."
+    },
+    {
+      "claim_id": "cv_c_index_m3",
+      "manuscript_file": "manuscript/source/title_page.md",
+      "anchor": "discrimination was similar for clinical models with CR-threshold and four-category coding",
+      "pattern": "concordance index (?P<M3>[0-9.]+) versus (?P<M1>[0-9.]+)",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_summary.csv",
+      "row_filter": {
+        "model": "clinical_CR_threshold"
+      },
+      "field_map": {
+        "median_C": "M3"
+      },
+      "display_precision": {
+        "median_C": 3
+      },
+      "tolerance": {
+        "median_C": 0.0005
+      },
+      "description": "Cross-validated C-index for the clinical plus CR-threshold model (M3)."
+    },
+    {
+      "claim_id": "cv_c_index_m1",
+      "manuscript_file": "manuscript/source/title_page.md",
+      "anchor": "discrimination was similar for clinical models with CR-threshold and four-category coding",
+      "pattern": "concordance index (?P<M3>[0-9.]+) versus (?P<M1>[0-9.]+)",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_summary.csv",
+      "row_filter": {
+        "model": "clinical_four_state"
+      },
+      "field_map": {
+        "median_C": "M1"
+      },
+      "display_precision": {
+        "median_C": 3
+      },
+      "tolerance": {
+        "median_C": 0.0005
+      },
+      "description": "Cross-validated C-index for the clinical plus four-category model (M1)."
+    },
+    {
+      "claim_id": "cv_c_index_orr",
+      "manuscript_file": "manuscript/source/title_page.md",
+      "anchor": "discrimination was similar for clinical models with CR-threshold and four-category coding",
+      "pattern": "and lower for objective response \\((?P<ORR>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_summary.csv",
+      "row_filter": {
+        "model": "clinical_ORR"
+      },
+      "field_map": {
+        "median_C": "ORR"
+      },
+      "display_precision": {
+        "median_C": 3
+      },
+      "tolerance": {
+        "median_C": 0.0005
+      },
+      "description": "Cross-validated C-index for the clinical plus objective-response model."
+    },
+    {
+      "claim_id": "cv_c_index_clinical",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "With clinical covariates, median cross-validated C-indices",
+      "pattern": "and (?P<clinical>[0-9.]+) for covariates alone",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_summary.csv",
+      "row_filter": {
+        "model": "clinical"
+      },
+      "field_map": {
+        "median_C": "clinical"
+      },
+      "display_precision": {
+        "median_C": 3
+      },
+      "tolerance": {
+        "median_C": 0.0005
+      },
+      "description": "Cross-validated C-index for clinical covariates alone."
+    },
+    {
+      "claim_id": "figureS2_hgsoc_cohort",
+      "manuscript_file": "manuscript/submission/ESMO_Open_supplementary_appendix.md",
+      "anchor": "Supplementary Figure S2. Operational HGSOC sensitivity analysis.",
+      "pattern": "FIGO III–IV disease \\(n=(?P<n>\\d+); (?P<events>\\d+) deaths; post hoc",
+      "source_file": "tables/ov_hgsoc_sensitivity/hgsoc_topology_by_setting.csv",
+      "row_filter": {
+        "setting": "HGSOC therapy-end landmark",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n",
+        "events": "events"
+      },
+      "display_precision": {
+        "n": 0,
+        "events": 0
+      },
+      "tolerance": {
+        "n": 0,
+        "events": 0
+      },
+      "description": "Cohort size and deaths of the unadjusted HGSOC therapy-end estimates plotted in Supplementary Figure S2."
+    },
+    {
+      "claim_id": "external_pooled_hr_ci",
+      "manuscript_file": "manuscript/source/title_page.md",
+      "anchor": "the pooled HR was",
+      "pattern": "pooled HR was (?P<HR>[0-9.]+) \\((?P<HR_low>[0-9.]+)–(?P<HR_high>[0-9.]+); I²=",
+      "source_file": "tables/phase4_external_validation/os_meta_noncr_vs_cr.csv",
+      "row_filter": {
+        "landmark_days": "183",
+        "k": "3"
+      },
+      "field_map": {
+        "HR": "HR",
+        "HR_low": "HR_low",
+        "HR_high": "HR_high"
+      },
+      "display_precision": {
+        "HR": 2,
+        "HR_low": 2,
+        "HR_high": 1
+      },
+      "tolerance": {
+        "HR": 0.005,
+        "HR_low": 0.005,
+        "HR_high": 0.05
+      },
+      "description": "External three-cohort pooled NCR versus CR hazard ratio and 95% confidence interval."
+    },
+    {
+      "claim_id": "ipw_ncr_hr_ci",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Exploratory IPW gave",
+      "pattern": "gave an NCR HR of (?P<HR>[0-9.]+) \\((?P<low>[0-9.]+)–(?P<high>[0-9.]+)\\)",
+      "source_file": "tables/ov_selection_regimen_power/ipw_topology.csv",
+      "row_filter": {
+        "adjustment": "none",
+        "weighting": "IPW"
+      },
+      "field_map": {
+        "HR_NonCR": "HR",
+        "HR_NonCR_low": "low",
+        "HR_NonCR_high": "high"
+      },
+      "display_precision": {
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2
+      },
+      "tolerance": {
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005
+      },
+      "description": "IPW NCR versus CR hazard ratio with robust 95% confidence interval; not evidence of confirmed bias correction."
+    },
+    {
+      "claim_id": "ipw_plateau_p",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Exploratory IPW gave",
+      "pattern": "plateau P=(?P<p>[0-9.]+) and PD versus PR\\+SD",
+      "source_file": "tables/ov_selection_regimen_power/ipw_topology.csv",
+      "row_filter": {
+        "adjustment": "none",
+        "weighting": "IPW"
+      },
+      "field_map": {
+        "plateau_p_robust": "p"
+      },
+      "display_precision": {
+        "plateau_p_robust": 2
+      },
+      "tolerance": {
+        "plateau_p_robust": 0.005
+      },
+      "description": "Robust Wald plateau-test P value under IPW, separate from descriptive date scenarios."
+    },
+    {
+      "claim_id": "pd_ipw_hr_ci",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Exploratory IPW gave",
+      "pattern": "PD versus PR\\+SD HR of (?P<HR_PD_vs_PRSD>[0-9.]+) \\((?P<HR_PD_vs_PRSD_low>[0-9.]+)–(?P<HR_PD_vs_PRSD_high>[0-9.]+)\\)",
+      "source_file": "tables/ov_selection_regimen_power/ipw_topology.csv",
+      "row_filter": {
+        "adjustment": "none",
+        "weighting": "IPW"
+      },
+      "field_map": {
+        "HR_PD_vs_PRSD": "HR_PD_vs_PRSD",
+        "HR_PD_vs_PRSD_low": "HR_PD_vs_PRSD_low",
+        "HR_PD_vs_PRSD_high": "HR_PD_vs_PRSD_high"
+      },
+      "display_precision": {
+        "HR_PD_vs_PRSD": 2,
+        "HR_PD_vs_PRSD_low": 2,
+        "HR_PD_vs_PRSD_high": 2
+      },
+      "tolerance": {
+        "HR_PD_vs_PRSD": 0.005,
+        "HR_PD_vs_PRSD_low": 0.005,
+        "HR_PD_vs_PRSD_high": 0.005
+      },
+      "description": "IPW PD versus PR+SD hazard ratio and confidence interval."
+    },
+    {
+      "claim_id": "date_scenarios_median_hr",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In 200 descriptive date scenarios",
+      "pattern": "In (?P<draws>\\d+) descriptive date scenarios, the median per-draw PD-versus-PR\\+SD HR was (?P<HR>[0-9.]+);",
+      "source_file": "tables/ov_selection_regimen_power/stochastic_date_imputation_summary.csv",
+      "row_filter": {},
+      "field_map": {
+        "imputations": "draws",
+        "median_HR_PD_vs_PRSD": "HR"
+      },
+      "display_precision": {
+        "imputations": 0,
+        "median_HR_PD_vs_PRSD": 2
+      },
+      "tolerance": {
+        "imputations": 0,
+        "median_HR_PD_vs_PRSD": 0.005
+      },
+      "description": "Number of descriptive date scenarios and median per-draw PD-versus-PR+SD HR from the locked script-18 summary; not a pooled estimate or interval."
+    },
+    {
+      "claim_id": "date_scenarios_median_counts",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In 200 descriptive date scenarios",
+      "pattern": "the median cohort size was (?P<n>\\d+) and median PD count (?P<PD>\\d+)\\.",
+      "source_file": "tables/ov_selection_regimen_power/stochastic_date_imputation_summary.csv",
+      "row_filter": {},
+      "field_map": {
+        "median_n": "n",
+        "median_PD": "PD"
+      },
+      "display_precision": {
+        "median_n": 0,
+        "median_PD": 0
+      },
+      "tolerance": {
+        "median_n": 0,
+        "median_PD": 0
+      },
+      "description": "Median cohort size and PD count across descriptive date scenarios, not fixed observed counts."
+    },
+    {
+      "claim_id": "gse63885_pd_n_hr_ci",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Unlike TCGA, the plateau was rejected",
+      "pattern": "PD versus PR\\+SD HR (?P<HR_PD_vs_PRSD>[0-9.]+), (?P<HR_PD_vs_PRSD_low>[0-9.]+)–(?P<HR_PD_vs_PRSD_high>[0-9.]+);",
+      "source_file": "tables/manuscript/Table2_model_comparison.csv",
+      "row_filter": {
+        "cohort": "GSE63885",
+        "time_origin": "Fixed 6-month landmark",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "HR_PD_vs_PRSD": "HR_PD_vs_PRSD",
+        "HR_PD_vs_PRSD_low": "HR_PD_vs_PRSD_low",
+        "HR_PD_vs_PRSD_high": "HR_PD_vs_PRSD_high"
+      },
+      "display_precision": {
+        "HR_PD_vs_PRSD": 2,
+        "HR_PD_vs_PRSD_low": 2,
+        "HR_PD_vs_PRSD_high": 1
+      },
+      "tolerance": {
+        "HR_PD_vs_PRSD": 0.005,
+        "HR_PD_vs_PRSD_low": 0.005,
+        "HR_PD_vs_PRSD_high": 0.05
+      },
+      "description": "GSE63885 PD versus PR+SD hazard ratio at the 6-month landmark."
+    },
+    {
+      "claim_id": "gse63885_four_class_counts",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "adding a separate PR/SD distinction",
+      "pattern": "In GSE63885 \\(CR (?P<CR>\\d+), PR (?P<PR>\\d+), SD (?P<SD>\\d+), PD (?P<PD>\\d+) at the landmark\\)",
+      "source_file": "tables/manuscript/Table2_model_comparison.csv",
+      "row_filter": {
+        "cohort": "GSE63885",
+        "time_origin": "Fixed 6-month landmark",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "CR": "CR",
+        "PR": "PR",
+        "SD": "SD",
+        "PD": "PD"
+      },
+      "display_precision": {
+        "CR": 0,
+        "PR": 0,
+        "SD": 0,
+        "PD": 0
+      },
+      "tolerance": {
+        "CR": 0,
+        "PR": 0,
+        "SD": 0,
+        "PD": 0
+      },
+      "description": "GSE63885 four-class sample counts at the six-month landmark."
+    },
+    {
+      "claim_id": "pancancer_ov_total_n",
+      "manuscript_file": "manuscript/submission/ESMO_Open_supplementary_appendix.md",
+      "anchor": "The ovarian panel uses TCGA-CDR labels",
+      "pattern": "The ovarian panel uses TCGA-CDR labels for all labelled patients \\(n=(?P<n>\\d+) at diagnosis and \\d+ at the end of therapy\\)",
+      "source_file": "tables/pancancer_topology/topology_models_by_set.csv",
+      "row_filter": {
+        "set": "OV_all",
+        "endpoint": "OS",
+        "landmark": "none",
+        "adjustment": "unadjusted"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Total pan-cancer audit sample size for ovarian cancer."
+    },
+    {
+      "claim_id": "figure_s1_tipping_pd_before",
+      "manuscript_file": "manuscript/submission/ESMO_Open_supplementary_appendix.md",
+      "anchor": "Supplementary Figure S1. Selection, treatment and power sensitivity analyses",
+      "pattern": "coincides with PD n (?P<pd_days_180>\\d+)→",
+      "source_file": "tables/ov_selection_regimen_power/tipping_imputed_end_date.csv",
+      "row_filter": {
+        "imputed_end_days": "180"
+      },
+      "field_map": {
+        "PD": "pd_days_180"
+      },
+      "display_precision": {
+        "PD": 0
+      },
+      "tolerance": {
+        "PD": 0
+      },
+      "description": "Analysed PD count at the 180-day imputed end date reported in the Supplementary Figure S1 legend."
+    },
+    {
+      "claim_id": "figure_s1_tipping_pd_after",
+      "manuscript_file": "manuscript/submission/ESMO_Open_supplementary_appendix.md",
+      "anchor": "Supplementary Figure S1. Selection, treatment and power sensitivity analyses",
+      "pattern": "PD n \\d+→(?P<pd_days_210>\\d+) and loss",
+      "source_file": "tables/ov_selection_regimen_power/tipping_imputed_end_date.csv",
+      "row_filter": {
+        "imputed_end_days": "210"
+      },
+      "field_map": {
+        "PD": "pd_days_210"
+      },
+      "display_precision": {
+        "PD": 0
+      },
+      "tolerance": {
+        "PD": 0
+      },
+      "description": "Analysed PD count at the 210-day imputed end date reported in the Supplementary Figure S1 legend."
+    },
+    {
+      "claim_id": "figure_s1_event_fraction",
+      "manuscript_file": "manuscript/submission/ESMO_Open_supplementary_appendix.md",
+      "anchor": "Supplementary Figure S1. Selection, treatment and power sensitivity analyses",
+      "pattern": "observed NCR event fraction (?P<event_fraction_assumed>[0-9.]+)\\.",
+      "source_file": "tables/ov_selection_regimen_power/pd_step_required_sample_size.csv",
+      "row_filter": {
+        "HR": "1.5",
+        "PD_share": "0.2"
+      },
+      "field_map": {
+        "event_fraction_assumed": "event_fraction_assumed"
+      },
+      "display_precision": {
+        "event_fraction_assumed": 2
+      },
+      "tolerance": {
+        "event_fraction_assumed": 0.005
+      },
+      "description": "Observed NCR event fraction reported in the Supplementary Figure S1 legend."
+    },
+    {
+      "claim_id": "figure_s1_subset_n_min",
+      "manuscript_file": "manuscript/submission/ESMO_Open_supplementary_appendix.md",
+      "anchor": "Supplementary Figure S1. Selection, treatment and power sensitivity analyses",
+      "pattern": "\\(seven restriction rows; (?P<n_min>\\d+)–\\d+ patients; (?P<pd_min>\\d+)–\\d+ with PD;",
+      "source_file": "tables/ov_selection_regimen_power/regimen_restriction_topology.csv",
+      "row_filter": {
+        "restriction": "All restrictions combined",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n_min",
+        "PD": "pd_min"
+      },
+      "display_precision": {
+        "n": 0,
+        "PD": 0
+      },
+      "tolerance": {
+        "n": 0,
+        "PD": 0
+      },
+      "description": "Smallest restriction-row sample size and PD count in the Supplementary Figure S1 legend."
+    },
+    {
+      "claim_id": "figure_s1_subset_n_max",
+      "manuscript_file": "manuscript/submission/ESMO_Open_supplementary_appendix.md",
+      "anchor": "Supplementary Figure S1. Selection, treatment and power sensitivity analyses",
+      "pattern": "\\(seven restriction rows; \\d+–(?P<n_max>\\d+) patients; \\d+–(?P<pd_max>\\d+) with PD;",
+      "source_file": "tables/ov_selection_regimen_power/regimen_restriction_topology.csv",
+      "row_filter": {
+        "restriction": "No first-line radiation",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n_max",
+        "PD": "pd_max"
+      },
+      "display_precision": {
+        "n": 0,
+        "PD": 0
+      },
+      "tolerance": {
+        "n": 0,
+        "PD": 0
+      },
+      "description": "Largest restriction-row sample size and PD count in the Supplementary Figure S1 legend."
+    },
+    {
+      "claim_id": "figure_s1_observed_ncr",
+      "manuscript_file": "manuscript/submission/ESMO_Open_supplementary_appendix.md",
+      "anchor": "Supplementary Figure S1. Selection, treatment and power sensitivity analyses",
+      "pattern": "observed NCR set comprised (?P<n_nonCR>\\d+) patients \\((?P<n_PD>\\d+) with PD\\)",
+      "source_file": "tables/ov_selection_regimen_power/pd_step_power_tcga.csv",
+      "row_filter": {
+        "setting": "TCGA therapy-end landmark, NCR patients"
+      },
+      "field_map": {
+        "n_nonCR": "n_nonCR",
+        "n_PD": "n_PD"
+      },
+      "display_precision": {
+        "n_nonCR": 0,
+        "n_PD": 0
+      },
+      "tolerance": {
+        "n_nonCR": 0,
+        "n_PD": 0
+      },
+      "description": "Observed NCR sample size and PD count in the Supplementary Figure S1 legend."
+    },
+    {
+      "claim_id": "figure_legend_main_landmark_n",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 1. Study design, cohort flow and analysis structure",
+      "pattern": "landmark cohort comprised (?P<n>\\d+) patients",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Primary landmark sample size in the Figure 1 legend."
+    },
+    {
+      "claim_id": "figure2_c_diagnosis_n",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "\\(C\\) Death HRs.*?from diagnosis \\(n=(?P<n>\\d+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "none",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Complete-case sample size for the diagnosis setting in Figure 2C."
+    },
+    {
+      "claim_id": "figure2_c_fixed_landmark_n",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "fixed 6-month landmark \\(n=(?P<n>\\d+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "fixed183",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Complete-case sample size for the fixed landmark in Figure 2C."
+    },
+    {
+      "claim_id": "figure2_c_therapy_end_n",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "patient-specific therapy-end landmark \\(n=(?P<n>\\d+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Complete-case sample size for the therapy-end landmark in Figure 2C."
+    },
+    {
+      "claim_id": "figure2_d_bootstrap_draws",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "across (?P<B>\\d+) case-resampling bootstraps",
+      "source_file": "tables/ov_therapy_end_landmark/bootstrap_model_selection.csv",
+      "row_filter": {
+        "landmark": "therapy_end"
+      },
+      "field_map": {
+        "B": "B"
+      },
+      "display_precision": {
+        "B": 0
+      },
+      "tolerance": {
+        "B": 0
+      },
+      "description": "Number of bootstrap samples represented in Figure 2D."
+    },
+    {
+      "claim_id": "figure2_d_diagnosis_n",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "\\(D\\).*?all labelled patients with OS from diagnosis \\(n=(?P<n>\\d+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "none",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Unadjusted diagnosis sample size represented in Figure 2D."
+    },
+    {
+      "claim_id": "figure2_d_therapy_end_n",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "landmark patients from therapy end \\(n=(?P<n>\\d+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Unadjusted therapy-end sample size represented in Figure 2D."
+    },
+    {
+      "claim_id": "figure2_e_cv_design",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "\\(E\\) Median paired C-index gains over clinical-only \\(n=(?P<n>\\d+)\\) across (?P<repeats>\\d+) repeats of (?P<folds>\\d+)-fold cross-validation",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_paired_delta_summary.csv",
+      "row_filter": {
+        "model": "clinical_CR_threshold"
+      },
+      "field_map": {
+        "repeats": "repeats",
+        "folds": "folds",
+        "n": "n"
+      },
+      "display_precision": {
+        "repeats": 0,
+        "folds": 0,
+        "n": 0
+      },
+      "tolerance": {
+        "repeats": 0,
+        "folds": 0,
+        "n": 0
+      },
+      "description": "Repeated cross-validation design represented in Figure 2E."
+    },
+    {
+      "claim_id": "figure2_a_response_only_cindex",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "Response-only CV C-indices were (?P<four_state>[0-9.]+) \\(four-category\\) and (?P<CR_NCR>[0-9.]+) \\(CR versus NCR\\)",
+      "source_file": "tables/ov_therapy_end_landmark/figure2_km_statistics.csv",
+      "row_filter": {
+        "panel": "Four-state"
+      },
+      "field_map": {
+        "median_cv_C": "four_state"
+      },
+      "display_precision": {
+        "median_cv_C": 3
+      },
+      "tolerance": {
+        "median_cv_C": 0.0005
+      },
+      "description": "Response-only median cross-validated C-index displayed in Figure 2A."
+    },
+    {
+      "claim_id": "figure2_b_response_only_cindex",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "Response-only CV C-indices were (?P<four_state>[0-9.]+) \\(four-category\\) and (?P<CR_NCR>[0-9.]+) \\(CR versus NCR\\)",
+      "source_file": "tables/ov_therapy_end_landmark/figure2_km_statistics.csv",
+      "row_filter": {
+        "panel": "CR vs NCR"
+      },
+      "field_map": {
+        "median_cv_C": "CR_NCR"
+      },
+      "display_precision": {
+        "median_cv_C": 3
+      },
+      "tolerance": {
+        "median_cv_C": 0.0005
+      },
+      "description": "Response-only median cross-validated C-index displayed in Figure 2B."
+    },
+    {
+      "claim_id": "figure3_b_cohort_size",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "**Figure 3. External cohorts.**",
+      "pattern": "GSE63885 after a 6-month landmark \\(n=(?P<n>\\d+); (?P<events>\\d+) deaths\\)",
+      "source_file": "tables/manuscript/figure3b_km_statistics.csv",
+      "row_filter": {
+        "panel": "Four-state"
+      },
+      "field_map": {
+        "n": "n",
+        "events": "events"
+      },
+      "display_precision": {
+        "n": 0,
+        "events": 0
+      },
+      "tolerance": {
+        "n": 0,
+        "events": 0
+      },
+      "description": "GSE63885 landmark cohort size and deaths for Figure 3B."
+    },
+    {
+      "claim_id": "figure3_b_cv_design",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "**Figure 3. External cohorts.**",
+      "pattern": "across (?P<repeats>\\d+) repeats of stratified (?P<folds>\\d+)-fold cross-validation \\(CR \\d+, PR \\d+, SD (?P<n_SD>\\d+), PD (?P<n_PD>\\d+)\\)",
+      "source_file": "tables/manuscript/figure3b_km_statistics.csv",
+      "row_filter": {
+        "panel": "Four-state"
+      },
+      "field_map": {
+        "repeats": "repeats",
+        "folds": "folds",
+        "n_SD": "n_SD",
+        "n_PD": "n_PD"
+      },
+      "display_precision": {
+        "repeats": 0,
+        "folds": 0,
+        "n_SD": 0,
+        "n_PD": 0
+      },
+      "tolerance": {
+        "repeats": 0,
+        "folds": 0,
+        "n_SD": 0,
+        "n_PD": 0
+      },
+      "description": "Cross-validation design and SD/PD counts disclosed for Figure 3B."
+    },
+    {
+      "claim_id": "figure3_b_cr_ncr_cindex",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "**Figure 3. External cohorts.**",
+      "pattern": "the CR-versus-NCR value was (?P<CR_NCR>[0-9]+(?:\\.[0-9]+)?)\\.",
+      "source_file": "tables/manuscript/figure3b_km_statistics.csv",
+      "row_filter": {
+        "panel": "CR vs NCR"
+      },
+      "field_map": {
+        "median_cv_C": "CR_NCR"
+      },
+      "display_precision": {
+        "median_cv_C": 3
+      },
+      "tolerance": {
+        "median_cv_C": 0.0005
+      },
+      "description": "Response-only CR-versus-NCR CV C-index for GSE63885 reported in the Figure 3 legend."
+    },
+    {
+      "claim_id": "figure3_b_four_state_cindex",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "**Figure 3. External cohorts.**",
+      "pattern": "The annotated C-index \\((?P<four_state>[0-9]+(?:\\.[0-9]+)?)\\)",
+      "source_file": "tables/manuscript/figure3b_km_statistics.csv",
+      "row_filter": {
+        "panel": "Four-state"
+      },
+      "field_map": {
+        "median_cv_C": "four_state"
+      },
+      "display_precision": {
+        "median_cv_C": 3
+      },
+      "tolerance": {
+        "median_cv_C": 0.0005
+      },
+      "description": "Response-only four-category CV C-index annotated in Figure 3B."
+    },
+    {
+      "claim_id": "residual_le10_noncr_hr",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "The NCR HR was 3.55 (2.43–5.19) in patients with residual disease",
+      "pattern": "was (?P<HR>[0-9.]+) \\((?P<low>[0-9.]+)–(?P<high>[0-9.]+)\\) in patients with residual disease of 10 mm or less \\(n=(?P<n>\\d+); (?P<NCR>\\d+) NCR\\)",
+      "source_file": "tables/ov_therapy_end_landmark/noncr_by_residual_disease.csv",
+      "row_filter": {
+        "split": "optimal_10mm",
+        "adjustment": "none",
+        "stratum": "Residual <=10 mm"
+      },
+      "field_map": {
+        "HR_NonCR": "HR",
+        "HR_NonCR_low": "low",
+        "HR_NonCR_high": "high",
+        "n": "n",
+        "NCR": "NCR"
+      },
+      "display_precision": {
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2,
+        "n": 0,
+        "NCR": 0
+      },
+      "tolerance": {
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005,
+        "n": 0,
+        "NCR": 0
+      },
+      "description": "Post hoc NCR HR with residual disease <=10 mm."
+    },
+    {
+      "claim_id": "residual_gt10_noncr_hr",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "The NCR HR was 3.55 (2.43–5.19) in patients with residual disease",
+      "pattern": "and (?P<HR>[0-9.]+) \\((?P<low>[0-9.]+)–(?P<high>[0-9.]+)\\) with more than 10 mm \\(n=(?P<n>\\d+); (?P<NCR>\\d+) NCR\\)",
+      "source_file": "tables/ov_therapy_end_landmark/noncr_by_residual_disease.csv",
+      "row_filter": {
+        "split": "optimal_10mm",
+        "adjustment": "none",
+        "stratum": "Residual >10 mm"
+      },
+      "field_map": {
+        "HR_NonCR": "HR",
+        "HR_NonCR_low": "low",
+        "HR_NonCR_high": "high",
+        "n": "n",
+        "NCR": "NCR"
+      },
+      "display_precision": {
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2,
+        "n": 0,
+        "NCR": 0
+      },
+      "tolerance": {
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005,
+        "n": 0,
+        "NCR": 0
+      },
+      "description": "Post hoc NCR HR with residual disease >10 mm."
+    },
+    {
+      "claim_id": "residual_10mm_interaction",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "The NCR HR was 3.55 (2.43–5.19) in patients with residual disease",
+      "pattern": "interaction P=(?P<p>[0-9.]+) \\(",
+      "source_file": "tables/ov_therapy_end_landmark/noncr_residual_interaction.csv",
+      "row_filter": {
+        "split": "optimal_10mm",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "interaction_LRT_p": "p"
+      },
+      "display_precision": {
+        "interaction_LRT_p": 2
+      },
+      "tolerance": {
+        "interaction_LRT_p": 0.005
+      },
+      "description": "Unadjusted residual-disease (10 mm) interaction P."
+    },
+    {
+      "claim_id": "residual_10mm_interaction_adj",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "The NCR HR was 3.55 (2.43–5.19) in patients with residual disease",
+      "pattern": "\\((?P<p>[0-9.]+) after adjustment for age and stage\\)",
+      "source_file": "tables/ov_therapy_end_landmark/noncr_residual_interaction.csv",
+      "row_filter": {
+        "split": "optimal_10mm",
+        "adjustment": "age+stage"
+      },
+      "field_map": {
+        "interaction_LRT_p": "p"
+      },
+      "display_precision": {
+        "interaction_LRT_p": 2
+      },
+      "tolerance": {
+        "interaction_LRT_p": 0.005
+      },
+      "description": "Age- and stage-adjusted residual-disease (10 mm) interaction P."
+    },
+    {
+      "claim_id": "residual_r0_noncr_hr",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "The NCR HR was 3.55 (2.43–5.19) in patients with residual disease",
+      "pattern": "Only (?P<NCR>\\d+) of (?P<n>\\d+) patients without macroscopic residual were NCR, so the estimate in that stratum was imprecise \\((?P<HR>[0-9.]+), (?P<low>[0-9.]+)–(?P<high>[0-9.]+);",
+      "source_file": "tables/ov_therapy_end_landmark/noncr_by_residual_disease.csv",
+      "row_filter": {
+        "split": "R0",
+        "adjustment": "none",
+        "stratum": "No macroscopic residual"
+      },
+      "field_map": {
+        "HR_NonCR": "HR",
+        "HR_NonCR_low": "low",
+        "HR_NonCR_high": "high",
+        "n": "n",
+        "NCR": "NCR"
+      },
+      "display_precision": {
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2,
+        "n": 0,
+        "NCR": 0
+      },
+      "tolerance": {
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005,
+        "n": 0,
+        "NCR": 0
+      },
+      "description": "Post hoc NCR HR without macroscopic residual."
+    },
+    {
+      "claim_id": "residual_r0_interaction",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "The NCR HR was 3.55 (2.43–5.19) in patients with residual disease",
+      "pattern": "; interaction P=(?P<p>[0-9.]+)\\)\\. Stratum-specific",
+      "source_file": "tables/ov_therapy_end_landmark/noncr_residual_interaction.csv",
+      "row_filter": {
+        "split": "R0",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "interaction_LRT_p": "p"
+      },
+      "display_precision": {
+        "interaction_LRT_p": 2
+      },
+      "tolerance": {
+        "interaction_LRT_p": 0.005
+      },
+      "description": "Unadjusted R0 interaction P."
+    },
+    {
+      "claim_id": "loo_primary_min",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In leave-one-out analyses at the 6-month landmark",
+      "pattern": "ranged from (?P<HR>[0-9.]+) to",
+      "source_file": "tables/phase4_external_validation/os_meta_noncr_vs_cr_leave_one_out.csv",
+      "row_filter": {
+        "landmark_days": "183",
+        "analysis": "primary_external",
+        "omitted": "GSE23554"
+      },
+      "field_map": {
+        "HR": "HR"
+      },
+      "display_precision": {
+        "HR": 2
+      },
+      "tolerance": {
+        "HR": 0.005
+      },
+      "description": "Lowest leave-one-out pooled HR (primary external; GSE23554 omitted)."
+    },
+    {
+      "claim_id": "loo_primary_max",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In leave-one-out analyses at the 6-month landmark",
+      "pattern": "ranged from [0-9.]+ to (?P<HR>[0-9.]+)\\.",
+      "source_file": "tables/phase4_external_validation/os_meta_noncr_vs_cr_leave_one_out.csv",
+      "row_filter": {
+        "landmark_days": "183",
+        "analysis": "primary_external",
+        "omitted": "GSE30161"
+      },
+      "field_map": {
+        "HR": "HR"
+      },
+      "display_precision": {
+        "HR": 2
+      },
+      "tolerance": {
+        "HR": 0.005
+      },
+      "description": "Highest leave-one-out pooled HR (primary external; GSE30161 omitted)."
+    },
+    {
+      "claim_id": "loo_primary_omit_gse63885",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In leave-one-out analyses at the 6-month landmark",
+      "pattern": "\\(I² (?P<I2>\\d+)%\\) and a 95% CI that included 1 \\((?P<HR>[0-9.]+), (?P<low>[0-9.]+)–(?P<high>[0-9.]+)\\)",
+      "source_file": "tables/phase4_external_validation/os_meta_noncr_vs_cr_leave_one_out.csv",
+      "row_filter": {
+        "landmark_days": "183",
+        "analysis": "primary_external",
+        "omitted": "GSE63885"
+      },
+      "field_map": {
+        "I2": "I2",
+        "HR": "HR",
+        "HR_low": "low",
+        "HR_high": "high"
+      },
+      "display_precision": {
+        "I2": 0,
+        "HR": 2,
+        "HR_low": 2,
+        "HR_high": 2
+      },
+      "tolerance": {
+        "I2": 0.5,
+        "HR": 0.005,
+        "HR_low": 0.005,
+        "HR_high": 0.005
+      },
+      "description": "Leave-one-out pooled HR after omitting GSE63885."
+    },
+    {
+      "claim_id": "abstract_category_hr_ci",
+      "manuscript_file": "manuscript/source/title_page.md",
+      "anchor": "hazard ratios (HRs) for death were",
+      "pattern": "hazard ratios \\(HRs\\) for death were (?P<a>[0-9.]+) \\(95% CI (?P<al>[0-9.]+)–(?P<ah>[0-9.]+)\\) for PR, (?P<b>[0-9.]+) \\((?P<bl>[0-9.]+)–(?P<bh>[0-9.]+)\\) for stable disease \\(SD\\) and (?P<c>[0-9.]+) \\((?P<cl>[0-9.]+)–(?P<ch>[0-9.]+)\\) for progressive disease",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "HR_PR": "a",
+        "HR_PR_low": "al",
+        "HR_PR_high": "ah",
+        "HR_SD": "b",
+        "HR_SD_low": "bl",
+        "HR_SD_high": "bh",
+        "HR_PD": "c",
+        "HR_PD_low": "cl",
+        "HR_PD_high": "ch"
+      },
+      "display_precision": {
+        "HR_PR": 2,
+        "HR_PR_low": 2,
+        "HR_PR_high": 2,
+        "HR_SD": 2,
+        "HR_SD_low": 2,
+        "HR_SD_high": 2,
+        "HR_PD": 2,
+        "HR_PD_low": 2,
+        "HR_PD_high": 2
+      },
+      "tolerance": {
+        "HR_PR": 0.005,
+        "HR_PR_low": 0.005,
+        "HR_PR_high": 0.005,
+        "HR_SD": 0.005,
+        "HR_SD_low": 0.005,
+        "HR_SD_high": 0.005,
+        "HR_PD": 0.005,
+        "HR_PD_low": 0.005,
+        "HR_PD_high": 0.005
+      },
+      "description": "Abstract category-specific hazard ratios at the therapy-end landmark."
+    },
+    {
+      "claim_id": "abstract_constraint_p",
+      "manuscript_file": "manuscript/source/title_page.md",
+      "anchor": "The objective-response constraint was rejected (P=",
+      "pattern": "was rejected \\(P=(?P<orr>[0-9.]+×10[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+)\\).*?was not rejected \\(P=(?P<pl>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "ORR_p": "orr",
+        "plateau_p": "pl"
+      },
+      "display_precision": {
+        "ORR_p": 11,
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "ORR_p": 5e-12,
+        "plateau_p": 0.005
+      },
+      "description": "Abstract ORR-constraint and plateau P values."
+    },
+    {
+      "claim_id": "abstract_ncr_primary_hr_ci",
+      "manuscript_file": "manuscript/source/title_page.md",
+      "anchor": "The NCR HR was 3.91",
+      "pattern": "The NCR HR was (?P<HR>[0-9.]+) \\((?P<low>[0-9.]+)–(?P<high>[0-9.]+)\\), a summary contrast with CR",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "HR_NonCR": "HR",
+        "HR_NonCR_low": "low",
+        "HR_NonCR_high": "high"
+      },
+      "display_precision": {
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2
+      },
+      "tolerance": {
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005
+      },
+      "description": "Abstract primary NCR hazard ratio and 95% confidence interval at the therapy-end landmark."
+    },
+    {
+      "claim_id": "results_ncr_subset_hr_ci",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Restricting to 307 patients with a clinical-matrix label",
+      "pattern": "NCR HR of (?P<HR>[0-9.]+) \\((?P<low>[0-9.]+)–(?P<high>[0-9.]+);",
+      "source_file": "tables/ov_therapy_end_landmark/topology_excluding_cdr_only.csv",
+      "row_filter": {
+        "adjustment": "none",
+        "excluded": "65"
+      },
+      "field_map": {
+        "HR_NonCR": "HR",
+        "HR_NonCR_low": "low",
+        "HR_NonCR_high": "high"
+      },
+      "display_precision": {
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2
+      },
+      "tolerance": {
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005
+      },
+      "description": "Label-source sensitivity estimate retained in Results after removal from the abstract."
+    },
+    {
+      "claim_id": "orr_component_pr_cr_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "The rejection arose from the PR–CR difference",
+      "pattern": "PR–CR difference \\(P=(?P<p>[0-9.]+×10[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+); 1 df\\)",
+      "source_file": "tables/ov_therapy_end_landmark/orr_constraint_components.csv",
+      "row_filter": {
+        "adjustment": "none",
+        "constraint": "PR = CR (1 df)"
+      },
+      "field_map": {
+        "LRT_p": "p"
+      },
+      "display_precision": {
+        "LRT_p": 11
+      },
+      "tolerance": {
+        "LRT_p": 5e-12
+      },
+      "description": "PR = CR component of the ORR constraint."
+    },
+    {
+      "claim_id": "orr_component_sd_pd_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "The rejection arose from the PR–CR difference",
+      "pattern": "not the SD–PD difference \\(P=(?P<p>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/orr_constraint_components.csv",
+      "row_filter": {
+        "adjustment": "none",
+        "constraint": "SD = PD (1 df)"
+      },
+      "field_map": {
+        "LRT_p": "p"
+      },
+      "display_precision": {
+        "LRT_p": 2
+      },
+      "tolerance": {
+        "LRT_p": 0.005
+      },
+      "description": "SD = PD component of the ORR constraint."
+    },
+    {
+      "claim_id": "orr_component_pr_cr_adj_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*Components of the objective-response constraint.*",
+      "pattern": "unadjusted; (?P<p>[0-9.]+×10[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+) adjusted\\)",
+      "source_file": "tables/ov_therapy_end_landmark/orr_constraint_components.csv",
+      "row_filter": {
+        "adjustment": "age+stage+residual",
+        "constraint": "PR = CR (1 df)"
+      },
+      "field_map": {
+        "LRT_p": "p"
+      },
+      "display_precision": {
+        "LRT_p": 9
+      },
+      "tolerance": {
+        "LRT_p": 5e-10
+      },
+      "description": "Adjusted PR = CR component."
+    },
+    {
+      "claim_id": "orr_component_sd_pd_adj_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*Components of the objective-response constraint.*",
+      "pattern": "\\(P=[0-9.]+ and (?P<p>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/orr_constraint_components.csv",
+      "row_filter": {
+        "adjustment": "age+stage+residual",
+        "constraint": "SD = PD (1 df)"
+      },
+      "field_map": {
+        "LRT_p": "p"
+      },
+      "display_precision": {
+        "LRT_p": 2
+      },
+      "tolerance": {
+        "LRT_p": 0.005
+      },
+      "description": "Adjusted SD = PD component."
+    },
+    {
+      "claim_id": "akaike_weights_unadjusted",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Akaike weights were 0.59 for M3",
+      "pattern": "Akaike weights were (?P<m3>[0-9.]+) for M3, (?P<mpd>[0-9.]+) for M_PD and (?P<m1>[0-9.]+) for M1",
+      "source_file": "tables/ov_therapy_end_landmark/akaike_weights_therapy_end.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "weight_M3": "m3",
+        "weight_M_PD": "mpd",
+        "weight_M1": "m1"
+      },
+      "display_precision": {
+        "weight_M3": 2,
+        "weight_M_PD": 2,
+        "weight_M1": 2
+      },
+      "tolerance": {
+        "weight_M3": 0.005,
+        "weight_M_PD": 0.005,
+        "weight_M1": 0.005
+      },
+      "description": "Unadjusted Akaike weights."
+    },
+    {
+      "claim_id": "akaike_weights_adjusted",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Akaike weights were 0.59 for M3",
+      "pattern": "for M1 \\((?P<m3>[0-9.]+), (?P<mpd>[0-9.]+) and (?P<m1>[0-9.]+) adjusted\\)",
+      "source_file": "tables/ov_therapy_end_landmark/akaike_weights_therapy_end.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "weight_M3": "m3",
+        "weight_M_PD": "mpd",
+        "weight_M1": "m1"
+      },
+      "display_precision": {
+        "weight_M3": 2,
+        "weight_M_PD": 2,
+        "weight_M1": 2
+      },
+      "tolerance": {
+        "weight_M3": 0.005,
+        "weight_M_PD": 0.005,
+        "weight_M1": 0.005
+      },
+      "description": "Adjusted Akaike weights."
+    },
+    {
+      "claim_id": "mdhr_lower_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Under Schoenfeld's formula",
+      "pattern": "detect HRs of about (?P<a>[0-9.]+)–",
+      "source_file": "tables/ov_therapy_end_landmark/minimal_detectable_hr_therapy_end.csv",
+      "row_filter": {
+        "comparison": "PD vs PR"
+      },
+      "field_map": {
+        "minimal_detectable_HR": "a"
+      },
+      "display_precision": {
+        "minimal_detectable_HR": 1
+      },
+      "tolerance": {
+        "minimal_detectable_HR": 0.05
+      },
+      "description": "Smallest pairwise minimal detectable HR (PD vs PR)."
+    },
+    {
+      "claim_id": "mdhr_upper_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Under Schoenfeld's formula",
+      "pattern": "detect HRs of about [0-9.]+–(?P<a>[0-9]+(?:\\.[0-9]+)?)",
+      "source_file": "tables/ov_therapy_end_landmark/minimal_detectable_hr_therapy_end.csv",
+      "row_filter": {
+        "comparison": "PD vs SD"
+      },
+      "field_map": {
+        "minimal_detectable_HR": "a"
+      },
+      "display_precision": {
+        "minimal_detectable_HR": 1
+      },
+      "tolerance": {
+        "minimal_detectable_HR": 0.05
+      },
+      "description": "Largest pairwise minimal detectable HR within NCR (PD vs SD, Schoenfeld approximation)."
+    },
+    {
+      "claim_id": "mdhr_pd_vs_prsd_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*Relative support and power.*",
+      "pattern": "(?P<a>[0-9.]+) for PD versus PR\\+SD",
+      "source_file": "tables/ov_therapy_end_landmark/minimal_detectable_hr_therapy_end.csv",
+      "row_filter": {
+        "comparison": "PD vs PR+SD"
+      },
+      "field_map": {
+        "minimal_detectable_HR": "a"
+      },
+      "display_precision": {
+        "minimal_detectable_HR": 2
+      },
+      "tolerance": {
+        "minimal_detectable_HR": 0.005
+      },
+      "description": "Minimal detectable HR, PD vs PR+SD."
+    },
+    {
+      "claim_id": "mdhr_ncr_vs_cr_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*Relative support and power.*",
+      "pattern": "(?P<a>[0-9.]+) for NCR versus CR",
+      "source_file": "tables/ov_therapy_end_landmark/minimal_detectable_hr_therapy_end.csv",
+      "row_filter": {
+        "comparison": "NCR vs CR"
+      },
+      "field_map": {
+        "minimal_detectable_HR": "a"
+      },
+      "display_precision": {
+        "minimal_detectable_HR": 2
+      },
+      "tolerance": {
+        "minimal_detectable_HR": 0.005
+      },
+      "description": "Minimal detectable HR, NCR vs CR."
+    },
+    {
+      "claim_id": "equivalence_sd_pr_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Under Schoenfeld's formula",
+      "pattern": "SD versus PR HR (?P<h>[0-9.]+) \\(90% CI (?P<l>[0-9.]+)–(?P<u>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/noncr_equivalence_therapy_end.csv",
+      "row_filter": {
+        "adjustment": "none",
+        "comparison": "SD vs PR"
+      },
+      "field_map": {
+        "HR": "h",
+        "CI90_low": "l",
+        "CI90_high": "u"
+      },
+      "display_precision": {
+        "HR": 2,
+        "CI90_low": 2,
+        "CI90_high": 2
+      },
+      "tolerance": {
+        "HR": 0.005,
+        "CI90_low": 0.005,
+        "CI90_high": 0.005
+      },
+      "description": "SD versus PR HR with 90% CI."
+    },
+    {
+      "claim_id": "equivalence_pd_pr_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Under Schoenfeld's formula",
+      "pattern": "PD versus PR (?P<h>[0-9.]+) \\(90% CI (?P<l>[0-9.]+)–(?P<u>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/noncr_equivalence_therapy_end.csv",
+      "row_filter": {
+        "adjustment": "none",
+        "comparison": "PD vs PR"
+      },
+      "field_map": {
+        "HR": "h",
+        "CI90_low": "l",
+        "CI90_high": "u"
+      },
+      "display_precision": {
+        "HR": 2,
+        "CI90_low": 2,
+        "CI90_high": 2
+      },
+      "tolerance": {
+        "HR": 0.005,
+        "CI90_low": 0.005,
+        "CI90_high": 0.005
+      },
+      "description": "PD versus PR HR with 90% CI."
+    },
+    {
+      "claim_id": "delayed_entry_plateau_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "A post hoc delayed-entry analysis at the landmark",
+      "pattern": "A post hoc delayed-entry analysis at the landmark gave the same result \\(plateau P=(?P<p>[0-9.]+);",
+      "source_file": "tables/ov_therapy_end_landmark/topology_delayed_entry_and_L_adjusted.csv",
+      "row_filter": {
+        "model": "Delayed entry at L, diagnosis time scale",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "plateau_p": "p"
+      },
+      "display_precision": {
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "plateau_p": 0.005
+      },
+      "description": "Delayed-entry plateau P."
+    },
+    {
+      "claim_id": "delayed_entry_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*Patient-specific landmark.*",
+      "pattern": "the NCR HR was (?P<h>[0-9.]+) \\((?P<l>[0-9.]+)–(?P<u>[0-9.]+)\\) and the plateau P was (?P<p>[0-9.]+) \\(adjusted",
+      "source_file": "tables/ov_therapy_end_landmark/topology_delayed_entry_and_L_adjusted.csv",
+      "row_filter": {
+        "model": "Delayed entry at L, diagnosis time scale",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "HR_NonCR": "h",
+        "HR_NonCR_low": "l",
+        "HR_NonCR_high": "u",
+        "plateau_p": "p"
+      },
+      "display_precision": {
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2,
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005,
+        "plateau_p": 0.005
+      },
+      "description": "Delayed-entry NCR HR and plateau P."
+    },
+    {
+      "claim_id": "delayed_entry_adj_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*Patient-specific landmark.*",
+      "pattern": "plateau P was [0-9.]+ \\(adjusted (?P<p>[0-9.]+)\\);",
+      "source_file": "tables/ov_therapy_end_landmark/topology_delayed_entry_and_L_adjusted.csv",
+      "row_filter": {
+        "model": "Delayed entry at L, diagnosis time scale",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "plateau_p": "p"
+      },
+      "display_precision": {
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "plateau_p": 0.005
+      },
+      "description": "Adjusted delayed-entry plateau P."
+    },
+    {
+      "claim_id": "landmark_L_covariate_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*Patient-specific landmark.*",
+      "pattern": "covariate, the plateau P was (?P<p>[0-9.]+) \\(adjusted (?P<q>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_delayed_entry_and_L_adjusted.csv",
+      "row_filter": {
+        "model": "Landmark time scale, adjusted for L",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "plateau_p": "p"
+      },
+      "display_precision": {
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "plateau_p": 0.005
+      },
+      "description": "L-adjusted plateau P."
+    },
+    {
+      "claim_id": "residual_le10_pr_cr_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "In a post hoc comparison among 246 patients",
+      "pattern": "In a post hoc comparison among (?P<n>\\d+) patients with residual disease of 10 mm or less \\(including R0; (?P<PR>\\d+) PR\\), PR remained associated with a higher hazard than CR \\(HR (?P<HR_PR>[0-9.]+), (?P<HR_PR_low>[0-9.]+)–(?P<HR_PR_high>[0-9.]+);",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_residual_disease.csv",
+      "row_filter": {
+        "split": "optimal_10mm",
+        "adjustment": "none",
+        "stratum": "Residual <=10 mm"
+      },
+      "field_map": {
+        "n": "n",
+        "PR": "PR",
+        "HR_PR": "HR_PR",
+        "HR_PR_low": "HR_PR_low",
+        "HR_PR_high": "HR_PR_high"
+      },
+      "display_precision": {
+        "n": 0,
+        "PR": 0,
+        "HR_PR": 2,
+        "HR_PR_low": 2,
+        "HR_PR_high": 2
+      },
+      "tolerance": {
+        "n": 0,
+        "PR": 0,
+        "HR_PR": 0.005,
+        "HR_PR_low": 0.005,
+        "HR_PR_high": 0.005
+      },
+      "description": "Main text: post hoc unadjusted PR-versus-CR HR among patients with residual disease <=10 mm (includes R0)."
+    },
+    {
+      "claim_id": "residual_le10_pr_cr_adjusted_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "adjusted for age and stage 4.38",
+      "pattern": "adjusted for age and stage (?P<HR_PR>[0-9.]+), (?P<HR_PR_low>[0-9.]+)–(?P<HR_PR_high>[0-9.]+); Supplementary Table S3",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_residual_disease.csv",
+      "row_filter": {
+        "split": "optimal_10mm",
+        "adjustment": "age+stage",
+        "stratum": "Residual <=10 mm"
+      },
+      "field_map": {
+        "HR_PR": "HR_PR",
+        "HR_PR_low": "HR_PR_low",
+        "HR_PR_high": "HR_PR_high"
+      },
+      "display_precision": {
+        "HR_PR": 2,
+        "HR_PR_low": 2,
+        "HR_PR_high": 2
+      },
+      "tolerance": {
+        "HR_PR": 0.005,
+        "HR_PR_low": 0.005,
+        "HR_PR_high": 0.005
+      },
+      "description": "Main text: post hoc age- and stage-adjusted PR-versus-CR HR among patients with residual disease <=10 mm."
+    },
+    {
+      "claim_id": "residual_gt10_topology_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "In exploratory analyses with residual disease >10 mm",
+      "pattern": "\\(n=(?P<n>\\d+)\\), the plateau constraint was rejected \\(P=(?P<p>[0-9.]+); adjusted [0-9.]+\\)[,]? HRs versus CR were (?P<a>[0-9.]+) \\([0-9.]+–[0-9.]+\\) for PR, (?P<b>[0-9.]+) \\([0-9.]+–[0-9.]+\\) for SD and (?P<c>[0-9.]+) \\([0-9.]+–[0-9.]+\\) for PD",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_residual_disease.csv",
+      "row_filter": {
+        "split": "optimal_10mm",
+        "adjustment": "none",
+        "stratum": "Residual >10 mm"
+      },
+      "field_map": {
+        "n": "n",
+        "plateau_p": "p",
+        "HR_PR": "a",
+        "HR_SD": "b",
+        "HR_PD": "c"
+      },
+      "display_precision": {
+        "n": 0,
+        "plateau_p": 3,
+        "HR_PR": 2,
+        "HR_SD": 2,
+        "HR_PD": 2
+      },
+      "tolerance": {
+        "n": 0.5,
+        "plateau_p": 0.0005,
+        "HR_PR": 0.005,
+        "HR_SD": 0.005,
+        "HR_PD": 0.005
+      },
+      "description": "Residual >10 mm four-category topology (post hoc)."
+    },
+    {
+      "claim_id": "residual_gt10_tests_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Stratum-specific four-category estimates suggested possible heterogeneity",
+      "pattern": "plateau was rejected \\(P=(?P<p>[0-9.]+); adjusted [0-9.]+\\), as were the objective-response constraint \\(P=(?P<o>[0-9.]+)\\) and the PD-step constraint \\(P=(?P<s>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_residual_disease.csv",
+      "row_filter": {
+        "split": "optimal_10mm",
+        "adjustment": "none",
+        "stratum": "Residual >10 mm"
+      },
+      "field_map": {
+        "plateau_p": "p",
+        "ORR_p": "o",
+        "PD_step_p": "s"
+      },
+      "display_precision": {
+        "plateau_p": 3,
+        "ORR_p": 3,
+        "PD_step_p": 3
+      },
+      "tolerance": {
+        "plateau_p": 0.0005,
+        "ORR_p": 0.0005,
+        "PD_step_p": 0.0005
+      },
+      "description": "Residual >10 mm constraint tests."
+    },
+    {
+      "claim_id": "residual_gt10_adj_plateau_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Stratum-specific four-category estimates suggested possible heterogeneity",
+      "pattern": "\\(P=[0-9.]+; adjusted (?P<p>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_residual_disease.csv",
+      "row_filter": {
+        "split": "optimal_10mm",
+        "adjustment": "age+stage",
+        "stratum": "Residual >10 mm"
+      },
+      "field_map": {
+        "plateau_p": "p"
+      },
+      "display_precision": {
+        "plateau_p": 3
+      },
+      "tolerance": {
+        "plateau_p": 0.0005
+      },
+      "description": "Residual >10 mm adjusted plateau P."
+    },
+    {
+      "claim_id": "residual_le10_plateau_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Stratum-specific four-category estimates suggested possible heterogeneity",
+      "pattern": "the plateau was not rejected \\((?:unadjusted )?P=(?P<p>[0-9.]+)\\) and M3",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_residual_disease.csv",
+      "row_filter": {
+        "split": "optimal_10mm",
+        "adjustment": "none",
+        "stratum": "Residual <=10 mm"
+      },
+      "field_map": {
+        "plateau_p": "p"
+      },
+      "display_precision": {
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "plateau_p": 0.005
+      },
+      "description": "Residual <=10 mm plateau P."
+    },
+    {
+      "claim_id": "external_hksj_pi_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "With only three heterogeneous cohorts",
+      "pattern": "interval \\((?P<hl>[0-9.]+)–(?P<hh>[0-9.]+)\\) and the prediction interval",
+      "source_file": "tables/phase4_external_validation/os_meta_noncr_vs_cr_small_sample.csv",
+      "row_filter": {
+        "landmark_days": "183",
+        "analysis": "primary_external",
+        "estimator": "Cox, REML (HKSJ CI)"
+      },
+      "field_map": {
+        "HR_low": "hl",
+        "HR_high": "hh"
+      },
+      "display_precision": {
+        "HR_low": 2,
+        "HR_high": 1
+      },
+      "tolerance": {
+        "HR_low": 0.005,
+        "HR_high": 0.05
+      },
+      "description": "HKSJ interval for the pooled external HR."
+    },
+    {
+      "claim_id": "external_pi_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "With only three heterogeneous cohorts",
+      "pattern": "prediction interval \\((?P<pl>[0-9.]+)–(?P<ph>[0-9.]+)\\)",
+      "source_file": "tables/phase4_external_validation/os_meta_noncr_vs_cr_small_sample.csv",
+      "row_filter": {
+        "landmark_days": "183",
+        "analysis": "primary_external",
+        "estimator": "Cox, REML (Wald CI)"
+      },
+      "field_map": {
+        "PI_low": "pl",
+        "PI_high": "ph"
+      },
+      "display_precision": {
+        "PI_low": 2,
+        "PI_high": 1
+      },
+      "tolerance": {
+        "PI_low": 0.005,
+        "PI_high": 0.05
+      },
+      "description": "REML prediction interval for the pooled external HR."
+    },
+    {
+      "claim_id": "external_firth_pooled_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In leave-one-out analyses at the 6-month landmark",
+      "pattern": "pooling Firth-penalised estimates gave (?P<h>[0-9.]+) \\((?P<l>[0-9.]+)–(?P<u>[0-9.]+)\\)",
+      "source_file": "tables/phase4_external_validation/os_meta_noncr_vs_cr_small_sample.csv",
+      "row_filter": {
+        "landmark_days": "183",
+        "analysis": "primary_external",
+        "estimator": "Firth Cox, REML (Wald CI)"
+      },
+      "field_map": {
+        "HR": "h",
+        "HR_low": "l",
+        "HR_high": "u"
+      },
+      "display_precision": {
+        "HR": 2,
+        "HR_low": 2,
+        "HR_high": 1
+      },
+      "tolerance": {
+        "HR": 0.005,
+        "HR_low": 0.005,
+        "HR_high": 0.05
+      },
+      "description": "Pooled Firth-penalised external HR."
+    },
+    {
+      "claim_id": "external_firth_gse23554_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In leave-one-out analyses at the 6-month landmark",
+      "pattern": "Firth HR (?P<h>[0-9.]+), (?P<l>[0-9.]+)–(?P<u>[0-9.]+)\\)",
+      "source_file": "tables/phase4_external_validation/os_cox_noncr_vs_cr_firth.csv",
+      "row_filter": {
+        "cohort": "GSE23554",
+        "landmark_days": "183"
+      },
+      "field_map": {
+        "HR": "h",
+        "HR_low": "l",
+        "HR_high": "u"
+      },
+      "display_precision": {
+        "HR": 1,
+        "HR_low": 2,
+        "HR_high": 1
+      },
+      "tolerance": {
+        "HR": 0.05,
+        "HR_low": 0.005,
+        "HR_high": 0.05
+      },
+      "description": "Firth-penalised GSE23554 HR."
+    },
+    {
+      "claim_id": "landmark_timing_cr_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Median landmark timing was",
+      "pattern": "timing was (?P<a>[0-9.]+)–",
+      "source_file": "tables/ov_therapy_end_landmark/landmark_timing_by_response.csv",
+      "row_filter": {
+        "response4": "CR"
+      },
+      "field_map": {
+        "median_L_months": "a"
+      },
+      "display_precision": {
+        "median_L_months": 1
+      },
+      "tolerance": {
+        "median_L_months": 0.05
+      },
+      "description": "Median landmark time, CR."
+    },
+    {
+      "claim_id": "landmark_timing_pd_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Median landmark timing was",
+      "pattern": "timing was [0-9.]+–(?P<a>[0-9.]+) months",
+      "source_file": "tables/ov_therapy_end_landmark/landmark_timing_by_response.csv",
+      "row_filter": {
+        "response4": "PD"
+      },
+      "field_map": {
+        "median_L_months": "a"
+      },
+      "display_precision": {
+        "median_L_months": 1
+      },
+      "tolerance": {
+        "median_L_months": 0.05
+      },
+      "description": "Median landmark time, PD."
+    },
+    {
+      "claim_id": "landmark_timing_kw_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Median landmark timing was",
+      "pattern": "across categories \\(P=(?P<p>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/landmark_timing_by_response.csv",
+      "row_filter": {
+        "response4": "Kruskal-Wallis P"
+      },
+      "field_map": {
+        "median_L_months": "p"
+      },
+      "display_precision": {
+        "median_L_months": 2
+      },
+      "tolerance": {
+        "median_L_months": 0.005
+      },
+      "description": "Kruskal-Wallis P for landmark time across response categories."
+    },
+    {
+      "claim_id": "followup_landmark_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Median landmark timing was",
+      "pattern": "median follow-up was (?P<a>[0-9.]+) months",
+      "source_file": "tables/ov_therapy_end_landmark/followup_reverse_km.csv",
+      "row_filter": {
+        "measure": "Reverse-KM median follow-up from landmark, months"
+      },
+      "field_map": {
+        "value": "a"
+      },
+      "display_precision": {
+        "value": 0
+      },
+      "tolerance": {
+        "value": 0.5
+      },
+      "description": "Reverse Kaplan-Meier follow-up from the landmark."
+    },
+    {
+      "claim_id": "followup_diagnosis_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Median follow-up by reverse Kaplan–Meier",
+      "pattern": "and (?P<a>[0-9.]+) months from diagnosis",
+      "source_file": "tables/ov_therapy_end_landmark/followup_reverse_km.csv",
+      "row_filter": {
+        "measure": "Reverse-KM median follow-up from diagnosis, months"
+      },
+      "field_map": {
+        "value": "a"
+      },
+      "display_precision": {
+        "value": 1
+      },
+      "tolerance": {
+        "value": 0.05
+      },
+      "description": "Reverse Kaplan-Meier follow-up from diagnosis."
+    },
+    {
+      "claim_id": "label_conflict_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "excluding the one patient with a discordant source label",
+      "pattern": "\\(n=(?P<n>\\d+); NCR HR (?P<h>[0-9.]+), (?P<l>[0-9.]+)–(?P<u>[0-9.]+); plateau P=(?P<p>[0-9.]+);",
+      "source_file": "tables/ov_therapy_end_landmark/topology_excluding_label_conflict.csv",
+      "row_filter": {
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n",
+        "HR_NonCR": "h",
+        "HR_NonCR_low": "l",
+        "HR_NonCR_high": "u",
+        "plateau_p": "p"
+      },
+      "display_precision": {
+        "n": 0,
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2,
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "n": 0.5,
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005,
+        "plateau_p": 0.005
+      },
+      "description": "Sensitivity excluding the label-conflict patient."
+    },
+    {
+      "claim_id": "subset_ncr_min_unadj",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Across the six individual subsets, the NCR HR was",
+      "pattern": "NCR HR was (?P<a>[0-9.]+)–(?P<b>[0-9.]+) unadjusted and (?P<c>[0-9.]+)–(?P<d>[0-9.]+) adjusted",
+      "source_file": "tables/ov_selection_regimen_power/regimen_restriction_topology.csv",
+      "row_filter": {
+        "restriction": "Platinum-taxane doublet only",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "HR_NonCR": "a"
+      },
+      "display_precision": {
+        "HR_NonCR": 1
+      },
+      "tolerance": {
+        "HR_NonCR": 0.05
+      },
+      "description": "Range of NCR HRs across treatment subsets."
+    },
+    {
+      "claim_id": "subset_ncr_max_unadj",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Across the six individual subsets, the NCR HR was",
+      "pattern": "NCR HR was (?P<a>[0-9.]+)–(?P<b>[0-9.]+) unadjusted and (?P<c>[0-9.]+)–(?P<d>[0-9.]+) adjusted",
+      "source_file": "tables/ov_selection_regimen_power/regimen_restriction_topology.csv",
+      "row_filter": {
+        "restriction": "No first-line radiation",
+        "adjustment": "none"
+      },
+      "field_map": {
+        "HR_NonCR": "b"
+      },
+      "display_precision": {
+        "HR_NonCR": 1
+      },
+      "tolerance": {
+        "HR_NonCR": 0.05
+      },
+      "description": "Range of NCR HRs across treatment subsets."
+    },
+    {
+      "claim_id": "subset_ncr_min_adj",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Across the six individual subsets, the NCR HR was",
+      "pattern": "NCR HR was (?P<a>[0-9.]+)–(?P<b>[0-9.]+) unadjusted and (?P<c>[0-9.]+)–(?P<d>[0-9.]+) adjusted",
+      "source_file": "tables/ov_selection_regimen_power/regimen_restriction_topology.csv",
+      "row_filter": {
+        "restriction": "Platinum-taxane doublet only",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "HR_NonCR": "c"
+      },
+      "display_precision": {
+        "HR_NonCR": 1
+      },
+      "tolerance": {
+        "HR_NonCR": 0.05
+      },
+      "description": "Range of NCR HRs across treatment subsets."
+    },
+    {
+      "claim_id": "subset_ncr_max_adj",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Across the six individual subsets, the NCR HR was",
+      "pattern": "NCR HR was (?P<a>[0-9.]+)–(?P<b>[0-9.]+) unadjusted and (?P<c>[0-9.]+)–(?P<d>[0-9.]+) adjusted",
+      "source_file": "tables/ov_selection_regimen_power/regimen_restriction_topology.csv",
+      "row_filter": {
+        "restriction": "No first-line radiation",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "HR_NonCR": "d"
+      },
+      "display_precision": {
+        "HR_NonCR": 1
+      },
+      "tolerance": {
+        "HR_NonCR": 0.05
+      },
+      "description": "Range of NCR HRs across treatment subsets."
+    },
+    {
+      "claim_id": "hgsoc_pd_pr_equivalence_si",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "No pairwise comparison within NCR met the pre-specified equivalence margin",
+      "pattern": "PD versus PR HR (?P<h>[0-9.]+), 90% CI (?P<l>[0-9.]+)–(?P<u>[0-9.]+)\\)",
+      "source_file": "tables/ov_hgsoc_sensitivity/hgsoc_noncr_pairwise_equivalence.csv",
+      "row_filter": {
+        "adjustment": "none",
+        "comparison": "PD vs PR"
+      },
+      "field_map": {
+        "HR": "h",
+        "CI90_low": "l",
+        "CI90_high": "u"
+      },
+      "display_precision": {
+        "HR": 2,
+        "CI90_low": 2,
+        "CI90_high": 2
+      },
+      "tolerance": {
+        "HR": 0.005,
+        "CI90_low": 0.005,
+        "CI90_high": 0.005
+      },
+      "description": "HGSOC PD versus PR HR with 90% CI."
+    },
+    {
+      "claim_id": "fig1_main_primary_tumours",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Of 595 primary tumours",
+      "pattern": "Of (?P<n>\\d+) primary tumours",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "primary_tumours"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Primary-tumour clinical records in the Methods cohort flow (Figure 1A)."
+    },
+    {
+      "claim_id": "fig1_main_expression_linked",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Of 595 primary tumours",
+      "pattern": "(?P<n>\\d+) were linked to array expression data",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "expression_linked"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Expression-linked primary tumours in the Methods cohort flow (Figure 1A)."
+    },
+    {
+      "claim_id": "fig1_main_labelled_counts",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Of 595 primary tumours",
+      "pattern": "(?P<n>\\d+) had a canonical \\(CR, PR, SD or PD\\) response label \\(CR (?P<CR>\\d+), PR (?P<PR>\\d+), SD (?P<SD>\\d+), PD (?P<PD>\\d+);",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "labelled"
+      },
+      "field_map": {
+        "n": "n",
+        "CR": "CR",
+        "PR": "PR",
+        "SD": "SD",
+        "PD": "PD"
+      },
+      "display_precision": {
+        "n": 0,
+        "CR": 0,
+        "PR": 0,
+        "SD": 0,
+        "PD": 0
+      },
+      "tolerance": {
+        "n": 0,
+        "CR": 0,
+        "PR": 0,
+        "SD": 0,
+        "PD": 0
+      },
+      "description": "Labelled cohort size and response counts in the Methods (Figure 1A)."
+    },
+    {
+      "claim_id": "fig1_main_labelled_os",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "One of the 454 labelled patients",
+      "pattern": "One of the (?P<n>\\d+) labelled patients",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "labelled"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Labelled cohort size in the Results cohort description (Figure 1A)."
+    },
+    {
+      "claim_id": "fig1_main_os_available",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Of the remaining",
+      "pattern": "Of the remaining (?P<n>\\d+),",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "os_available"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "OS analysis set in the Results cohort description (Figure 1A)."
+    },
+    {
+      "claim_id": "fig1_si_clinical_records",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Of 630 clinical records",
+      "pattern": "Of (?P<n>\\d+) clinical records",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "clinical_records"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "TCGA-OV clinical-matrix records in the Supplementary cohort flow (Figure 1A)."
+    },
+    {
+      "claim_id": "fig1_si_primary_tumours",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Of 630 clinical records",
+      "pattern": "(?P<n>\\d+) were primary tumours",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "primary_tumours"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Primary-tumour records in the Supplementary cohort flow (Figure 1A)."
+    },
+    {
+      "claim_id": "fig1_si_expression_linked",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Of 630 clinical records",
+      "pattern": "(?P<n>\\d+) were linked to Affymetrix HT_HG-U133A",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "expression_linked"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Expression-linked primary tumours in the Supplementary cohort flow (Figure 1A)."
+    },
+    {
+      "claim_id": "fig1_si_labelled_counts",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Of 630 clinical records",
+      "pattern": "(?P<n>\\d+) patients had a canonical response label \\(CR (?P<CR>\\d+), PR (?P<PR>\\d+), SD (?P<SD>\\d+), PD (?P<PD>\\d+)\\)",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "labelled"
+      },
+      "field_map": {
+        "n": "n",
+        "CR": "CR",
+        "PR": "PR",
+        "SD": "SD",
+        "PD": "PD"
+      },
+      "display_precision": {
+        "n": 0,
+        "CR": 0,
+        "PR": 0,
+        "SD": 0,
+        "PD": 0
+      },
+      "tolerance": {
+        "n": 0,
+        "CR": 0,
+        "PR": 0,
+        "SD": 0,
+        "PD": 0
+      },
+      "description": "Labelled cohort size and response counts in the Supplementary cohort flow (Figure 1A)."
+    },
+    {
+      "claim_id": "fig1_si_os_available",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Of 630 clinical records",
+      "pattern": "OS was available for (?P<n>\\d+)\\.",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "os_available"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "OS analysis set in the Supplementary cohort flow (Figure 1A)."
+    },
+    {
+      "claim_id": "fig1_si_pancancer_labelled",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "audited in all 23 tumour types",
+      "pattern": "all (?P<k>\\d+) tumour types with labels \\((?P<n>[0-9,]+) patients\\)",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "pancancer_labelled"
+      },
+      "field_map": {
+        "k": "k",
+        "n": "n"
+      },
+      "display_precision": {
+        "k": 0,
+        "n": 0
+      },
+      "tolerance": {
+        "k": 0,
+        "n": 0
+      },
+      "description": "Tumour types and labelled patients in the pan-cancer label audit (Figure 1C)."
+    },
+    {
+      "claim_id": "figure2_ab_landmark_n",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "tests in (?P<n>\\d+) landmark patients",
+      "source_file": "tables/ov_therapy_end_landmark/figure2_km_statistics.csv",
+      "row_filter": {
+        "panel": "Four-state"
+      },
+      "field_map": {
+        "n_km": "n"
+      },
+      "display_precision": {
+        "n_km": 0
+      },
+      "tolerance": {
+        "n_km": 0
+      },
+      "description": "KM and log-rank cohort size in Figure 2A-B, separate from the CV cohort."
+    },
+    {
+      "claim_id": "figure2_a_cv_n",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "cross-validation in (?P<n>\\d+) covariate-complete patients",
+      "source_file": "tables/ov_therapy_end_landmark/figure2_km_statistics.csv",
+      "row_filter": {
+        "panel": "Four-state"
+      },
+      "field_map": {
+        "n_cv": "n"
+      },
+      "display_precision": {
+        "n_cv": 0
+      },
+      "tolerance": {
+        "n_cv": 0
+      },
+      "description": "Actual response-only CV cohort size for the four-category coding in Figure 2A."
+    },
+    {
+      "claim_id": "figure2_b_cv_n",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "cross-validation in (?P<n>\\d+) covariate-complete patients",
+      "source_file": "tables/ov_therapy_end_landmark/figure2_km_statistics.csv",
+      "row_filter": {
+        "panel": "CR vs NCR"
+      },
+      "field_map": {
+        "n_cv": "n"
+      },
+      "display_precision": {
+        "n_cv": 0
+      },
+      "tolerance": {
+        "n_cv": 0
+      },
+      "description": "Actual response-only CV cohort size for the CR-versus-NCR coding in Figure 2B."
+    },
+    {
+      "claim_id": "figure2_ab_cv_design",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "medians across (?P<repeats>\\d+) repeats of stratified (?P<folds>\\d+)-fold cross-validation",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_paired_delta_summary.csv",
+      "row_filter": {
+        "model": "clinical_CR_threshold"
+      },
+      "field_map": {
+        "repeats": "repeats",
+        "folds": "folds"
+      },
+      "display_precision": {
+        "repeats": 0,
+        "folds": 0
+      },
+      "tolerance": {
+        "repeats": 0,
+        "folds": 0
+      },
+      "description": "Shared repeated cross-validation design specified for Figure 2A-B."
+    },
+    {
+      "claim_id": "figure2_d_same_patients_n",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "Figure 2. Response grouping and prognostic discrimination in TCGA-OV",
+      "pattern": "the same patients from diagnosis \\(n=(?P<n>\\d+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/landmark_patients_without_landmark.csv",
+      "row_filter": {
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Same landmark-eligible patients analysed from diagnosis in Figure 2D."
+    },
+    {
+      "claim_id": "figure2_methods_cv_n_repeats",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "response-only, clinical-only and combined models used identical folds",
+      "pattern": "In (?P<n>\\d+) covariate-complete landmark patients.*?used identical folds in each of (?P<repeats>\\d+) repeats",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_paired_delta_summary.csv",
+      "row_filter": {
+        "model": "clinical_CR_threshold"
+      },
+      "field_map": {
+        "n": "n",
+        "repeats": "repeats"
+      },
+      "display_precision": {
+        "n": 0,
+        "repeats": 0
+      },
+      "tolerance": {
+        "n": 0,
+        "repeats": 0
+      },
+      "description": "Complete-case cohort and repeated cross-validation count in the Methods."
+    },
+    {
+      "claim_id": "figure2_results_cv_cr_threshold",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "With clinical covariates, median cross-validated C-indices",
+      "pattern": "coding \\((?P<C>[0-9.]+)/[0-9.]+\\)",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_summary.csv",
+      "row_filter": {
+        "model": "clinical_CR_threshold"
+      },
+      "field_map": {
+        "median_C": "C"
+      },
+      "display_precision": {
+        "median_C": 3
+      },
+      "tolerance": {
+        "median_C": 0.0005
+      },
+      "description": "Clinical plus CR-threshold median CV C-index in the revised Results."
+    },
+    {
+      "claim_id": "figure2_results_cv_four_category",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "With clinical covariates, median cross-validated C-indices",
+      "pattern": "coding \\([0-9.]+/(?P<C>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_summary.csv",
+      "row_filter": {
+        "model": "clinical_four_state"
+      },
+      "field_map": {
+        "median_C": "C"
+      },
+      "display_precision": {
+        "median_C": 3
+      },
+      "tolerance": {
+        "median_C": 0.0005
+      },
+      "description": "Clinical plus four-category median CV C-index in the revised Results."
+    },
+    {
+      "claim_id": "figure2_results_cv_objective_response",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "With clinical covariates, median cross-validated C-indices",
+      "pattern": "versus (?P<C>[0-9.]+) with objective response",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_summary.csv",
+      "row_filter": {
+        "model": "clinical_ORR"
+      },
+      "field_map": {
+        "median_C": "C"
+      },
+      "display_precision": {
+        "median_C": 3
+      },
+      "tolerance": {
+        "median_C": 0.0005
+      },
+      "description": "Clinical plus objective-response median CV C-index in the revised Results."
+    },
+    {
+      "claim_id": "figure2_results_paired_gain_cr_threshold",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Median paired gains over covariates were",
+      "pattern": "were (?P<delta>[0-9.]+) \\(CR threshold\\)",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_paired_delta_summary.csv",
+      "row_filter": {
+        "model": "clinical_CR_threshold"
+      },
+      "field_map": {
+        "median_delta_C": "delta"
+      },
+      "display_precision": {
+        "median_delta_C": 3
+      },
+      "tolerance": {
+        "median_delta_C": 0.0005
+      },
+      "description": "Pair-weighted within-fold CR-threshold gain over the clinical-only model."
+    },
+    {
+      "claim_id": "figure2_results_paired_gain_four_category",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Median paired gains over covariates were",
+      "pattern": ", (?P<delta>[0-9.]+) \\(four-category\\)",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_paired_delta_summary.csv",
+      "row_filter": {
+        "model": "clinical_four_state"
+      },
+      "field_map": {
+        "median_delta_C": "delta"
+      },
+      "display_precision": {
+        "median_delta_C": 3
+      },
+      "tolerance": {
+        "median_delta_C": 0.0005
+      },
+      "description": "Pair-weighted within-fold four-category gain over the clinical-only model."
+    },
+    {
+      "claim_id": "figure2_results_paired_gain_objective_response",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Median paired gains over covariates were",
+      "pattern": "and (?P<delta>[0-9.]+) \\(objective response\\)",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_paired_delta_summary.csv",
+      "row_filter": {
+        "model": "clinical_ORR"
+      },
+      "field_map": {
+        "median_delta_C": "delta"
+      },
+      "display_precision": {
+        "median_delta_C": 3
+      },
+      "tolerance": {
+        "median_delta_C": 0.0005
+      },
+      "description": "Pair-weighted within-fold objective-response gain over the clinical-only model."
+    },
+    {
+      "claim_id": "figure3_a_pooled_participants",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "**Figure 3. External cohorts.**",
+      "pattern": "pooling \\(k=(?P<k>\\d+); n=(?P<n>\\d+)\\)",
+      "source_file": "tables/manuscript/Figure1_flow_counts.csv",
+      "row_filter": {
+        "item": "external_pooled_primary"
+      },
+      "field_map": {
+        "k": "k",
+        "n": "n"
+      },
+      "display_precision": {
+        "k": 0,
+        "n": 0
+      },
+      "tolerance": {
+        "k": 0,
+        "n": 0
+      },
+      "description": "Cohort count and total participants, not a single pooled patient-level Cox fit, in Figure 3A."
+    },
+    {
+      "claim_id": "figure3_a_hksj_interval",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "**Figure 3. External cohorts.**",
+      "pattern": "Hartung–Knapp–Sidik–Jonkman interval \\((?P<low>[0-9.]+)–(?P<high>[0-9.]+)\\)",
+      "source_file": "tables/phase4_external_validation/os_meta_noncr_vs_cr_small_sample.csv",
+      "row_filter": {
+        "landmark_days": "183",
+        "analysis": "primary_external",
+        "estimator": "Cox, REML (HKSJ CI)"
+      },
+      "field_map": {
+        "HR_low": "low",
+        "HR_high": "high"
+      },
+      "display_precision": {
+        "HR_low": 2,
+        "HR_high": 1
+      },
+      "tolerance": {
+        "HR_low": 0.005,
+        "HR_high": 0.05
+      },
+      "description": "Existing small-sample HKSJ interval disclosed without replacing the primary Wald interval."
+    },
+    {
+      "claim_id": "figure3_a_leave_one_out",
+      "manuscript_file": "manuscript/source/legends.md",
+      "anchor": "post hoc leave-one-out estimate excluding GSE23554",
+      "pattern": "leave-one-out estimate excluding GSE23554 \\((?P<HR>[0-9.]+), (?P<HR_low>[0-9.]+)–(?P<HR_high>[0-9.]+); I²=0%\\)",
+      "source_file": "tables/phase4_external_validation/os_meta_noncr_vs_cr_leave_one_out.csv",
+      "row_filter": {
+        "landmark_days": "183",
+        "analysis": "primary_external",
+        "omitted": "GSE23554"
+      },
+      "field_map": {
+        "HR": "HR",
+        "HR_low": "HR_low",
+        "HR_high": "HR_high"
+      },
+      "display_precision": {
+        "HR": 2,
+        "HR_low": 2,
+        "HR_high": 2
+      },
+      "tolerance": {
+        "HR": 0.005,
+        "HR_low": 0.005,
+        "HR_high": 0.005
+      },
+      "description": "Post hoc leave-one-out pooled NCR versus CR hazard ratio excluding GSE23554 (Figure 3 legend)."
+    },
+    {
+      "claim_id": "ov_all_therapy_end_unadjusted",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Without the expression requirement",
+      "pattern": "\\(n=(?P<n>\\d+); (?P<events>\\d+) deaths; plateau P=(?P<p>[0-9.]+);",
+      "source_file": "tables/pancancer_topology/topology_models_by_set.csv",
+      "row_filter": {
+        "set": "OV_all",
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "unadjusted"
+      },
+      "field_map": {
+        "n": "n",
+        "events": "events",
+        "plateau_p": "p"
+      },
+      "display_precision": {
+        "n": 0,
+        "events": 0,
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "n": 0,
+        "events": 0,
+        "plateau_p": 0.005
+      },
+      "description": "Existing pan-cancer TCGA-OV therapy-end analysis without the expression requirement (unadjusted)."
+    },
+    {
+      "claim_id": "ov_all_therapy_end_adjusted",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Without the expression requirement",
+      "pattern": "after adjustment, the plateau P was (?P<p>[0-9.]+)",
+      "source_file": "tables/pancancer_topology/topology_models_by_set.csv",
+      "row_filter": {
+        "set": "OV_all",
+        "endpoint": "OS",
+        "landmark": "therapy_end",
+        "adjustment": "adjusted"
+      },
+      "field_map": {
+        "plateau_p": "p"
+      },
+      "display_precision": {
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "plateau_p": 0.005
+      },
+      "description": "Adjusted plateau P in the same existing analysis."
+    },
+    {
+      "claim_id": "aic_tie_low",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Across the seven landmark-based definitions (excluding diagnosis as time zero)",
+      "pattern": "AIC\\[M3\\] − AIC\\[M_PD\\] (?P<d>[0-9.]+)–",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end_any",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "dAIC_M3": "d"
+      },
+      "display_precision": {
+        "dAIC_M3": 2
+      },
+      "tolerance": {
+        "dAIC_M3": 0.005
+      },
+      "description": "Adjusted ΔAIC of M3 behind M_PD (therapy_end_any)."
+    },
+    {
+      "claim_id": "aic_tie_high",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Across the seven landmark-based definitions (excluding diagnosis as time zero)",
+      "pattern": "AIC\\[M3\\] − AIC\\[M_PD\\] [0-9.]+–(?P<d>[0-9.]+)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "therapy_end_imputed",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "dAIC_M3": "d"
+      },
+      "display_precision": {
+        "dAIC_M3": 2
+      },
+      "tolerance": {
+        "dAIC_M3": 0.005
+      },
+      "description": "Adjusted ΔAIC of M3 behind M_PD (therapy_end_imputed)."
+    },
+    {
+      "claim_id": "aic_tie_fixed183",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Across the seven landmark-based definitions (excluding diagnosis as time zero)",
+      "pattern": "adjusted fixed 6-month landmark \\((?P<d>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_by_landmark.csv",
+      "row_filter": {
+        "endpoint": "OS",
+        "landmark": "fixed183",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "dAIC_M3": "d"
+      },
+      "display_precision": {
+        "dAIC_M3": 2
+      },
+      "tolerance": {
+        "dAIC_M3": 0.005
+      },
+      "description": "Adjusted ΔAIC of M3 behind M_PD (fixed183)."
+    },
+    {
+      "claim_id": "audit_later_start",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In the treatment-date audit (Supplementary Data 3)",
+      "pattern": "(?P<n>\\d+) of the (?P<N>\\d+) landmark patients had a systemic record",
+      "source_file": "tables/supplementary/treatment_date_flag_summary.csv",
+      "row_filter": {
+        "flag": "later_systemic_start"
+      },
+      "field_map": {
+        "landmark_flagged": "n",
+        "landmark_n": "N"
+      },
+      "display_precision": {
+        "landmark_flagged": 0,
+        "landmark_n": 0
+      },
+      "tolerance": {
+        "landmark_flagged": 0,
+        "landmark_n": 0
+      },
+      "description": "Treatment-date audit count: later_systemic_start."
+    },
+    {
+      "claim_id": "audit_possible_switch",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In the treatment-date audit (Supplementary Data 3)",
+      "pattern": "in (?P<n>\\d+) \\((?P<cr>\\d+) CR, (?P<pr>\\d+) PR, (?P<sd>\\d+) SD, (?P<pd>\\d+) PD\\)",
+      "source_file": "tables/supplementary/treatment_date_flag_summary.csv",
+      "row_filter": {
+        "flag": "later_systemic_before_end"
+      },
+      "field_map": {
+        "landmark_flagged": "n",
+        "landmark_CR": "cr",
+        "landmark_PR": "pr",
+        "landmark_SD": "sd",
+        "landmark_PD": "pd"
+      },
+      "display_precision": {
+        "landmark_flagged": 0,
+        "landmark_CR": 0,
+        "landmark_PR": 0,
+        "landmark_SD": 0,
+        "landmark_PD": 0
+      },
+      "tolerance": {
+        "landmark_flagged": 0,
+        "landmark_CR": 0,
+        "landmark_PR": 0,
+        "landmark_SD": 0,
+        "landmark_PD": 0
+      },
+      "description": "Treatment-date audit count: later_systemic_before_end."
+    },
+    {
+      "claim_id": "audit_bevacizumab_end",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In the treatment-date audit (Supplementary Data 3)",
+      "pattern": "Bevacizumab alone set the systemic end date in (?P<n>\\d+) patients",
+      "source_file": "tables/supplementary/treatment_date_flag_summary.csv",
+      "row_filter": {
+        "flag": "bevacizumab_sets_end"
+      },
+      "field_map": {
+        "landmark_flagged": "n"
+      },
+      "display_precision": {
+        "landmark_flagged": 0
+      },
+      "tolerance": {
+        "landmark_flagged": 0
+      },
+      "description": "Treatment-date audit count: bevacizumab_sets_end."
+    },
+    {
+      "claim_id": "audit_radiotherapy_end",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In the treatment-date audit (Supplementary Data 3)",
+      "pattern": "and radiotherapy extended it in (?P<n>\\d+);",
+      "source_file": "tables/supplementary/treatment_date_flag_summary.csv",
+      "row_filter": {
+        "flag": "radiotherapy_extends_end"
+      },
+      "field_map": {
+        "landmark_flagged": "n"
+      },
+      "display_precision": {
+        "landmark_flagged": 0
+      },
+      "tolerance": {
+        "landmark_flagged": 0
+      },
+      "description": "Treatment-date audit count: radiotherapy_extends_end."
+    },
+    {
+      "claim_id": "audit_duplicates",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In the treatment-date audit (Supplementary Data 3)",
+      "pattern": "(?P<n>\\d+) had duplicate records",
+      "source_file": "tables/supplementary/treatment_date_flag_summary.csv",
+      "row_filter": {
+        "flag": "duplicate_regimen_records"
+      },
+      "field_map": {
+        "landmark_flagged": "n"
+      },
+      "display_precision": {
+        "landmark_flagged": 0
+      },
+      "tolerance": {
+        "landmark_flagged": 0
+      },
+      "description": "Treatment-date audit count: duplicate_regimen_records."
+    },
+    {
+      "claim_id": "audit_missing_end",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In the treatment-date audit (Supplementary Data 3)",
+      "pattern": "(?P<n>\\d+) had some, but not all, regimen end dates missing",
+      "source_file": "tables/supplementary/treatment_date_flag_summary.csv",
+      "row_filter": {
+        "flag": "regimen_end_missing_some"
+      },
+      "field_map": {
+        "landmark_flagged": "n"
+      },
+      "display_precision": {
+        "landmark_flagged": 0
+      },
+      "tolerance": {
+        "landmark_flagged": 0
+      },
+      "description": "Treatment-date audit count: regimen_end_missing_some."
+    },
+    {
+      "claim_id": "rmst_60_supp",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*RMST and tail support.*",
+      "pattern": "At 60 months, the NCR-minus-CR RMST difference was (?P<d>−[0-9.]+) months \\(95% CI (?P<l>−[0-9.]+) to (?P<h>−[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/rmst_therapy_end.csv",
+      "row_filter": {
+        "tau_months": "60"
+      },
+      "field_map": {
+        "difference": "d",
+        "low": "l",
+        "high": "h"
+      },
+      "display_precision": {
+        "difference": 1,
+        "low": 1,
+        "high": 1
+      },
+      "tolerance": {
+        "difference": 0.05,
+        "low": 0.05,
+        "high": 0.05
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "risk_36_CR",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*RMST and tail support.*",
+      "pattern": "at 36 months were (?P<cr>\\d+) CR and (?P<nc>\\d+) NCR",
+      "source_file": "tables/ov_therapy_end_landmark/number_at_risk_therapy_end.csv",
+      "row_filter": {
+        "group": "CR",
+        "months": "36"
+      },
+      "field_map": {
+        "at_risk": "cr"
+      },
+      "display_precision": {
+        "at_risk": 0
+      },
+      "tolerance": {
+        "at_risk": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "risk_36_NCR",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*RMST and tail support.*",
+      "pattern": "at 36 months were (?P<cr>\\d+) CR and (?P<nc>\\d+) NCR",
+      "source_file": "tables/ov_therapy_end_landmark/number_at_risk_therapy_end.csv",
+      "row_filter": {
+        "group": "NCR",
+        "months": "36"
+      },
+      "field_map": {
+        "at_risk": "nc"
+      },
+      "display_precision": {
+        "at_risk": 0
+      },
+      "tolerance": {
+        "at_risk": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "risk_60_CR",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*RMST and tail support.*",
+      "pattern": "at 60 months (?P<cr>\\d+) CR and (?P<nc>\\d+) NCR",
+      "source_file": "tables/ov_therapy_end_landmark/number_at_risk_therapy_end.csv",
+      "row_filter": {
+        "group": "CR",
+        "months": "60"
+      },
+      "field_map": {
+        "at_risk": "cr"
+      },
+      "display_precision": {
+        "at_risk": 0
+      },
+      "tolerance": {
+        "at_risk": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "risk_60_NCR",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*RMST and tail support.*",
+      "pattern": "at 60 months (?P<cr>\\d+) CR and (?P<nc>\\d+) NCR",
+      "source_file": "tables/ov_therapy_end_landmark/number_at_risk_therapy_end.csv",
+      "row_filter": {
+        "group": "NCR",
+        "months": "60"
+      },
+      "field_map": {
+        "at_risk": "nc"
+      },
+      "display_precision": {
+        "at_risk": 0
+      },
+      "tolerance": {
+        "at_risk": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "ncr_adjusted_effective_count",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "The NCR-only Cox model",
+      "pattern": "based on (?P<n>\\d+) covariate-complete patients and (?P<e>\\d+) deaths",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "ncr_adjusted",
+        "response4": "ALL"
+      },
+      "field_map": {
+        "n": "n",
+        "events": "e"
+      },
+      "display_precision": {
+        "n": 0,
+        "events": 0
+      },
+      "tolerance": {
+        "n": 0,
+        "events": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "ncr_adjusted_power_hr",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "The NCR-only Cox model",
+      "pattern": "HR of (?P<h>[0-9.]+) \\((?P<l>[0-9.]+)–(?P<u>[0-9.]+)\\)",
+      "source_file": "tables/ov_selection_regimen_power/pd_step_power_tcga.csv",
+      "row_filter": {
+        "setting": "TCGA, NCR patients, adjusted"
+      },
+      "field_map": {
+        "HR_PD_vs_PRSD": "h",
+        "low": "l",
+        "high": "u"
+      },
+      "display_precision": {
+        "HR_PD_vs_PRSD": 2,
+        "low": 2,
+        "high": 2
+      },
+      "tolerance": {
+        "HR_PD_vs_PRSD": 0.005,
+        "low": 0.005,
+        "high": 0.005
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "full_pd_model_comparator",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "The NCR-only Cox model",
+      "pattern": "full-cohort M_PD estimate of (?P<h>[0-9.]+) \\((?P<l>[0-9.]+)–(?P<u>[0-9.]+)\\).*in (?P<n>\\d+) patients with (?P<e>\\d+) deaths",
+      "source_file": "tables/ov_hgsoc_sensitivity/hgsoc_topology_by_setting.csv",
+      "row_filter": {
+        "setting": "Main TCGA-OV therapy-end",
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "HR_PD_vs_PRSD": "h",
+        "HR_PD_vs_PRSD_low": "l",
+        "HR_PD_vs_PRSD_high": "u",
+        "n": "n",
+        "events": "e"
+      },
+      "display_precision": {
+        "HR_PD_vs_PRSD": 2,
+        "HR_PD_vs_PRSD_low": 2,
+        "HR_PD_vs_PRSD_high": 2,
+        "n": 2,
+        "events": 2
+      },
+      "tolerance": {
+        "HR_PD_vs_PRSD": 0.005,
+        "HR_PD_vs_PRSD_low": 0.005,
+        "HR_PD_vs_PRSD_high": 0.005,
+        "n": 0.005,
+        "events": 0.005
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "pfi_risk_events_supp",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*PFI (secondary).*",
+      "pattern": "PFI risk set had (?P<e>\\d+) recorded events",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "pfi_all",
+        "response4": "ALL"
+      },
+      "field_map": {
+        "events": "e"
+      },
+      "display_precision": {
+        "events": 0
+      },
+      "tolerance": {
+        "events": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "pfi_adjusted_risk_supp",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*PFI (secondary).*",
+      "pattern": "adjusted set had (?P<n>\\d+) patients with (?P<e>\\d+) events",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "pfi_adjusted",
+        "response4": "ALL"
+      },
+      "field_map": {
+        "n": "n",
+        "events": "e"
+      },
+      "display_precision": {
+        "n": 0,
+        "events": 0
+      },
+      "tolerance": {
+        "n": 0,
+        "events": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "pfi_os_risk_difference",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*PFI (secondary).*",
+      "pattern": "with (?P<n>\\d+) OS-eligible patients excluded from PFI",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "os_eligible_not_pfi_eligible",
+        "response4": "ALL"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "pfi_pre_landmark_event_CR",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*PFI (secondary).*",
+      "pattern": "PFI events on/before the landmark excluded (?P<cr>\\d+) CR, (?P<pr>\\d+) PR, (?P<sd>\\d+) SD and (?P<pd>\\d+) PD",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "pfi_exclusion",
+        "reason": "event_at_or_before_landmark",
+        "response4": "CR"
+      },
+      "field_map": {
+        "n": "cr"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "pfi_pre_landmark_event_PR",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*PFI (secondary).*",
+      "pattern": "PFI events on/before the landmark excluded (?P<cr>\\d+) CR, (?P<pr>\\d+) PR, (?P<sd>\\d+) SD and (?P<pd>\\d+) PD",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "pfi_exclusion",
+        "reason": "event_at_or_before_landmark",
+        "response4": "PR"
+      },
+      "field_map": {
+        "n": "pr"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "pfi_pre_landmark_event_SD",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*PFI (secondary).*",
+      "pattern": "PFI events on/before the landmark excluded (?P<cr>\\d+) CR, (?P<pr>\\d+) PR, (?P<sd>\\d+) SD and (?P<pd>\\d+) PD",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "pfi_exclusion",
+        "reason": "event_at_or_before_landmark",
+        "response4": "SD"
+      },
+      "field_map": {
+        "n": "sd"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "pfi_pre_landmark_event_PD",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*PFI (secondary).*",
+      "pattern": "PFI events on/before the landmark excluded (?P<cr>\\d+) CR, (?P<pr>\\d+) PR, (?P<sd>\\d+) SD and (?P<pd>\\d+) PD",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "pfi_exclusion",
+        "reason": "event_at_or_before_landmark",
+        "response4": "PD"
+      },
+      "field_map": {
+        "n": "pd"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "pfi_pre_landmark_censor_CR",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*PFI (secondary).*",
+      "pattern": "censoring on/before it excluded (?P<cr>\\d+) CR, (?P<pr>\\d+) PR, (?P<sd>\\d+) SD and no PD",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "pfi_exclusion",
+        "reason": "censor_at_or_before_landmark",
+        "response4": "CR"
+      },
+      "field_map": {
+        "n": "cr"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "pfi_pre_landmark_censor_PR",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*PFI (secondary).*",
+      "pattern": "censoring on/before it excluded (?P<cr>\\d+) CR, (?P<pr>\\d+) PR, (?P<sd>\\d+) SD and no PD",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "pfi_exclusion",
+        "reason": "censor_at_or_before_landmark",
+        "response4": "PR"
+      },
+      "field_map": {
+        "n": "pr"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "pfi_pre_landmark_censor_SD",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "*PFI (secondary).*",
+      "pattern": "censoring on/before it excluded (?P<cr>\\d+) CR, (?P<pr>\\d+) PR, (?P<sd>\\d+) SD and no PD",
+      "source_file": "tables/supplementary/risk_set_audit_summary.csv",
+      "row_filter": {
+        "metric": "pfi_exclusion",
+        "reason": "censor_at_or_before_landmark",
+        "response4": "SD"
+      },
+      "field_map": {
+        "n": "sd"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Third approved revision: existing result or deterministic risk-set audit."
+    },
+    {
+      "claim_id": "external_general_proliferation_pooled",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "general-proliferation difference",
+      "pattern": "pooled (?:standardised )?general-proliferation difference \\+(?P<estimate>[0-9.]+)(?: SD)?, 95% CI (?P<low>−?[0-9.]+) to (?P<high>−?[0-9.]+)",
+      "source_file": "tables/phase4_external_validation/meta_analysis_noncr_minus_cr.csv",
+      "row_filter": {
+        "analysis": "primary_external",
+        "score": "general_proliferation"
+      },
+      "field_map": {
+        "REML_estimate": "estimate",
+        "REML_low": "low",
+        "REML_high": "high"
+      },
+      "display_precision": {
+        "REML_estimate": 2,
+        "REML_low": 2,
+        "REML_high": 2
+      },
+      "tolerance": {
+        "REML_estimate": 0.005,
+        "REML_low": 0.005,
+        "REML_high": 0.005
+      },
+      "description": "Primary external REML pooled general-proliferation difference cited in the main text and shown in Figure S5."
+    },
+    {
+      "claim_id": "results_paired_delta_c",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Median paired ΔC (CR-threshold minus four-category)",
+      "pattern": "was (?P<median_delta_C>[0-9.]+) \\(empirical 5th–95th percentiles (?P<q05_delta_C>[−-]?[0-9.]+) to (?P<q95_delta_C>[0-9.]+); (?P<repeats_positive>\\d+) of 20 repeats positive\\)",
+      "source_file": "tables/ov_therapy_end_landmark/cv_discrimination_paired_delta_CR_vs_four.csv",
+      "row_filter": {},
+      "field_map": {
+        "median_delta_C": "median_delta_C",
+        "q05_delta_C": "q05_delta_C",
+        "q95_delta_C": "q95_delta_C",
+        "repeats_positive": "repeats_positive"
+      },
+      "display_precision": {
+        "median_delta_C": 3,
+        "q05_delta_C": 4,
+        "q95_delta_C": 4,
+        "repeats_positive": 0
+      },
+      "tolerance": {
+        "median_delta_C": 0.0005,
+        "q05_delta_C": 5e-05,
+        "q95_delta_C": 5e-05,
+        "repeats_positive": 0
+      },
+      "description": "Paired median and empirical 5th/95th percentiles of fixed-sample CV split variability, not a confidence interval; approved replacement of bootstrap-median limits."
+    },
+    {
+      "claim_id": "cdr_only_unadjusted",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Excluding the 65 patients whose label had no second clinical-matrix record",
+      "pattern": "left (?P<n>\\d+) patients \\((?P<events>\\d+) deaths\\); the NCR HR was (?P<HR_NonCR>[0-9.]+) \\((?P<HR_NonCR_low>[0-9.]+)–(?P<HR_NonCR_high>[0-9.]+)\\) unadjusted",
+      "source_file": "tables/ov_therapy_end_landmark/topology_excluding_cdr_only.csv",
+      "row_filter": {
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n",
+        "events": "events",
+        "HR_NonCR": "HR_NonCR",
+        "HR_NonCR_low": "HR_NonCR_low",
+        "HR_NonCR_high": "HR_NonCR_high"
+      },
+      "display_precision": {
+        "n": 0,
+        "events": 0,
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2
+      },
+      "tolerance": {
+        "n": 0.5,
+        "events": 0.5,
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005
+      },
+      "description": "Unadjusted sensitivity excluding single-source TCGA-CDR labels in the landmark cohort."
+    },
+    {
+      "claim_id": "cdr_only_adjusted",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Excluding the 65 patients whose label had no second clinical-matrix record",
+      "pattern": "the adjusted HR (?P<HR_NonCR>[0-9.]+) \\((?P<HR_NonCR_low>[0-9.]+)–(?P<HR_NonCR_high>[0-9.]+); n=(?P<n>\\d+)\\), the plateau was not rejected \\(P=(?P<plateau_p>[0-9.]+) unadjusted; (?P<plateau_p_adj>[0-9.]+) adjusted\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_excluding_cdr_only.csv",
+      "row_filter": {
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "HR_NonCR": "HR_NonCR",
+        "HR_NonCR_low": "HR_NonCR_low",
+        "HR_NonCR_high": "HR_NonCR_high",
+        "n": "n",
+        "plateau_p": "plateau_p_adj"
+      },
+      "display_precision": {
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2,
+        "n": 0,
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005,
+        "n": 0.5,
+        "plateau_p": 0.005
+      },
+      "description": "Adjusted sensitivity excluding single-source TCGA-CDR labels in the landmark cohort."
+    },
+    {
+      "claim_id": "main_strict_concordant",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "and the 306 with concordant labels",
+      "pattern": "the (?P<n>\\d+) with concordant labels gave (?P<HR_NonCR>[0-9.]+) \\((?P<HR_NonCR_low>[0-9.]+)–(?P<HR_NonCR_high>[0-9.]+)\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_strictly_concordant.csv",
+      "row_filter": {
+        "adjustment": "none"
+      },
+      "field_map": {
+        "n": "n",
+        "HR_NonCR": "HR_NonCR",
+        "HR_NonCR_low": "HR_NonCR_low",
+        "HR_NonCR_high": "HR_NonCR_high"
+      },
+      "display_precision": {
+        "n": 0,
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2
+      },
+      "tolerance": {
+        "n": 0.5,
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005
+      },
+      "description": "Unadjusted NCR hazard ratio in the 306 patients whose two response records agreed (main text)."
+    },
+    {
+      "claim_id": "supp_strict_unadjusted",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Further restricting to the 306 patients",
+      "pattern": "gave an NCR HR of (?P<HR_NonCR>[0-9.]+) \\((?P<HR_NonCR_low>[0-9.]+)–(?P<HR_NonCR_high>[0-9.]+)\\) unadjusted and [0-9.]+ \\([0-9.]+–[0-9.]+\\) adjusted \\(n=\\d+\\), with plateau P=(?P<plateau_p>[0-9.]+) and [0-9.]+ and objective-response P=(?P<ORR_p>[0-9.]+×10[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_strictly_concordant.csv",
+      "row_filter": {
+        "adjustment": "none"
+      },
+      "field_map": {
+        "HR_NonCR": "HR_NonCR",
+        "HR_NonCR_low": "HR_NonCR_low",
+        "HR_NonCR_high": "HR_NonCR_high",
+        "plateau_p": "plateau_p",
+        "ORR_p": "ORR_p"
+      },
+      "display_precision": {
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2,
+        "plateau_p": 2,
+        "ORR_p": 11
+      },
+      "tolerance": {
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005,
+        "plateau_p": 0.005,
+        "ORR_p": 1e-08
+      },
+      "description": "Unadjusted 306-patient concordant-label sensitivity estimates in the supplement."
+    },
+    {
+      "claim_id": "supp_strict_adjusted",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Further restricting to the 306 patients",
+      "pattern": "and (?P<HR_NonCR>[0-9.]+) \\((?P<HR_NonCR_low>[0-9.]+)–(?P<HR_NonCR_high>[0-9.]+)\\) adjusted \\(n=(?P<n>\\d+)\\), with plateau P=[0-9.]+ and (?P<plateau_p>[0-9.]+) and objective-response P=[0-9.]+×10[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+ and (?P<ORR_p>[0-9.]+×10[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_strictly_concordant.csv",
+      "row_filter": {
+        "adjustment": "age+stage+residual"
+      },
+      "field_map": {
+        "HR_NonCR": "HR_NonCR",
+        "HR_NonCR_low": "HR_NonCR_low",
+        "HR_NonCR_high": "HR_NonCR_high",
+        "n": "n",
+        "plateau_p": "plateau_p",
+        "ORR_p": "ORR_p"
+      },
+      "display_precision": {
+        "HR_NonCR": 2,
+        "HR_NonCR_low": 2,
+        "HR_NonCR_high": 2,
+        "n": 0,
+        "plateau_p": 2,
+        "ORR_p": 11
+      },
+      "tolerance": {
+        "HR_NonCR": 0.005,
+        "HR_NonCR_low": 0.005,
+        "HR_NonCR_high": 0.005,
+        "n": 0.5,
+        "plateau_p": 0.005,
+        "ORR_p": 1e-08
+      },
+      "description": "Adjusted 306-patient concordant-label sensitivity estimates in the supplement."
+    },
+    {
+      "claim_id": "cdr_only_unadjusted_tests",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "Excluding the 65 patients whose label had no second clinical-matrix record",
+      "pattern": "the plateau was not rejected \\(P=(?P<plateau_p>[0-9.]+) unadjusted; (?P<plateau_p_adj>[0-9.]+) adjusted\\)",
+      "source_file": "tables/ov_therapy_end_landmark/topology_excluding_cdr_only.csv",
+      "row_filter": {
+        "adjustment": "none"
+      },
+      "field_map": {
+        "plateau_p": "plateau_p"
+      },
+      "display_precision": {
+        "plateau_p": 2
+      },
+      "tolerance": {
+        "plateau_p": 0.005
+      },
+      "description": "Unadjusted plateau test in the single-source-label sensitivity."
+    },
+    {
+      "claim_id": "landmark_cdr_only_count",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "65 landmark patients had only the TCGA-CDR label",
+      "pattern": "(?P<n>65) landmark patients had only the TCGA-CDR label",
+      "source_file": "tables/ov_therapy_end_landmark/label_source_counts.csv",
+      "row_filter": {
+        "label_source": "TCGA-CDR only",
+        "in_landmark": "TRUE"
+      },
+      "field_map": {
+        "n": "n"
+      },
+      "display_precision": {
+        "n": 0
+      },
+      "tolerance": {
+        "n": 0
+      },
+      "description": "Single-source TCGA-CDR labels retained in the primary landmark cohort."
+    },
+    {
+      "claim_id": "results_selection_tipping_adverse",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "assigning all 46 excluded CR patients immediate death",
+      "pattern": "gave an NCR HR of (?P<HR>[0-9.]+) \\(95% CI (?P<HR_low>[0-9.]+)–(?P<HR_high>[0-9.]+)\\)",
+      "source_file": "tables/ov_selection_tipping/landmark_selection_tipping.csv",
+      "row_filter": {
+        "scenario": "adverse_extreme"
+      },
+      "field_map": {
+        "HR": "HR",
+        "CI_low": "HR_low",
+        "CI_high": "HR_high"
+      },
+      "display_precision": {
+        "HR": 2,
+        "CI_low": 2,
+        "CI_high": 2
+      },
+      "tolerance": {
+        "HR": 0.005,
+        "CI_low": 0.005,
+        "CI_high": 0.005
+      },
+      "description": "Outcome-level adverse hypothetical extreme-allocation scenario for selection into the landmark cohort (results)."
+    },
+    {
+      "claim_id": "results_selection_tipping_favourable",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "reverse allocation gave",
+      "pattern": "reverse allocation gave (?P<HR>[0-9.]+) \\((?P<HR_low>[0-9.]+)–(?P<HR_high>[0-9.]+)\\)",
+      "source_file": "tables/ov_selection_tipping/landmark_selection_tipping.csv",
+      "row_filter": {
+        "scenario": "favourable_extreme"
+      },
+      "field_map": {
+        "HR": "HR",
+        "CI_low": "HR_low",
+        "CI_high": "HR_high"
+      },
+      "display_precision": {
+        "HR": 2,
+        "CI_low": 2,
+        "CI_high": 2
+      },
+      "tolerance": {
+        "HR": 0.005,
+        "CI_low": 0.005,
+        "CI_high": 0.005
+      },
+      "description": "Outcome-level favourable hypothetical extreme-allocation scenario for selection into the landmark cohort (results)."
+    },
+    {
+      "claim_id": "results_partition_primary",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "complementary bipartitions",
+      "pattern": "CR versus NCR had the smallest P value before and after Benjamini–Hochberg correction \\(adjusted HR (?P<HR_adjusted>[0-9.]+), 95% CI (?P<CI_low_adjusted>[0-9.]+)–(?P<CI_high_adjusted>[0-9.]+); q=(?P<q_adjusted>[0-9.]+×10[⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+)\\)",
+      "source_file": "tables/supplementary/TableS7_response_partition_scan.csv",
+      "row_filter": {
+        "rank_adjusted": "1"
+      },
+      "field_map": {
+        "HR_adjusted": "HR_adjusted",
+        "CI_low_adjusted": "CI_low_adjusted",
+        "CI_high_adjusted": "CI_high_adjusted",
+        "q_adjusted": "q_adjusted"
+      },
+      "display_precision": {
+        "HR_adjusted": 2,
+        "CI_low_adjusted": 2,
+        "CI_high_adjusted": 2,
+        "q_adjusted": 15
+      },
+      "tolerance": {
+        "HR_adjusted": 0.005,
+        "CI_low_adjusted": 0.005,
+        "CI_high_adjusted": 0.005,
+        "q_adjusted": 5e-16
+      },
+      "description": "Top-ranked bipartition of the exploratory response-partition scan: adjusted HR, 95% CI and BH q."
+    },
+    {
+      "claim_id": "results_partition_max_q",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "although every bipartition separated survival",
+      "pattern": "every bipartition separated survival \\(all q≤(?P<q_adjusted>[0-9.]+); Supplementary Table S7\\)",
+      "source_file": "tables/supplementary/TableS7_response_partition_scan.csv",
+      "row_filter": {
+        "rank_adjusted": "7"
+      },
+      "field_map": {
+        "q_adjusted": "q_adjusted"
+      },
+      "display_precision": {
+        "q_adjusted": 3
+      },
+      "tolerance": {
+        "q_adjusted": 0.0005
+      },
+      "description": "Largest BH q among the seven bipartitions (lowest-ranked row); BH q is monotone in the adjusted P value."
+    },
+    {
+      "claim_id": "results_calibration_36",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Apparent overall calibration",
+      "pattern": "observed-to-expected ratios (?P<oe_ratio>[0-9.]+) and [0-9.]+\\); only slopes were optimism-corrected \\((?P<slope_corrected>[0-9.]+) and",
+      "source_file": "tables/ov_response_sensitivity/calibration_summary.csv",
+      "row_filter": {
+        "horizon_months": "36"
+      },
+      "field_map": {
+        "oe_ratio": "oe_ratio",
+        "slope_corrected": "slope_corrected"
+      },
+      "display_precision": {
+        "oe_ratio": 2,
+        "slope_corrected": 2
+      },
+      "tolerance": {},
+      "description": "36-month apparent O:E ratio and optimism-corrected slope; O:E is not optimism-corrected."
+    },
+    {
+      "claim_id": "results_calibration_60",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "Apparent overall calibration",
+      "pattern": "observed-to-expected ratios [0-9.]+ and (?P<oe_ratio>[0-9.]+)\\); only slopes were optimism-corrected \\([0-9.]+ and (?P<slope_corrected>[0-9.]+)\\)",
+      "source_file": "tables/ov_response_sensitivity/calibration_summary.csv",
+      "row_filter": {
+        "horizon_months": "60"
+      },
+      "field_map": {
+        "oe_ratio": "oe_ratio",
+        "slope_corrected": "slope_corrected"
+      },
+      "display_precision": {
+        "oe_ratio": 2,
+        "slope_corrected": 2
+      },
+      "tolerance": {},
+      "description": "60-month apparent O:E ratio and optimism-corrected slope; O:E is not optimism-corrected."
+    },
+    {
+      "claim_id": "results_calibration_pr",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "predicted versus observed risks in PR",
+      "pattern": "PR \\((?P<mean_predicted_pct>[0-9.]+)% vs (?P<observed_km_pct>[0-9.]+)%\\)",
+      "source_file": "tables/ov_response_sensitivity/calibration_by_response.csv",
+      "row_filter": {
+        "horizon_months": "36",
+        "response": "PR"
+      },
+      "field_map": {
+        "mean_predicted_pct": "mean_predicted_pct",
+        "observed_km_pct": "observed_km_pct"
+      },
+      "display_precision": {
+        "mean_predicted_pct": 1,
+        "observed_km_pct": 1
+      },
+      "tolerance": {},
+      "description": "36-month predicted versus observed death risk in PR."
+    },
+    {
+      "claim_id": "results_calibration_pd",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "predicted versus observed risks in PR",
+      "pattern": "PD \\((?P<mean_predicted_pct>[0-9.]+)% vs (?P<observed_km_pct>[0-9.]+)%\\)",
+      "source_file": "tables/ov_response_sensitivity/calibration_by_response.csv",
+      "row_filter": {
+        "horizon_months": "36",
+        "response": "PD"
+      },
+      "field_map": {
+        "mean_predicted_pct": "mean_predicted_pct",
+        "observed_km_pct": "observed_km_pct"
+      },
+      "display_precision": {
+        "mean_predicted_pct": 1,
+        "observed_km_pct": 1
+      },
+      "tolerance": {},
+      "description": "36-month predicted versus observed death risk in PD."
+    },
+    {
+      "claim_id": "results_evalue_main",
+      "manuscript_file": "manuscript/source/methods_results.md",
+      "anchor": "E-value for the adjusted NCR hazard ratio",
+      "pattern": "E-value for the adjusted NCR hazard ratio was (?P<E_value_common_point>[0-9.]+) \\((?P<E_value_common_CI>[0-9.]+)",
+      "source_file": "tables/supplementary/TableS7_evalues.csv",
+      "row_filter": {
+        "source": "M3, age+stage+residual, n=343"
+      },
+      "field_map": {
+        "E_value_common_point": "E_value_common_point",
+        "E_value_common_CI": "E_value_common_CI"
+      },
+      "display_precision": {
+        "E_value_common_point": 2,
+        "E_value_common_CI": 2
+      },
+      "tolerance": {},
+      "description": "Common-outcome E-value for the adjusted NCR hazard ratio (point and CI bound)."
+    },
+    {
+      "claim_id": "discussion_evalue",
+      "manuscript_file": "manuscript/source/discussion.md",
+      "anchor": "Within the E-value sensitivity framework",
+      "pattern": "were (?P<E_value_common_point>[0-9.]+) for the adjusted estimate and (?P<E_value_common_CI>[0-9.]+) for its interval",
+      "source_file": "tables/supplementary/TableS7_evalues.csv",
+      "row_filter": {
+        "source": "M3, age+stage+residual, n=343"
+      },
+      "field_map": {
+        "E_value_common_point": "E_value_common_point",
+        "E_value_common_CI": "E_value_common_CI"
+      },
+      "display_precision": {
+        "E_value_common_point": 2,
+        "E_value_common_CI": 2
+      },
+      "tolerance": {},
+      "description": "Discussion E-values with approximate hazard-to-risk conversion caveat, displayed at two decimals."
+    }
+  ],
+  "percentage_claims": [
+    {
+      "claim_id": "date_scenarios_aic_fractions",
+      "manuscript_file": "manuscript/source/supplementary.md",
+      "anchor": "In 200 descriptive date scenarios",
+      "pattern": "M3 and M_PD had the lowest AIC in (?P<M3>[0-9.]+)% and (?P<M_PD>[0-9.]+)% of scenarios, respectively\\.",
+      "source_file": "tables/ov_selection_regimen_power/stochastic_date_imputation_summary.csv",
+      "row_filter": {},
+      "field_map": {
+        "frac_best_AIC_M3": "M3",
+        "frac_best_AIC_M_PD": "M_PD"
+      },
+      "display_precision": {
+        "frac_best_AIC_M3": 0,
+        "frac_best_AIC_M_PD": 0
+      },
+      "tolerance": {
+        "frac_best_AIC_M3": 0,
+        "frac_best_AIC_M_PD": 0
+      },
+      "description": "Descriptive lowest-AIC percentages checked by script 21 with displayed percentages divided by 100 against the unchanged locked fractions; script 24 supports direct numeric claims only."
+    }
+  ]
+}

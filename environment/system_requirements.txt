@@ -1,0 +1,7 @@
+R >= 4.5.0
+Python >= 3.10 with PyMuPDF (figure-typography audit, script 26)
+Node.js >= 20
+Pandoc >= 3.0
+XeLaTeX and latexmk (TeX Live/TinyTeX)
+Arial and Courier New fonts for the reviewer PDF build
+Internet access for GDC, GEO, cBioPortal, MSigDB, and Bioconductor acquisition steps

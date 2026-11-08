@@ -1,0 +1,5 @@
+test,p
+response distribution by inclusion (chi-square),0.0018481815419243632
+stage by inclusion (chi-square),0.3785087055276795
+residual by inclusion (chi-square),0.5388482817442392
+age by inclusion (Wilcoxon),0.4040716041907563

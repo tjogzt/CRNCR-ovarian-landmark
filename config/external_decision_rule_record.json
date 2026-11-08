@@ -1,0 +1,17 @@
+{
+  "archive_directory_copy_date": "2026-10-23",
+  "excerpt": "## 6. 建议的Phase 4外部验证方案（预注册）\n\n1. 在每个队列内部，按锁定基因计算z均值评分，不重新筛选基因。\n2. 每个队列分别拟合`score ~ CR vs Non-CR`。分期和残余病灶仅在可用时作为敏感性调整，因为GSE63885和GSE23554的缺失较多。\n3. 主要分析：GSE63885、GSE23554、GSE30161做REML随机效应荟萃分析，报告合并估计、I²和预测区间。\n4. 次要分析：\n   - 加入PMID17290060（标明撤稿）；\n   - 加入TCGA后计算总体合并效应；\n   - 只纳入浆液性或高级别病例；\n   - 复制起始轴在调整一般增殖后的残余效应（Phase 3探索性线索）。\n5. 方向性判定：报告效应为负的队列数，以及合并估计的95% CI是否排除0。外部队列不显著不作为否定证据，但合并估计如果接近0或方向相反，则视为不支持。\n6. TCGA RNA-seq（207例）只用于检验同一批患者在芯片和RNA-seq上的评分一致性，不计入外部证据。\n\n",
+  "internal_date": "2026-10-15",
+  "logical_archive_name": "archive/legacy_workspace_20261023/Phase4准备_外部疗效队列盘点.md",
+  "notes": [
+    "Internal planning provenance, not a public registration; the original heading is reproduced verbatim, not endorsed as registration.",
+    "The internal date is 2026-10-15; the containing archive directory was copied on 2026-10-23. No public timestamp is asserted.",
+    "The phrase 接近0 (close to zero) had no prespecified numeric threshold; none is supplied here.",
+    "The historical secondary plan to include the retracted cohort was superseded by the formal 2026-10-23 exclusion decision. This excerpt is provenance only, not restored evidence or an authorisation to include that cohort.",
+    "Only section 6 up to the section 7 heading is reproduced; older claims elsewhere in the report are not distributed."
+  ],
+  "public_registration": false,
+  "section": "6",
+  "source_name": "Phase4准备_外部疗效队列盘点.md",
+  "source_sha256": "5fe9a39c871a54fa154746eb1c1ffe7e01f8a375f79d162865558a830ce1ce36"
+}

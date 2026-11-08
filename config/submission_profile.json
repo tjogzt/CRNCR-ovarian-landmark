@@ -1,0 +1,848 @@
+{
+  "output_prefix": "ESMO_Open",
+  "document_metadata": {
+    "creator": "Project contributors",
+    "title": "Journal submission",
+    "description": "Original Article submission package"
+  },
+  "limits": {
+    "main_words": 4000,
+    "abstract_words": 300,
+    "references": 100,
+    "display_items": 5,
+    "highlights_minimum": 3,
+    "highlights_maximum": 5,
+    "highlight_characters": 125,
+    "keywords": 6
+  },
+  "document_style": {
+    "font_family": "Arial",
+    "monospace_font_family": "Courier New",
+    "page_width_mm": 210,
+    "portrait_table_width_twips": 9360,
+    "landscape_table_width_twips": 14400,
+    "landscape_page_width_twips": 11906,
+    "landscape_page_height_twips": 16838,
+    "body_font_size_half_points": 22,
+    "title_font_size_half_points": 30,
+    "heading_1_font_size_half_points": 26,
+    "heading_2_font_size_half_points": 23,
+    "header_footer_font_size_half_points": 18,
+    "inline_script_reduction_half_points": 2,
+    "line_spacing_twips": 360,
+    "body_space_after_twips": 120,
+    "bullet_space_after_twips": 80,
+    "figure_space_before_twips": 120,
+    "figure_space_after_twips": 120,
+    "title_space_before_twips": 160,
+    "title_space_after_twips": 240,
+    "heading_1_space_before_twips": 220,
+    "heading_1_space_after_twips": 120,
+    "heading_2_space_before_twips": 180,
+    "heading_2_space_after_twips": 100,
+    "portrait_page_margin_twips": 1080,
+    "landscape_page_margin_twips": 720,
+    "figure_page_margin_mm": 10,
+    "header_footer_gap_mm": 5,
+    "table_cell_margin_twips": 60,
+    "table_space_after_twips": 80,
+    "table_font_size_half_points": 16,
+    "main_table_font_size_half_points": 16,
+    "table_note_font_size_half_points": 18,
+    "table_note_line_spacing_twips": 216,
+    "wide_table_font_size_half_points": 16,
+    "very_wide_table_font_size_half_points": 16,
+    "table_border_size_eighth_points": 2,
+    "table_border_color": "B7B7B7",
+    "table_header_fill": "D9E2F3",
+    "header_text_color": "666666",
+    "heading_text_color": "000000",
+    "bullet_indent_left_twips": 720,
+    "bullet_indent_hanging_twips": 360
+  },
+  "table_layout": {
+    "sample_rows": 8,
+    "maximum_weight": 22,
+    "length_offset": 2,
+    "length_multiplier": 3,
+    "wide_column_count": 8,
+    "very_wide_column_count": 12,
+    "minimum_narrow_column_twips": 1150,
+    "minimum_wide_column_twips": 900,
+    "minimum_very_wide_column_twips": 650,
+    "left_aligned_column_count": 2,
+    "main_table_fractions": [
+      0.25,
+      0.17,
+      0.105,
+      0.105,
+      0.105,
+      0.105,
+      0.1,
+      0.06
+    ],
+    "comparison_table_fractions": [
+      0.1275,
+      0.036,
+      0.105,
+      0.0933,
+      0.0933,
+      0.0933,
+      0.0933,
+      0.0933,
+      0.041,
+      0.041,
+      0.041,
+      0.09,
+      0.052
+    ]
+  },
+  "figure_audit": {
+    "size_tolerance_mm": 0.5,
+    "font_tolerance_pt": 0.01,
+    "marker_glyphs": [
+      "|",
+      "+"
+    ],
+    "narrow_figure_width_mm": {
+      "FigureS2_hgsoc_four_state": 120
+    }
+  },
+  "latex_style": {
+    "base_font_size_pt": 11,
+    "text_margin_mm": 22,
+    "wide_table_margin_mm": 10,
+    "wide_table_headsep_mm": 2,
+    "wide_table_footskip_mm": 5,
+    "main_table_font": {
+      "size_pt": 8,
+      "leading_pt": 9.4,
+      "column_separation_pt": 1.5
+    },
+    "main_table_note_font": {
+      "size_pt": 9.0,
+      "leading_pt": 10.8
+    },
+    "main_comparison_table_font": {
+      "size_pt": 8.0,
+      "leading_pt": 9.4,
+      "column_separation_pt": 1.5
+    },
+    "supplementary_table_font": {
+      "size_pt": 5.7,
+      "leading_pt": 6.9,
+      "column_separation_pt": 1.4
+    },
+    "supplementary_table_caption_font": {
+      "size_pt": 11.0,
+      "leading_pt": 13.2
+    },
+    "supplementary_figure_s1_caption_font": {
+      "size_pt": 9.5,
+      "leading_pt": 11.4
+    },
+    "supplementary_table_s1_d_fractions": [0.22, 0.08, 0.11, 0.13, 0.12, 0.34],
+    "supplementary_table_heading_font": {
+      "size_pt": 11.0,
+      "leading_pt": 13.2
+    },
+    "supplementary_table_s1_orientation": "portrait",
+    "supplementary_table_s1_font": {
+      "size_pt": 10.0,
+      "leading_pt": 12.0,
+      "column_separation_pt": 1.0
+    },
+    "supplementary_table_s1_a_fractions": [
+      0.10152,
+      0.17011,
+      0.09603,
+      0.03841,
+      0.0439,
+      0.05213,
+      0.0439,
+      0.0439,
+      0.0439,
+      0.06585,
+      0.13718,
+      0.16317
+    ],
+    "supplementary_table_s2_a_font": {
+      "size_pt": 8.5,
+      "leading_pt": 10.2,
+      "column_separation_pt": 1.0
+    },
+    "supplementary_table_s2_a_fractions": [
+      0.21542,
+      0.54316,
+      0.04828,
+      0.04828,
+      0.04828,
+      0.04828,
+      0.0483
+    ],
+    "supplementary_table_s2_b_font": {
+      "size_pt": 8.5,
+      "leading_pt": 10.2,
+      "column_separation_pt": 1.0
+    },
+    "supplementary_table_s2_b_fractions": [
+      0.16429,
+      0.05974,
+      0.02614,
+      0.03734,
+      0.09334,
+      0.09334,
+      0.09334,
+      0.09334,
+      0.09334,
+      0.05041,
+      0.04854,
+      0.05414,
+      0.04667,
+      0.04603
+    ],
+    "supplementary_table_s3_a_fractions": [
+      0.115,
+      0.0983,
+      0.0983,
+      0.0983,
+      0.0983,
+      0.0983,
+      0.0983,
+      0.0983,
+      0.0983,
+      0.0986
+    ],
+    "supplementary_table_s3_b_fractions": [
+      0.0745,
+      0.0902,
+      0.1319,
+      0.1033,
+      0.1059,
+      0.1059,
+      0.0719,
+      0.0654,
+      0.0745,
+      0.1111,
+      0.0654
+    ],
+    "supplementary_table_s3_c_fractions": [
+      0.2095,
+      0.126,
+      0.0328,
+      0.0839,
+      0.0839,
+      0.0839,
+      0.0839,
+      0.058,
+      0.05,
+      0.055,
+      0.0872,
+      0.0459
+    ],
+    "supplementary_table_s3_d_fractions": [
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125,
+      0.125
+    ],
+    "supplementary_table_s3_e_fractions": [
+      0.145,
+      0.165,
+      0.045,
+      0.23,
+      0.15,
+      0.155,
+      0.11
+    ],
+    "supplementary_table_s6_fractions": [
+      0.19004,
+      0.1661,
+      0.08248,
+      0.17028,
+      0.06271,
+      0.11441,
+      0.06271,
+      0.04485,
+      0.10642
+    ],
+    "supplementary_table_s7_a_fractions": [
+      0.045,
+      0.21,
+      0.045,
+      0.06,
+      0.185,
+      0.07,
+      0.065,
+      0.185,
+      0.07,
+      0.065
+    ],
+    "supplementary_table_s7_b_fractions": [
+      0.26,
+      0.22,
+      0.18,
+      0.17,
+      0.17
+    ],
+    "supplementary_table_s5_fonts": {
+      "a": {
+        "size_pt": 10.4,
+        "leading_pt": 12.48,
+        "column_separation_pt": 1.0
+      },
+      "b": {
+        "size_pt": 14.75,
+        "leading_pt": 17.7,
+        "column_separation_pt": 1.0
+      },
+      "c": {
+        "size_pt": 14.75,
+        "leading_pt": 17.7,
+        "column_separation_pt": 1.0
+      },
+      "d": {
+        "size_pt": 14.75,
+        "leading_pt": 17.7,
+        "column_separation_pt": 1.0
+      },
+      "e": {
+        "size_pt": 14.75,
+        "leading_pt": 17.7,
+        "column_separation_pt": 1.0
+      }
+    },
+    "supplementary_table_s5_a_fractions": [
+      0.11085,
+      0.12297,
+      0.06325,
+      0.09116,
+      0.10332,
+      0.10332,
+      0.10332,
+      0.10332,
+      0.06252,
+      0.07045,
+      0.06552
+    ],
+    "supplementary_table_s5_b_fractions": [
+      0.19496,
+      0.21568,
+      0.19228,
+      0.19228,
+      0.10178,
+      0.10303
+    ],
+    "supplementary_table_s5_c_fractions": [
+      0.10039,
+      0.12651,
+      0.14373,
+      0.25051,
+      0.12895,
+      0.11632,
+      0.13359
+    ],
+    "supplementary_table_s5_d_fractions": [
+      0.22018,
+      0.13125,
+      0.2747,
+      0.06369,
+      0.10488,
+      0.20531
+    ],
+    "supplementary_table_s5_e_fractions": [
+      0.64528,
+      0.06192,
+      0.07477,
+      0.07268,
+      0.07268,
+      0.07268
+    ],
+    "supplementary_table_s5_b_width_mm": 227.1,
+    "supplementary_table_s5_c_width_mm": 222.1,
+    "supplementary_table_s5_d_width_mm": 179.1,
+    "supplementary_table_s5_e_width_mm": 137.4,
+    "supplementary_table_s4_fractions": [
+      0.07258,
+      0.03955,
+      0.03955,
+      0.03362,
+      0.03955,
+      0.03955,
+      0.0667,
+      0.10324,
+      0.14462,
+      0.1411,
+      0.05721,
+      0.07258,
+      0.03878,
+      0.03878,
+      0.07259
+    ],
+    "supplementary_table_s4_width_mm": 229.1,
+    "supplementary_table_fonts": {
+      "S2": {
+        "size_pt": 7.2,
+        "leading_pt": 8.6,
+        "column_separation_pt": 1.0
+      },
+      "S3": {
+        "size_pt": 8.5,
+        "leading_pt": 10.2,
+        "column_separation_pt": 1.0
+      },
+      "S4": {
+        "size_pt": 12.0,
+        "leading_pt": 13.7,
+        "column_separation_pt": 1.0
+      },
+      "S5": {
+        "size_pt": 9.0,
+        "leading_pt": 10.8,
+        "column_separation_pt": 1.0
+      },
+      "S6": {
+        "size_pt": 12.0,
+        "leading_pt": 14.4,
+        "column_separation_pt": 2.5
+      },
+      "S7": {
+        "size_pt": 8.5,
+        "leading_pt": 10.2,
+        "column_separation_pt": 1.0
+      }
+    }
+  },
+  "figure_specification": {
+    "width_mm": 190,
+    "max_height_mm": 240,
+    "min_font_pt": 8,
+    "tag_font_pt": 10,
+    "raster_dpi": 600,
+    "font_family": "Arial",
+    "source": "Elsevier artwork sizing (ESMO Open): double-column width 190 mm; project minimum text size 8 pt at final size"
+  },
+  "figure_style": {
+    "response": {
+      "CR": "#009E73",
+      "PR": "#0072B2",
+      "SD": "#CC79A7",
+      "PD": "#D55E00",
+      "NCR": "#D55E00"
+    },
+    "response_linetype": {
+      "CR": "solid",
+      "PR": "longdash",
+      "SD": "dotdash",
+      "PD": "dotted",
+      "NCR": "longdash"
+    },
+    "model": {
+      "Four-state": "#999999",
+      "ORR": "#E69F00",
+      "CR vs NCR": "#009E73",
+      "CR | PR+SD | PD": "#0072B2"
+    },
+    "analysis": {
+      "Diagnosis": "#777777",
+      "6-month landmark": "#56B4E9",
+      "Therapy-end landmark": "#000000"
+    },
+    "analysis_shape": {
+      "Diagnosis": 16,
+      "6-month landmark": 17,
+      "Therapy-end landmark": 15
+    },
+    "cohort": {
+      "TCGA": "#000000",
+      "External": "#0072B2",
+      "Pooled": "#009E73",
+      "Retracted": "#999999"
+    },
+    "cohort_shape": {
+      "TCGA": 16,
+      "External": 17,
+      "Pooled": 18,
+      "Retracted": 1
+    },
+    "subset": {
+      "all": "#777777",
+      "treated": "#0072B2"
+    },
+    "power": {
+      "0.1": "#777777",
+      "0.2": "#4d4d4d",
+      "0.3": "#262626"
+    },
+    "neutral": {
+      "dark": "#333333",
+      "mid": "#777777",
+      "light": "#D9D9D9",
+      "fill": "#F2F2F2",
+      "muted_text": "#6E6E6E"
+    }
+  },
+  "publication_policy": {
+    "excluded_cohorts": [
+      "PMID17290060"
+    ],
+    "external_pool_analysis": "primary_external",
+    "date_results_mode": "descriptive_scenarios",
+    "treatment_records_sha256": "7394bfe34a75479d61eb8f2bd9edc0f7f1918628a2f56a7d34c77bc8a5c8abc5",
+    "treatment_cases_sha256": "b90dd51b769b25fcf9161a1c2b5ae07fcae1611f9fb697fa7b12aa132ad68af6",
+    "locked_source_sha256": {
+      "results/tables/phase4_external_validation/os_meta_noncr_vs_cr.csv": "63901f7c04b552f57b58ddf8476dd95d3319a55b63e8a558cb102d3511f0d684",
+      "results/tables/phase4_external_validation/meta_analysis_noncr_minus_cr.csv": "d290a7f8883c68e3cbaf1af12234b94dededeb83da15000a07196b6a6f30d329",
+      "results/tables/phase4_external_validation/external_survival_by_sample.csv": "5e341b752f7a208cf6fba535c5a843e320ae0aa22c90057b0b3629bed678d1d6",
+      "results/tables/ov_therapy_end_landmark/topology_by_landmark.csv": "ab48d871ff51e810357d44e2fc8ad8f357d328c33ac41a6f4b2cbd63e2472108",
+      "results/tables/ov_selection_regimen_power/ipw_topology.csv": "c2326e8d2529bd8b3ad44ca9cfb7065f3ee5d00d125f4f9bb900b08999559d96",
+      "results/tables/ov_selection_regimen_power/regimen_restriction_topology.csv": "1d54b90fce314f5634c32c830bd063c0e06e10639c4861586867dd4eec79d59f",
+      "results/tables/ov_selection_regimen_power/stochastic_date_imputation_summary.csv": "a9b4d28b77c0778b10a8816d22822c425de3e4791174608bbc23ab9d40aa70bb",
+      "results/tables/manuscript/figure3b_km_statistics.csv": "38508dab1f2b639eb7fe2d734bbc4b473088a41b7a0734734327ba924afb1b65",
+      "results/tables/manuscript/gse63885_cv_concordance_by_fold.csv": "18a9477fefbf86fe02a393b7c3c18938695a31f5252226c725225c519ca8a16e",
+      "results/tables/manuscript/gse63885_cv_fold_assignments.csv": "cfc65f8500a56925c3ed2c23bb56989f83c3e92a319de9727222f3fd1c555cc0",
+      "results/tables/manuscript/figure3b_number_at_risk.csv": "c91bc1ee0a87baad128614fa3c75efa29dbf8e69c019f872c176f04a3817a29f",
+      "results/tables/manuscript/Table2_model_comparison.csv": "7bb8ec4d225dc4caba8b10277936035e3ad5031044e16fc393cd70e46d7696f7",
+      "results/tables/manuscript/Table2_model_comparison_formatted.csv": "291159e16a09127f72cfc628a2eb7627f6b87f0b229978a857e86eed37c2073f",
+      "results/tables/manuscript/Figure1_flow_counts.csv": "7702ed8a64c6b21bf3d28cd6b8f468700017e5bfc1169ed7040cb869465b7e84",
+      "results/tables/manuscript/TableS1_external_cohorts.csv": "993677d7ce7435b74457d04084e7d79ded3ec66be8ffd76f5490401d9d5dc762",
+      "results/tables/manuscript/SupplementaryData2_external_samples.csv": "2052448673a20a1c8cf94545754df990e6b059b81341b26d9fd0e834e5c75195",
+      "results/tables/manuscript/Table1_baseline_main_cohort.csv": "52b6a7b32b1754a46704ee23242e190672e5c78aff3164c70fc646efd65f4a76"
+    },
+    "excluded_inventory": [
+      {
+        "source": "PMID17290060",
+        "excluded_reason": "Retracted publication; excluded from formal samples, estimates and pools",
+        "formal_use": false
+      }
+    ],
+    "date_descriptive_columns": [
+      "imputations",
+      "median_n",
+      "median_PD",
+      "median_HR_PD_vs_PRSD",
+      "frac_best_AIC_M3",
+      "frac_best_AIC_M_PD"
+    ],
+    "vector_renderer": "PyMuPDF clip_to_rect plus show_pdf_page; clean vector regions only, no statistical computation or whole-page scaling",
+    "raster_renderer": "600 dpi on observed original PNG canvas, padding only; unchanged panels reuse exact clean original pixel crops embedded in their vector region assets, never an entire old figure",
+    "panel_units": "PDF points, top-left origin; observed baseline MediaBox (538 pt = 189.79 mm, within profile tolerance)",
+    "locked_region_sha256": {
+      "Figure1A": "9e42c65964413e709b86c9234e137a0b45ff55a6376c52fb9b124371c55fddae",
+      "Figure1B_primary": "36f897657139e871748b6cd47d837cfda3f90c61e4b33cf1a454fd2e68c98384",
+      "Figure1C": "a53b6872790b696a6dd63fc5eaebfa5bdea6f56b2b8419db4cb55ce839f2c252",
+      "Figure3A_primary_rows": "7eccb1253bd362805b3d596fb583bf123327547e61e6b34c34b06e7f7b98c4b3",
+      "Figure3A_axis": "db0181c28c9b041d5feb32f971d29e4f68bd4b523b24e479409a15c8c5ca4d5b",
+      "Figure3B": "122d646eb116f79abe875b3e8af697740c017a1b0812cd6867e4dc7f686bef09",
+      "Figure3C_modelbased_IPW_rows": "256e73cb9b63a7b20df0c7b1d419dce4cf5a38f40a30ef976ce0b00779412f9d",
+      "Figure3C_external_axis": "ba123e8c6a4e76298f6af6013c19a30e8db8a3ef72e43b277a69bb67b8f225e9",
+      "FigureS1A_robust_IPW_rows": "9e911726d93e810b62bad8ff663d89a1d07b26d7d7f7e13a9059416cdb8424a4",
+      "FigureS1A_restrictions_axis": "df15bd75c3d8cf3aaff3b32d9075bda17fcbc6fad2a0a1f3c36162e6233b600c",
+      "FigureS1B": "72b7500ea0093b334fdd9b2eec9b1d81949768f09d9e03995a31a5e3231eb8bb",
+      "FigureS1C": "e31cb0c59ee9faf93e1c7cc861cb55e0995c90226acb5ef0426f5182a8d361a4",
+      "FigureS5_primary_cohorts": "3ded166c439c52e3a23ef870c9412d90f1b96ca47e0b7ed770ff4c481bcf9e1b",
+      "FigureS5_TCGA_primary_k3": "c6f67ad7c8448aa79b623ccc0f9a4c205f36bd3f8ef5a5621419ad52c87300c8",
+      "FigureS5_axis": "e2ae5adcc5666a5b1f74ce578f6c979ed3377d3e59fc4bdfbb4f0d48ec22d4a8"
+    },
+    "locked_vector_layout": {
+      "Figure1": {
+        "source": "results/figures/manuscript/Figure1_study_design.pdf",
+        "destination": "results/figures/main/Figure1_study_design.pdf",
+        "baseline_sha256": "c00f5adbe29769acb148534782fbbc43befbd480ed6fdac87c3397209f0f0b19",
+        "page_size_pt": [
+          538,
+          530
+        ],
+        "raster_size_px": [
+          4488,
+          4417
+        ],
+        "baseline_png_sha256": "e903711f1ca45a7d5f76467d7f5dcdc4c4ec9c83e322ed4b0d4f3d955936b056",
+        "preserved_panels": [
+          "Figure1C"
+        ],
+        "regions": [
+          {
+            "name": "Figure1A",
+            "crop_pt": [
+              0,
+              0,
+              252,
+              530
+            ],
+            "place_pt": [
+              0,
+              0
+            ]
+          },
+          {
+            "name": "Figure1B_primary",
+            "crop_pt": [
+              252,
+              0,
+              408,
+              454
+            ],
+            "place_pt": [
+              252,
+              0
+            ]
+          },
+          {
+            "name": "Figure1C",
+            "crop_pt": [
+              408,
+              0,
+              538,
+              530
+            ],
+            "place_pt": [
+              408,
+              0
+            ],
+            "original_png_crop_px": [
+              3400,
+              0,
+              4488,
+              4417
+            ]
+          }
+        ]
+      },
+      "Figure3": {
+        "source": "results/figures/manuscript/Figure3_external_replication.pdf",
+        "destination": "results/figures/main/Figure3_external_replication.pdf",
+        "baseline_sha256": "f4108582e040565eeb299c350b07dec1dca2715b6b32729fcc4a98fe21b543a2",
+        "page_size_pt": [
+          538,
+          651
+        ],
+        "raster_size_px": [
+          4488,
+          5433
+        ],
+        "baseline_png_sha256": "25800120e5c565753c5e14fb9f29a06cd73bb31ee1c9b2bc9fc344714a6fb57f",
+        "preserved_panels": [
+          "Figure3B"
+        ],
+        "regions": [
+          {
+            "name": "Figure3A_primary_rows",
+            "crop_pt": [
+              0,
+              0,
+              538,
+              145
+            ],
+            "place_pt": [
+              0,
+              0
+            ]
+          },
+          {
+            "name": "Figure3A_axis",
+            "crop_pt": [
+              0,
+              165,
+              538,
+              194
+            ],
+            "place_pt": [
+              0,
+              145
+            ]
+          },
+          {
+            "name": "Figure3B",
+            "crop_pt": [
+              0,
+              194,
+              538,
+              448
+            ],
+            "place_pt": [
+              0,
+              194
+            ],
+            "original_png_crop_px": [
+              0,
+              1619,
+              4488,
+              3739
+            ]
+          },
+          {
+            "name": "Figure3C_modelbased_IPW_rows",
+            "crop_pt": [
+              0,
+              448,
+              538,
+              560
+            ],
+            "place_pt": [
+              0,
+              448
+            ]
+          },
+          {
+            "name": "Figure3C_external_axis",
+            "crop_pt": [
+              0,
+              583,
+              538,
+              651
+            ],
+            "place_pt": [
+              0,
+              560
+            ]
+          }
+        ]
+      },
+      "FigureS1": {
+        "source": "results/figures/ov_selection_regimen_power/FigS_selection_regimen_power.pdf",
+        "destination": "results/figures/supplementary/FigureS1_selection_regimen_power.pdf",
+        "baseline_sha256": "2f5d345122bd455b916c0b2afac0bc3dba1dcba3074efd6dde2ebc4b973f8af8",
+        "page_size_pt": [
+          538,
+          510
+        ],
+        "raster_size_px": [
+          4488,
+          4251
+        ],
+        "baseline_png_sha256": "814563db0c6f97316dc13707a9775374fea3b8efff4ba43f10bec54f6d9b44f1",
+        "preserved_panels": [
+          "FigureS1B",
+          "FigureS1C"
+        ],
+        "regions": [
+          {
+            "name": "FigureS1A_robust_IPW_rows",
+            "crop_pt": [
+              0,
+              0,
+              538,
+              74
+            ],
+            "place_pt": [
+              0,
+              0
+            ]
+          },
+          {
+            "name": "FigureS1A_restrictions_axis",
+            "crop_pt": [
+              0,
+              97,
+              538,
+              291
+            ],
+            "place_pt": [
+              0,
+              74
+            ]
+          },
+          {
+            "name": "FigureS1B",
+            "crop_pt": [
+              0,
+              291,
+              264,
+              510
+            ],
+            "place_pt": [
+              0,
+              291
+            ],
+            "original_png_crop_px": [
+              0,
+              2425,
+              2200,
+              4251
+            ]
+          },
+          {
+            "name": "FigureS1C",
+            "crop_pt": [
+              264,
+              291,
+              538,
+              510
+            ],
+            "place_pt": [
+              264,
+              291
+            ],
+            "original_png_crop_px": [
+              2200,
+              2425,
+              4488,
+              4251
+            ]
+          }
+        ]
+      },
+      "FigureS5": {
+        "source": "results/figures/phase4_external_validation/forest_general_proliferation.pdf",
+        "destination": "results/figures/supplementary/FigureS5_external_proliferation.pdf",
+        "baseline_sha256": "906d0f4fb0fbacb53e0dbf99a87019fdb4d14c90c33ff14d30ab6eda7370d465",
+        "page_size_pt": [
+          538,
+          240
+        ],
+        "raster_size_px": [
+          4488,
+          2007
+        ],
+        "baseline_png_sha256": "3ffd90e4d28f5c160af06407938d82fd6efd091617a3f81bffaef78fdd0ceede",
+        "preserved_panels": [],
+        "regions": [
+          {
+            "name": "FigureS5_primary_cohorts",
+            "crop_pt": [
+              0,
+              0,
+              538,
+              94
+            ],
+            "place_pt": [
+              0,
+              0
+            ]
+          },
+          {
+            "name": "FigureS5_TCGA_primary_k3",
+            "crop_pt": [
+              0,
+              117,
+              538,
+              161
+            ],
+            "place_pt": [
+              0,
+              94
+            ]
+          },
+          {
+            "name": "FigureS5_axis",
+            "crop_pt": [
+              0,
+              206,
+              538,
+              240
+            ],
+            "place_pt": [
+              0,
+              138
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

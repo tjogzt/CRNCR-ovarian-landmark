@@ -1,0 +1,17 @@
+package,version
+R,4.5.0
+survival,3.8.3
+survminer,0.5.1
+survRM2,1.0.4
+mice,3.19.0
+timeROC,0.4
+metafor,4.8.0
+coxphf,1.13.4
+limma,3.64.3
+GSVA,2.2.1
+WGCNA,1.73
+curatedOvarianData,1.46.2
+GEOquery,2.76.0
+ggplot2,4.0.3
+patchwork,1.3.2
+dplyr,1.2.0

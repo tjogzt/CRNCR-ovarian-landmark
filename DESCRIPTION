@@ -1,0 +1,44 @@
+Package: crnoncrOvarianTopology
+Type: Project
+Title: Response Topology after First-Line Chemotherapy in Ovarian Cancer
+Version: 1.0.0
+Authors@R: c(person("Qingqing", "Mo", role = "aut"), person("Pingbo", "Chen", role = "aut"), person("Cheng", "Xu", role = "aut"), person("Ya", "Wang", role = "aut"), person("Ting", "Hu", role = "aut"), person("Qian", "Sun", role = "aut"), person("Tao", "Zhu", email = "zhutao@tjh.tjmu.edu.cn", role = c("aut", "cre")))
+Description: Reproducible clinical, survival, molecular, and external-validation analyses supporting the complete-response threshold manuscript.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.5.0)
+Imports:
+    Biobase,
+    BiocParallel,
+    coxphf,
+    curatedOvarianData,
+    curl,
+    data.table,
+    dplyr,
+    dynamicTreeCut,
+    estimate,
+    fgsea,
+    GEOquery,
+    ggplot2,
+    GSVA,
+    jsonlite,
+    limma,
+    matrixStats,
+    metafor,
+    mice,
+    msigdbr,
+    patchwork,
+    pheatmap,
+    purrr,
+    ragg,
+    readr,
+    stringr,
+    survival,
+    survminer,
+    survRM2,
+    sva,
+    tidyr,
+    timeROC,
+    WGCNA,
+    yaml

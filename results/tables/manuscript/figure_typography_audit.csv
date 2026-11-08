@@ -1,0 +1,19 @@
+figure,file_type,width_mm,height_mm,dpi,min_text_pt,text_spans,unembedded_fonts,status,detail
+results/figures/main/Figure1_study_design.png,png,189.99,186.99,600,,,,PASS,meets figure specification
+results/figures/main/Figure1_study_design.pdf,pdf,189.79,186.97,,8.00,93,,PASS,meets figure specification
+results/figures/main/Figure2_therapy_end_topology.png,png,189.99,214.97,600,,,,PASS,meets figure specification
+results/figures/main/Figure2_therapy_end_topology.pdf,pdf,189.79,214.84,,8.00,149,,PASS,meets figure specification
+results/figures/main/Figure3_external_replication.png,png,189.99,230.00,600,,,,PASS,meets figure specification
+results/figures/main/Figure3_external_replication.pdf,pdf,189.79,229.66,,8.00,106,,PASS,meets figure specification
+results/figures/supplementary/FigureS1_selection_regimen_power.png,png,189.99,179.96,600,,,,PASS,meets figure specification
+results/figures/supplementary/FigureS1_selection_regimen_power.pdf,pdf,189.79,179.92,,8.00,65,,PASS,meets figure specification
+results/figures/supplementary/FigureS2_hgsoc_four_state.png,png,119.97,44.96,600,,,,PASS,meets figure specification
+results/figures/supplementary/FigureS2_hgsoc_four_state.pdf,pdf,119.94,44.80,,8.00,15,,PASS,meets figure specification
+results/figures/supplementary/FigureS3_pancancer_dichotomy.png,png,189.99,149.99,600,,,,PASS,meets figure specification
+results/figures/supplementary/FigureS3_pancancer_dichotomy.pdf,pdf,189.79,149.93,,8.00,56,,PASS,meets figure specification
+results/figures/supplementary/FigureS4_pancancer_four_state.png,png,189.99,129.96,600,,,,PASS,meets figure specification
+results/figures/supplementary/FigureS4_pancancer_four_state.pdf,pdf,189.79,129.82,,8.00,44,,PASS,meets figure specification
+results/figures/supplementary/FigureS5_external_proliferation.png,png,189.99,84.96,600,,,,PASS,meets figure specification
+results/figures/supplementary/FigureS5_external_proliferation.pdf,pdf,189.79,84.67,,8.00,16,,PASS,meets figure specification
+results/figures/supplementary/FigureS6_calibration.png,png,189.99,167.98,600,,,,PASS,meets figure specification
+results/figures/supplementary/FigureS6_calibration.pdf,pdf,189.79,167.92,,8.00,60,,PASS,meets figure specification

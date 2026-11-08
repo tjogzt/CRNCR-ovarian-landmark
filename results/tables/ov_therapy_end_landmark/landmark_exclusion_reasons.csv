@@ -1,0 +1,6 @@
+reason,CR,PR,SD,PD
+death/censoring before therapy end,7,1,2,1
+implausible end date (<60 or >365 d),4,3,3,4
+included,273,51,18,30
+no first-line regimen record,26,4,3,2
+no therapy end date,9,4,4,4

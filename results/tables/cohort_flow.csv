@@ -1,0 +1,9 @@
+step,n
+OV clinical-matrix rows,630
+Primary-tumor clinical rows,595
+HT_HG-U133A expression samples,593
+Expression-linked primary tumors,567
+Canonical CR/PR/SD/PD available,454
+Response plus usable OS,453
+Response plus usable PFI,453
+Response plus OS and complete adjustment covariates,408

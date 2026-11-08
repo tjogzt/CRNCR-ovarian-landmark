@@ -1,0 +1,12 @@
+flag,definition,labelled_n,labelled_flagged,landmark_n,landmark_flagged,landmark_CR,landmark_PR,landmark_SD,landmark_PD
+regimen_end_missing_some,At least one first-line regimen record lacks an end date,454,23,372,2,2,0,0,0
+duplicate_regimen_records,Identical type/agent/start/end records within the first-line regimen,454,27,372,25,21,0,3,1
+non_chemotherapy_record_in_regimen,"Hormonal, targeted, immunotherapy or unspecified pharmaceutical record in the regimen",454,19,372,14,10,1,1,2
+bevacizumab_in_regimen,Bevacizumab recorded within the first-line regimen window,454,10,372,8,5,1,1,1
+bevacizumab_sets_end,The first-line systemic end is set only by a bevacizumab record,454,4,372,3,2,0,1,0
+radiotherapy_extends_end,Radiotherapy ends after the systemic regimen and sets the therapy end,454,3,372,3,2,0,1,0
+later_systemic_start,"Systemic record starting >42 days after the first start, within the start window",454,153,372,141,81,32,9,19
+later_systemic_before_end,Such a later systemic record starts before the computed first-line end (possible switch),454,13,372,11,7,2,1,1
+duration_outside_standard,First-line regimen duration outside 84-210 days,454,65,372,46,28,6,4,8
+start_before_diagnosis,First-line start recorded before the diagnosis date,454,1,372,1,1,0,0,0
+therapy_end_not_plausible,Therapy end missing or outside 60-365 days,454,70,372,0,0,0,0,0

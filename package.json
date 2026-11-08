@@ -1,0 +1,13 @@
+{
+  "name": "crnoncr-ovarian-response-topology",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DOCX build dependency for the ESMO Open submission package.",
+  "scripts": {
+    "build:docx": "node scripts/22_generate_submission_docx.js",
+    "check": "python3 scripts/27_validate_repository_structure.py && node --check scripts/22_generate_submission_docx.js"
+  },
+  "dependencies": {
+    "docx": "9.11.0"
+  }
+}

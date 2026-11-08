@@ -1,0 +1,49 @@
+check,passed,detail
+Locked statistics unchanged: results/tables/ov_therapy_end_landmark,True,[]
+Locked statistics unchanged: results/tables/ov_selection_regimen_power,True,[]
+Locked statistics unchanged: results/tables/ov_hgsoc_sensitivity,True,[]
+Locked statistics unchanged: results/tables/phase4_external_validation,True,[]
+Locked statistics unchanged: results/tables/pancancer_topology,True,[]
+Unchanged artwork: results/figures/main/Figure2_therapy_end_topology,True,
+Unchanged artwork: results/figures/supplementary/FigureS2_hgsoc_four_state,True,
+Unchanged artwork: results/figures/supplementary/FigureS3_pancancer_dichotomy,True,
+Unchanged artwork: results/figures/supplementary/FigureS4_pancancer_four_state,True,
+Supplementary Data 1 unchanged,True,
+Table 2 removes only date-scenario inferential row,True,"[('TCGA-OV', 'End of chemotherapy, missing dates imputed (200 draws)', 'none')]"
+All retained Table 2 rows identical,True,
+Retracted cohort absent: results/tables/manuscript/SupplementaryData2_external_samples.csv,True,148 rows
+Retracted cohort absent: data/supplementary/SupplementaryData2_external_samples.csv,True,148 rows
+Retracted cohort absent: results/tables/supplementary/TableS1_external_cohorts.csv,True,3 rows
+No blanket molecular FDR denial,True,
+No claim to avoid guarantee-time bias,True,
+Isolated four-category FDR association retained,True,
+Descriptive date results retained,True,
+Uncalibrated date interval not in submission prose,True,
+Old retracted pooled support removed,True,
+Core primary values retained,True,
+Valid editable DOCX: manuscript,True,
+No stale date-pooled wording in DOCX: manuscript,True,
+PDF text present and no replacement glyph: manuscript,True,18 pages
+Valid editable DOCX: supplementary_appendix,True,
+No stale date-pooled wording in DOCX: supplementary_appendix,True,
+PDF text present and no replacement glyph: supplementary_appendix,True,18 pages
+Valid editable DOCX: cover_letter,True,
+No stale date-pooled wording in DOCX: cover_letter,True,
+PDF text present and no replacement glyph: cover_letter,True,2 pages
+No removed result labels in figure: main/Figure1_study_design,True,"TCGA-OV clinical records, n = 630 Sources: TCGA-CDR, Xena, GDC Primary tumours n"
+Figure text >= 8 pt: main/Figure1_study_design,True,8.0000 pt
+No removed result labels in figure: main/Figure3_external_replication,True,"External REML (k=3, I²=80%) GSE30161, 6-month landmark GSE23554, 6-month landmar"
+Figure text >= 8 pt: main/Figure3_external_replication,True,8.0000 pt
+No removed result labels in figure: supplementary/FigureS1_selection_regimen_power,True,IPW (robust SE) Main (complete cases) A 1.22 (0.75–1.98) 1.14 (0.71–1.82) 0.67 0
+Figure text >= 8 pt: supplementary/FigureS1_selection_regimen_power,True,8.0000 pt
+No removed result labels in figure: supplementary/FigureS5_external_proliferation,True,GSE30161 (CR 26 / NCR 19) GSE23554 (CR 18 / NCR 10) GSE63885 (CR 47 / NCR 23) 0.
+Figure text >= 8 pt: supplementary/FigureS5_external_proliferation,True,8.0000 pt
+DOCX/PDF non-table body parity: manuscript,True,36367/36367 alphanumeric characters; headers/footers and image/table layout excluded
+DOCX/PDF non-table body parity: supplementary_appendix,True,20262/20262 alphanumeric characters; headers/footers and image/table layout excluded
+DOCX/PDF non-table body parity: cover_letter,True,4052/4052 alphanumeric characters; headers/footers and image/table layout excluded
+Illustrated review prefix matches upload PDF,True,18 shared pages; 21 total
+Source-drift rejection: results/tables/manuscript/Table2_model_comparison_formatted.csv,True,3.86 -> 3.87 in isolated disposable copy
+Source-drift rejection: results/tables/manuscript/Figure1_flow_counts.csv,True,630 -> 631 in isolated disposable copy
+Source-drift rejection: results/tables/manuscript/TableS1_external_cohorts.csv,True,GSE63885 -> GSE63886 in isolated disposable copy
+Scientific code/configuration unchanged,True,23 files
+Pre-revision snapshot checksum inventory unchanged,True,320 verified entries; 321 physical files

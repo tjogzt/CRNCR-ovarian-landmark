@@ -1,0 +1,24 @@
+panel,gene,interpretation
+BRCA,BRCA1,BRCA1/2 only
+BRCA,BRCA2,BRCA1/2 only
+HRR_core,BRCA1,"BRCA1/2, PALB2, RAD51C/D and BRIP1"
+HRR_core,BRCA2,"BRCA1/2, PALB2, RAD51C/D and BRIP1"
+HRR_core,PALB2,"BRCA1/2, PALB2, RAD51C/D and BRIP1"
+HRR_core,RAD51C,"BRCA1/2, PALB2, RAD51C/D and BRIP1"
+HRR_core,RAD51D,"BRCA1/2, PALB2, RAD51C/D and BRIP1"
+HRR_core,BRIP1,"BRCA1/2, PALB2, RAD51C/D and BRIP1"
+HRR_extended_15,BRCA1,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,BRCA2,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,ATM,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,BARD1,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,BRIP1,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,CDK12,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,CHEK1,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,CHEK2,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,FANCL,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,PALB2,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,PPP2R2A,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,RAD51B,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,RAD51C,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,RAD51D,broad prespecified 15-gene HRR sensitivity panel
+HRR_extended_15,RAD54L,broad prespecified 15-gene HRR sensitivity panel

@@ -1,0 +1,6 @@
+label_source,in_landmark,n
+TCGA-CDR only,FALSE,5
+TCGA-CDR only,TRUE,65
+"TCGA-CDR, concordant clinical-matrix label",FALSE,77
+"TCGA-CDR, concordant clinical-matrix label",TRUE,306
+"TCGA-CDR, discordant clinical-matrix label",TRUE,1

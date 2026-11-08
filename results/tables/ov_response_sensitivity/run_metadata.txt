@@ -1,0 +1,10 @@
+R version: R version 4.5.0 (2025-04-11)
+survival: 3.8.3
+riskRegression: 2025.9.17
+seed: 20261101
+landmark n: 372 events: 220
+covariate-complete n: 343 events: 207
+bootstrap requested: 1000
+bootstrap valid: 978, 985
+deaths by 36 months: 114
+deaths by 60 months: 178

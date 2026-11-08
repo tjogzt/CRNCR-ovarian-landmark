@@ -1,0 +1,25 @@
+{
+  "description": "Ordered scientific stages. Existing stage names and boundaries are preserved for manuscript traceability; build and audit utilities are invoked separately.",
+  "analysis_stages": [
+    "01_download_gdc_treatments.R",
+    "02_prepare_clinical_cohort.R",
+    "03_run_clinical_sensitivity.R",
+    "04_run_expression_qc.R",
+    "05_fit_molecular_topology.R",
+    "06_validate_molecular_topology.R",
+    "07_run_pathway_enrichment.R",
+    "08_fit_wgcna_network.R",
+    "09_integrate_multiscale_results.R",
+    "10_run_wgcna_sensitivity.R",
+    "11_prepare_hrr_mutations.R",
+    "12_integrate_replication_multiomics.R",
+    "13_inventory_external_cohorts.R",
+    "14_validate_locked_scores.R",
+    "15_audit_pancancer_labels.R",
+    "16_fit_pancancer_topology.R",
+    "17_fit_therapy_end_landmark.R",
+    "18_analyze_selection_regimen_power.R",
+    "19_analyze_hgsoc_sensitivity.R",
+    "20_build_manuscript_outputs.R"
+  ]
+}

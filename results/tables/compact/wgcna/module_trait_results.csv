@@ -1,0 +1,181 @@
+"module","adjustment","test","contrast","n","estimate","standard_error","statistic","statistic_type","numerator_df","denominator_df","p_value","interpretation","FDR"
+"black","full","M1_global","response4PR;response4SD;response4PD",390,,,0.506882687945449,"moderated_F",3,5520,0.677513032967697,,0.980481867161027
+"blue","full","M1_global","response4PR;response4SD;response4PD",390,,,0.586731559021706,"moderated_F",3,5520,0.623635085361784,,0.980481867161027
+"brown","full","M1_global","response4PR;response4SD;response4PD",390,,,0.318775588927754,"moderated_F",3,5520,0.811817883684416,,0.980481867161027
+"cyan","full","M1_global","response4PR;response4SD;response4PD",390,,,0.931592847399853,"moderated_F",3,5520,0.424360183430262,,0.980481867161027
+"green","full","M1_global","response4PR;response4SD;response4PD",390,,,0.127587133896269,"moderated_F",3,5520,0.943780106660648,,0.980481867161027
+"greenyellow","full","M1_global","response4PR;response4SD;response4PD",390,,,1.12487568588095,"moderated_F",3,5520,0.337390274114588,,0.980481867161027
+"magenta","full","M1_global","response4PR;response4SD;response4PD",390,,,0.235807830492623,"moderated_F",3,5520,0.871456495461433,,0.980481867161027
+"midnightblue","full","M1_global","response4PR;response4SD;response4PD",390,,,1.46668387057183,"moderated_F",3,5520,0.221380601632324,,0.980481867161027
+"pink","full","M1_global","response4PR;response4SD;response4PD",390,,,0.0605799037801368,"moderated_F",3,5520,0.980481867161027,,0.980481867161027
+"purple","full","M1_global","response4PR;response4SD;response4PD",390,,,0.313143577298826,"moderated_F",3,5520,0.815903326450104,,0.980481867161027
+"red","full","M1_global","response4PR;response4SD;response4PD",390,,,0.219257987777388,"moderated_F",3,5520,0.883088057154132,,0.980481867161027
+"salmon","full","M1_global","response4PR;response4SD;response4PD",390,,,0.694499786798822,"moderated_F",3,5520,0.555258161401544,,0.980481867161027
+"tan","full","M1_global","response4PR;response4SD;response4PD",390,,,0.456753064473997,"moderated_F",3,5520,0.712520707063157,,0.980481867161027
+"turquoise","full","M1_global","response4PR;response4SD;response4PD",390,,,0.798526063416701,"moderated_F",3,5520,0.494458271989685,,0.980481867161027
+"yellow","full","M1_global","response4PR;response4SD;response4PD",390,,,0.479939419417556,"moderated_F",3,5520,0.696228223046553,,0.980481867161027
+"black","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.0249589498880693,"moderated_F",2,5520,0.975349949431153,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"blue","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.703330779193642,"moderated_F",2,5520,0.494934039318953,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"brown","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.0757612446728683,"moderated_F",2,5520,0.927037515284237,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"cyan","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.703812147969601,"moderated_F",2,5520,0.494695850859108,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"green","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.191372575677442,"moderated_F",2,5520,0.825824848574207,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"greenyellow","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.886188676820399,"moderated_F",2,5520,0.412223880965107,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"magenta","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.259785470230489,"moderated_F",2,5520,0.771217017066881,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"midnightblue","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,1.12932969488835,"moderated_F",2,5520,0.32324985985235,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"pink","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.0896549570825738,"moderated_F",2,5520,0.914246585163841,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"purple","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.247107032071096,"moderated_F",2,5520,0.781057090899292,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"red","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.326089893981665,"moderated_F",2,5520,0.721740304405772,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"salmon","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.823101469350178,"moderated_F",2,5520,0.439067785321205,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"tan","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.029782050477041,"moderated_F",2,5520,0.970657064740327,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"turquoise","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.0121038968313234,"moderated_F",2,5520,0.987969060674555,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"yellow","full","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",390,,,0.160671989688438,"moderated_F",2,5520,0.851571349485215,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.987969060674555
+"black","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,-0.00627917777997925,0.00750405611348914,-0.836771165489013,"moderated_t",1,5550,0.40275723532353,,0.863051218550422
+"blue","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,-0.00641207281547162,0.00750405611348914,-0.854480925848277,"moderated_t",1,5550,0.392875454783527,,0.863051218550422
+"brown","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,0.00656003383389811,0.00750405611348914,0.874198398131102,"moderated_t",1,5550,0.382048043683734,,0.863051218550422
+"salmon","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,-0.010510845977758,0.00750405611348914,-1.40068861676872,"moderated_t",1,5550,0.161363113989965,,0.863051218550422
+"tan","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,0.00683135231850599,0.00750405611348914,0.910354642234897,"moderated_t",1,5550,0.362675044326254,,0.863051218550422
+"turquoise","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,-0.0077469893256126,0.00750405611348914,-1.03237358682417,"moderated_t",1,5550,0.301942124411603,,0.863051218550422
+"yellow","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,0.0066001255162927,0.00750405611348914,0.879541066387877,"moderated_t",1,5550,0.379146056816952,,0.863051218550422
+"cyan","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,0.00112720364499986,0.00750405611348914,0.150212582095918,"moderated_t",1,5550,0.880602357960141,,0.999121959902916
+"green","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,0.00322489647031939,0.00750405611348914,0.429753778696082,"moderated_t",1,5550,0.66739144254321,,0.999121959902916
+"greenyellow","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,-0.000686532777721394,0.00750405611348914,-0.0914882254794573,"moderated_t",1,5550,0.927107963460676,,0.999121959902916
+"magenta","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,-0.00378767808809415,0.00750405611348914,-0.504750768225933,"moderated_t",1,5550,0.613753938177479,,0.999121959902916
+"midnightblue","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,0.000981397497354833,0.00750405611348914,0.130782270616379,"moderated_t",1,5550,0.89595228851005,,0.999121959902916
+"pink","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,-0.00204005905941672,0.00750405611348914,-0.271860848128461,"moderated_t",1,5550,0.785739128527297,,0.999121959902916
+"purple","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,-8.25828774571788e-06,0.00750405611348914,-0.0011005098603771,"moderated_t",1,5550,0.999121959902916,,0.999121959902916
+"red","full","M2_SD_PD_minus_CR_PR","response_m2SD.PD",390,0.000201491135794284,0.00750405611348914,0.0268509633652776,"moderated_t",1,5550,0.978579570334324,,0.999121959902916
+"black","full","M3_NonCR_minus_CR","response_m3Non.CR",390,-0.00709845376987578,0.0058426939416956,-1.21492822330101,"moderated_t",1,5550,0.224445152252802,,0.620191069735972
+"cyan","full","M3_NonCR_minus_CR","response_m3Non.CR",390,-0.00689381518355385,0.0058426939416956,-1.1799035260699,"moderated_t",1,5550,0.238089157969048,,0.620191069735972
+"greenyellow","full","M3_NonCR_minus_CR","response_m3Non.CR",390,-0.00740904714716132,0.0058426939416956,-1.26808749886549,"moderated_t",1,5550,0.20481989752773,,0.620191069735972
+"midnightblue","full","M3_NonCR_minus_CR","response_m3Non.CR",390,-0.00856535502709615,0.0058426939416956,-1.46599413088724,"moderated_t",1,5550,0.142706537721696,,0.620191069735972
+"tan","full","M3_NonCR_minus_CR","response_m3Non.CR",390,0.0067011308001389,0.0058426939416956,1.14692483758514,"moderated_t",1,5550,0.251462127822989,,0.620191069735972
+"turquoise","full","M3_NonCR_minus_CR","response_m3Non.CR",390,-0.00901357248095195,0.0058426939416956,-1.54270830731485,"moderated_t",1,5550,0.1229585776069,,0.620191069735972
+"yellow","full","M3_NonCR_minus_CR","response_m3Non.CR",390,0.0061902795076062,0.0058426939416956,1.0594906338376,"moderated_t",1,5550,0.28942249921012,,0.620191069735972
+"brown","full","M3_NonCR_minus_CR","response_m3Non.CR",390,0.00525100457128048,0.0058426939416956,0.898730041943049,"moderated_t",1,5550,0.368835459476395,,0.691566486518241
+"blue","full","M3_NonCR_minus_CR","response_m3Non.CR",390,-0.0034802649728859,0.0058426939416956,-0.595661009735503,"moderated_t",1,5550,0.551425999204448,,0.751944544369701
+"purple","full","M3_NonCR_minus_CR","response_m3Non.CR",390,-0.00390555686751247,0.0058426939416956,-0.668451386720943,"moderated_t",1,5550,0.503873302426426,,0.751944544369701
+"salmon","full","M3_NonCR_minus_CR","response_m3Non.CR",390,-0.00387066174483895,0.0058426939416956,-0.662478949516163,"moderated_t",1,5550,0.507691829840743,,0.751944544369701
+"magenta","full","M3_NonCR_minus_CR","response_m3Non.CR",390,-0.00253691436113879,0.0058426939416956,-0.434202849996033,"moderated_t",1,5550,0.664158022433098,,0.830197528041373
+"green","full","M3_NonCR_minus_CR","response_m3Non.CR",390,2.35954575407941e-05,0.0058426939416956,0.00403845516747135,"moderated_t",1,5550,0.996777932873962,,0.996777932873962
+"pink","full","M3_NonCR_minus_CR","response_m3Non.CR",390,-0.000288524216140733,0.0058426939416956,-0.0493820520157182,"moderated_t",1,5550,0.960616608074377,,0.996777932873962
+"red","full","M3_NonCR_minus_CR","response_m3Non.CR",390,0.000437789455212185,0.0058426939416956,0.0749293835311071,"moderated_t",1,5550,0.940273598073889,,0.996777932873962
+"black","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.560493807365825,"moderated_F",3,6150,0.641058717234218,,0.928160985095369
+"blue","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.625608016238674,"moderated_F",3,6150,0.598361508224555,,0.928160985095369
+"brown","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.46550266928525,"moderated_F",3,6150,0.706353477425312,,0.928160985095369
+"cyan","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.62002141768268,"moderated_F",3,6150,0.601952305608578,,0.928160985095369
+"greenyellow","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,1.08252930190155,"moderated_F",3,6150,0.355004302127947,,0.928160985095369
+"magenta","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.328988076073946,"moderated_F",3,6150,0.804406187082653,,0.928160985095369
+"midnightblue","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,1.54679387319075,"moderated_F",3,6150,0.20010518951603,,0.928160985095369
+"purple","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.373290575811234,"moderated_F",3,6150,0.772279264405635,,0.928160985095369
+"red","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.340371835908632,"moderated_F",3,6150,0.796142810052056,,0.928160985095369
+"salmon","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.720390731865512,"moderated_F",3,6150,0.539636672497959,,0.928160985095369
+"tan","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.631307242347765,"moderated_F",3,6150,0.594712777082224,,0.928160985095369
+"turquoise","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.511194702979015,"moderated_F",3,6150,0.674541106847281,,0.928160985095369
+"yellow","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,1.2281037765092,"moderated_F",3,6150,0.29763246514268,,0.928160985095369
+"green","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.158686403501947,"moderated_F",3,6150,0.924118723548079,,0.9646494692855
+"pink","pre_residual","M1_global","response4PR;response4SD;response4PD",429,,,0.0916852275350478,"moderated_F",3,6150,0.9646494692855,,0.9646494692855
+"black","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.129304779171222,"moderated_F",2,6150,0.878706113408788,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"blue","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.868195965060546,"moderated_F",2,6150,0.41970803463829,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"brown","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.0654915774305605,"moderated_F",2,6150,0.936606935363357,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"cyan","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.864749922624809,"moderated_F",2,6150,0.421156861261527,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"green","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.226723463239131,"moderated_F",2,6150,0.797141190656047,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"greenyellow","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,1.38526576257479,"moderated_F",2,6150,0.250257281933502,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"magenta","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.450692239162668,"moderated_F",2,6150,0.637186913182885,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"midnightblue","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,2.11162802755436,"moderated_F",2,6150,0.121040748265259,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"pink","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.131705913753808,"moderated_F",2,6150,0.876598752812644,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"purple","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.442168972458303,"moderated_F",2,6150,0.642641037644833,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"red","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.505266705341396,"moderated_F",2,6150,0.603344638728805,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"salmon","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.460482042327383,"moderated_F",2,6150,0.630979413401474,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"tan","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.0702951973820493,"moderated_F",2,6150,0.932118620312371,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"turquoise","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.00520343980471348,"moderated_F",2,6150,0.994810074637498,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"yellow","pre_residual","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",429,,,0.159888704345384,"moderated_F",2,6150,0.852238634144862,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.994810074637498
+"black","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,-0.00435356832773391,0.00701808922888266,-0.620335277274187,"moderated_t",1,6180,0.535059947766868,,0.869428328476602
+"blue","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,-0.00361159803823208,0.00701808922888266,-0.514612727260392,"moderated_t",1,6180,0.606842072492917,,0.869428328476602
+"brown","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,0.00700093100353294,0.00701808922888266,0.997555142890018,"moderated_t",1,6180,0.318534178311208,,0.869428328476602
+"cyan","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,0.00521531161586592,0.00701808922888266,0.743124153281282,"moderated_t",1,6180,0.457434765246713,,0.869428328476602
+"green","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,0.00337391375667697,0.00701808922888266,0.480745349146,"moderated_t",1,6180,0.630714514154596,,0.869428328476602
+"greenyellow","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,0.00251473912690149,0.00701808922888266,0.358322478510558,"moderated_t",1,6180,0.720114236732477,,0.869428328476602
+"midnightblue","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,0.00699004409766978,0.00701808922888266,0.996003879361142,"moderated_t",1,6180,0.319287255781953,,0.869428328476602
+"pink","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,-0.00181695055438523,0.00701808922888266,-0.258895333919045,"moderated_t",1,6180,0.795724620855542,,0.869428328476602
+"purple","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,0.00167412907057974,0.00701808922888266,0.238544854016664,"moderated_t",1,6180,0.811466439911495,,0.869428328476602
+"red","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,0.00216314103948185,0.00701808922888266,0.308223644489946,"moderated_t",1,6180,0.757922550044737,,0.869428328476602
+"salmon","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,-0.0100794919428808,0.00701808922888266,-1.43621598616887,"moderated_t",1,6180,0.15099150763279,,0.869428328476602
+"tan","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,0.00800712025171239,0.00701808922888266,1.14092596867526,"moderated_t",1,6180,0.253944941498535,,0.869428328476602
+"turquoise","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,-0.00562635374511222,0.00701808922888266,-0.801693105006017,"moderated_t",1,6180,0.422761328833501,,0.869428328476602
+"yellow","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,0.0108936747302767,0.00701808922888266,1.55222801748434,"moderated_t",1,6180,0.120658880088016,,0.869428328476602
+"magenta","pre_residual","M2_SD_PD_minus_CR_PR","response_m2SD.PD",429,0.000499864487083177,0.00701808922888266,0.0712251541382525,"moderated_t",1,6180,0.943220866833791,,0.943220866833791
+"black","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,-0.00640057517691992,0.00535983559613784,-1.19417378800425,"moderated_t",1,6180,0.232455827078156,,0.662352558606765
+"brown","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,0.0060363087638279,0.00535983559613784,1.12621155174564,"moderated_t",1,6180,0.260119715553769,,0.662352558606765
+"salmon","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,-0.0059756257594017,0.00535983559613784,-1.11488974842952,"moderated_t",1,6180,0.264941023442706,,0.662352558606765
+"tan","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,0.0071050657948754,0.00535983559613784,1.32561263632697,"moderated_t",1,6180,0.185017037131671,,0.662352558606765
+"turquoise","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,-0.00662233774518705,0.00535983559613784,-1.23554867055231,"moderated_t",1,6180,0.21667333931312,,0.662352558606765
+"yellow","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,0.00984234451359864,0.00535983559613784,1.83631462888354,"moderated_t",1,6180,0.0663591442244486,,0.662352558606765
+"blue","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,-0.00201080210393887,0.00535983559613784,-0.375161153336084,"moderated_t",1,6180,0.707553493267418,,0.917978869452526
+"cyan","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,-0.00193886918667134,0.00535983559613784,-0.361740421304796,"moderated_t",1,6180,0.71755838509869,,0.917978869452526
+"green","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,0.000806878833625186,0.00535983559613784,0.150541713295572,"moderated_t",1,6180,0.880342156293243,,0.917978869452526
+"greenyellow","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,-0.00370613266673432,0.00535983559613784,-0.691463870534548,"moderated_t",1,6180,0.489300051757139,,0.917978869452526
+"magenta","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,0.00156971791029573,0.00535983559613784,0.292866802001693,"moderated_t",1,6180,0.76963379749444,,0.917978869452526
+"midnightblue","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,-0.00346552878716628,0.00535983559613784,-0.646573710145784,"moderated_t",1,6180,0.517931888466347,,0.917978869452526
+"pink","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,-0.000579007918514454,0.00535983559613784,-0.10802717884326,"moderated_t",1,6180,0.913977639641824,,0.917978869452526
+"purple","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,-0.00260413029780393,0.00535983559613784,-0.485860107291426,"moderated_t",1,6180,0.62708357977696,,0.917978869452526
+"red","pre_residual","M3_NonCR_minus_CR","response_m3Non.CR",429,0.000551978264984221,0.00535983559613784,0.102984178354643,"moderated_t",1,6180,0.917978869452526,,0.917978869452526
+"black","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.597959798766128,"moderated_F",3,6420,0.616267752737457,,0.927726558192911
+"blue","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.649230315461246,"moderated_F",3,6420,0.583334311360064,,0.927726558192911
+"brown","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.43661988961134,"moderated_F",3,6420,0.726793142483667,,0.927726558192911
+"cyan","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.488565808921646,"moderated_F",3,6420,0.69020967039207,,0.927726558192911
+"greenyellow","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.810006368144713,"moderated_F",3,6420,0.488071039802146,,0.927726558192911
+"magenta","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.330710580923985,"moderated_F",3,6420,0.803155834942202,,0.927726558192911
+"midnightblue","response_only","M1_global","response4PR;response4SD;response4PD",432,,,1.21631118569034,"moderated_F",3,6420,0.301953411269547,,0.927726558192911
+"purple","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.330407438950146,"moderated_F",3,6420,0.803375885555335,,0.927726558192911
+"red","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.329506758096636,"moderated_F",3,6420,0.804029683767189,,0.927726558192911
+"salmon","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.709515940744765,"moderated_F",3,6420,0.546158969418535,,0.927726558192911
+"tan","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.480207334921194,"moderated_F",3,6420,0.696040937710489,,0.927726558192911
+"turquoise","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.698945503972012,"moderated_F",3,6420,0.552553023610391,,0.927726558192911
+"yellow","response_only","M1_global","response4PR;response4SD;response4PD",432,,,2.18130787762516,"moderated_F",3,6420,0.0879462669238477,,0.927726558192911
+"green","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.0417392510979126,"moderated_F",3,6420,0.988648278489435,,0.988648278489435
+"pink","response_only","M1_global","response4PR;response4SD;response4PD",432,,,0.0476725263582316,"moderated_F",3,6420,0.986216937790092,,0.988648278489435
+"black","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.056039847715716,"moderated_F",2,6420,0.945501459066384,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"blue","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.953900386591262,"moderated_F",2,6420,0.385235521880007,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"brown","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.0465354614533158,"moderated_F",2,6420,0.954530710923551,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"cyan","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.635770219489955,"moderated_F",2,6420,0.52952747882465,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"green","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.0338093573317504,"moderated_F",2,6420,0.966755791974161,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"greenyellow","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.91338921854444,"moderated_F",2,6420,0.401162290717468,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"magenta","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.46154146004638,"moderated_F",2,6420,0.630311296600472,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"midnightblue","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,1.70028628518015,"moderated_F",2,6420,0.182631231952724,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"pink","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.071244785183534,"moderated_F",2,6420,0.931233911961594,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"purple","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.440161743145683,"moderated_F",2,6420,0.643932261030276,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"red","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.442921254755567,"moderated_F",2,6420,0.642157771967615,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"salmon","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.439400172091317,"moderated_F",2,6420,0.64442284798595,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"tan","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.010589490571365,"moderated_F",2,6420,0.989466380693925,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"turquoise","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.00695151423350618,"moderated_F",2,6420,0.993072591651752,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"yellow","response_only","M1_plateau_constraint_PR_eq_SD_eq_PD","PR_minus_SD;PR_minus_PD",432,,,0.125008650305804,"moderated_F",2,6420,0.882489268749535,"plateau constraint not rejected after BH; this is not evidence of equivalence",0.993072591651752
+"yellow","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,0.0121746374508373,0.00637910662573146,1.90851762874262,"moderated_t",1,6450,0.0563686909913963,,0.845530364870945
+"black","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,-0.00462690868955943,0.00637910662573146,-0.725322362679412,"moderated_t",1,6450,0.468280603298101,,0.923427829848533
+"blue","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,-0.00206741598806663,0.00637910662573146,-0.324091774814874,"moderated_t",1,6450,0.745879062559522,,0.923427829848533
+"brown","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,0.00488263975204017,0.00637910662573146,0.765411214847079,"moderated_t",1,6450,0.444054722745797,,0.923427829848533
+"cyan","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,0.00352785012217672,0.00637910662573146,0.553032004191057,"moderated_t",1,6450,0.580260661649057,,0.923427829848533
+"green","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,-0.000613163130272598,0.00637910662573146,-0.0961205332106029,"moderated_t",1,6450,0.923427829848533,,0.923427829848533
+"greenyellow","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,0.000613261606541987,0.00637910662573146,0.0961359705241903,"moderated_t",1,6450,0.92341556991642,,0.923427829848533
+"magenta","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,-0.00078599334046215,0.00637910662573146,-0.123213701632088,"moderated_t",1,6450,0.901941714909137,,0.923427829848533
+"midnightblue","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,0.00613353379619988,0.00637910662573146,0.961503570336791,"moderated_t",1,6450,0.336335074093829,,0.923427829848533
+"pink","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,-0.000784770263652351,0.00637910662573146,-0.123021969955294,"moderated_t",1,6450,0.90209353354103,,0.923427829848533
+"purple","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,0.00196912360642408,0.00637910662573146,0.308683287794753,"moderated_t",1,6450,0.757572427023587,,0.923427829848533
+"red","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,0.00234492101573747,0.00637910662573146,0.36759395214978,"moderated_t",1,6450,0.713188085989188,,0.923427829848533
+"salmon","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,-0.00898725810318772,0.00637910662573146,-1.40885842336225,"moderated_t",1,6450,0.158925240057882,,0.923427829848533
+"tan","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,0.00565871501903896,0.00637910662573146,0.887070141799065,"moderated_t",1,6450,0.375074212394371,,0.923427829848533
+"turquoise","response_only","M2_SD_PD_minus_CR_PR","response_m2SD.PD",432,-0.00590485376125651,0.00637910662573146,-0.92565528493254,"moderated_t",1,6450,0.35465978385513,,0.923427829848533
+"yellow","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,0.0126915492633272,0.00505268326576625,2.51184342967173,"moderated_t",1,6450,0.0120344632384587,,0.180516948576881
+"black","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,-0.00656057096612328,0.00505268326576625,-1.29843305448681,"moderated_t",1,6450,0.194184988605831,,0.673614599421331
+"brown","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,0.00558035842341284,0.00505268326576625,1.10443463995097,"moderated_t",1,6450,0.269445839768532,,0.673614599421331
+"salmon","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,-0.00565543007071581,0.00505268326576625,-1.11929241815599,"moderated_t",1,6450,0.263057089149383,,0.673614599421331
+"tan","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,0.00602717060147798,0.00505268326576625,1.19286531224196,"moderated_t",1,6450,0.232966004457904,,0.673614599421331
+"turquoise","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,-0.00730116566664363,0.00505268326576625,-1.44500758955379,"moderated_t",1,6450,0.148504332514051,,0.673614599421331
+"blue","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,-0.00101038633322541,0.00505268326576625,-0.199970249485286,"moderated_t",1,6450,0.841510152720082,,0.901618020771516
+"cyan","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,-0.00222910750976456,0.00505268326576625,-0.441173014914188,"moderated_t",1,6450,0.659102534824491,,0.901618020771516
+"green","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,-0.00121412141558964,0.00505268326576625,-0.240292405387006,"moderated_t",1,6450,0.81011121865691,,0.901618020771516
+"greenyellow","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,-0.00392916084957452,0.00505268326576625,-0.777638463150065,"moderated_t",1,6450,0.43681070058691,,0.901618020771516
+"magenta","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,0.00132932949583431,0.00505268326576625,0.263093771351352,"moderated_t",1,6450,0.792486708082136,,0.901618020771516
+"midnightblue","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,-0.00252113551599236,0.00505268326576625,-0.498969633239028,"moderated_t",1,6450,0.617817793671229,,0.901618020771516
+"purple","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,-0.00168468219308243,0.00505268326576625,-0.333423273233207,"moderated_t",1,6450,0.738825635721036,,0.901618020771516
+"red","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,0.00162103616920206,0.00505268326576625,0.320826793198213,"moderated_t",1,6450,0.748352047714473,,0.901618020771516
+"pink","response_only","M3_NonCR_minus_CR","response_m3Non.CR",432,-0.000116245204157256,0.00505268326576625,-0.0230066279722814,"moderated_t",1,6450,0.981645697664138,,0.981645697664138

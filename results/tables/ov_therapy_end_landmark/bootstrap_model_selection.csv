@@ -1,0 +1,6 @@
+landmark,B,M1,M2,M3,M_PD,plateau_rejected,ORR_rejected
+none,1000,0.146,0,0.239,0.615,0.444,1
+fixed183,1000,0.138,0,0.483,0.379,0.238,1
+therapy_end,1000,0.106,0,0.62,0.274,0.111,1
+therapy_end_imputed,1000,0.128,0,0.404,0.468,0.291,1
+none_same_patients,1000,0.094,0,0.675,0.231,0.11,1

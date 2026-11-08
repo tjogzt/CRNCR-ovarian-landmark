@@ -1,0 +1,11 @@
+key,value
+date_imputation_replicates,200
+pd_event_fraction,0.808080808080808
+pancancer_minimum_noncr,30
+pancancer_minimum_cr,10
+pancancer_minimum_os_events,30
+pancancer_ov_all_n,465
+tipping_day_minimum,90
+tipping_day_maximum,300
+target_power,0.8
+alpha,0.05

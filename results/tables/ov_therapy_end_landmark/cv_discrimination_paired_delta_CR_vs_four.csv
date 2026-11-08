@@ -1,0 +1,2 @@
+n,repeats,folds,comparison,median_delta_C,mean_delta_C,q05_delta_C,q95_delta_C,boot_median_low,boot_median_high,repeats_positive,repeats_negative,interval_type
+343,20,5,CR threshold minus four categories,9.82818870122304e-4,0.0012955705482534164,-0.0022573781307154263,0.005853421399338695,-5.083146089807644e-4,0.0025795219116436785,13,7,bootstrap over cross-validation repeat-level differences

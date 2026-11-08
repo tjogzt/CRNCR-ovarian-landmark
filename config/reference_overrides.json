@@ -1,0 +1,20 @@
+{
+  "crossref": {
+    "grambsch": "Grambsch PM, Therneau TM. Proportional hazards tests and diagnostics based on weighted residuals. *Biometrika*. 1994;81(3):515-526. doi:10.1093/biomet/81.3.515",
+    "mice": "van Buuren S, Groothuis-Oudshoorn K. mice: multivariate imputation by chained equations in R. *J Stat Softw*. 2011;45(3):1-67. doi:10.18637/jss.v045.i03",
+    "li1991": "Li KH, Raghunathan TE, Rubin DB. Large-sample significance levels from multiply imputed data using moment-based statistics and an F reference distribution. *J Am Stat Assoc*. 1991;86(416):1065-1073. doi:10.1080/01621459.1991.10475152",
+    "metafor": "Viechtbauer W. Conducting meta-analyses in R with the metafor package. *J Stat Softw*. 2010;36(3):1-48. doi:10.18637/jss.v036.i03",
+    "fgsea": "Korotkevich G, Sukhov V, Budin N, Shpak B, Artyomov MN, Sergushichev A. Fast gene set enrichment analysis. *bioRxiv* [Preprint]. 2016:060012. doi:10.1101/060012",
+    "rubin1987": "Rubin DB. *Multiple imputation for nonresponse in surveys*. New York: Wiley; 1987. doi:10.1002/9780470316696",
+    "bh1995": "Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. *J R Stat Soc Series B Stat Methodol*. 1995;57(1):289-300. doi:10.1111/j.2517-6161.1995.tb02031.x",
+    "efron1977": "Efron B. The efficiency of Cox's likelihood function for censored data. *J Am Stat Assoc*. 1977;72(359):557-565. doi:10.1080/01621459.1977.10480613",
+    "heinze2001": "Heinze G, Schemper M. A solution to the problem of monotone likelihood in Cox regression. *Biometrics*. 2001;57(1):114-119. doi:10.1111/j.0006-341X.2001.00114.x",
+    "burnham2002": "Burnham KP, Anderson DR. *Model Selection and Multimodel Inference: A Practical Information-Theoretic Approach*. 2nd ed. Springer; 2002. doi:10.1007/b97636"
+  },
+  "notes": {
+    "dressman": ". Retraction in: *J Clin Oncol*. 2012;30(6):678."
+  },
+  "doi_overrides": {
+    "schoenfeld": "10.2307/2531021"
+  }
+}

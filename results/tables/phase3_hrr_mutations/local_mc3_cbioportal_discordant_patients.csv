@@ -1,0 +1,2 @@
+sample,patient,BRCA_any,BRCA_lof,HRR_core_any,HRR_core_lof,HRR_extended_any,HRR_extended_lof,hrr_variant_count,local_BRCA_any,local_HRR_core_any,local_HRR_extended_any
+TCGA-09-2044-01,TCGA-09-2044,1,0,1,0,1,0,2,0,0,0

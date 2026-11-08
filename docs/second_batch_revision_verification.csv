@@ -1,0 +1,30 @@
+check,passed,detail
+Protected baseline files: results,True,212 files; differences ['results/tables/manuscript/manuscript_claim_audit.csv']
+Protected baseline files: data/processed,True,5 files; differences []
+Protected baseline files: data/supplementary,True,2 files; differences []
+Scientific code and configuration unchanged,True,25 files; []
+Date flag output byte-idempotence,True,
+Date flag rows and order match all labelled cases,True,454
+"Dates, labels and inclusion unchanged",True,
+Date summary category sums match,True,
+Altered treatment bytes rejected,True,
+Approved title synchronized,True,
+S1 cohort flow has the actual landmark counts,True,
+S1 pre-landmark denominator disclosed,True,
+Data 3 referenced in all source descriptions,True,
+MICE diagnostics limitation disclosed,True,
+External overlap disclosed without alleging corrupted GSE23554 labels,True,
+Unapproved new analyses absent,True,
+DOCX ZIP integrity: manuscript,True,
+Upload manuscript DOCX has no embedded figures,True,
+PDF text usable: manuscript,True,18 pages
+DOCX/PDF non-table body parity: manuscript,True,36945 vs 36945 alphanumeric characters
+DOCX ZIP integrity: supplementary_appendix,True,
+PDF text usable: supplementary_appendix,True,20 pages
+DOCX/PDF non-table body parity: supplementary_appendix,True,32607 vs 32607 alphanumeric characters
+DOCX ZIP integrity: cover_letter,True,
+PDF text usable: cover_letter,True,2 pages
+DOCX/PDF non-table body parity: cover_letter,True,4108 vs 4108 alphanumeric characters
+STROBE Word integrity and Data 3 location,True,
+Review shares all upload PDF text,True,18 shared pages
+Review shared pages pixel-identical,True,

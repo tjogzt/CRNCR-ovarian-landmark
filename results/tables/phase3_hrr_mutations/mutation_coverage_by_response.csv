@@ -1,0 +1,5 @@
+response4,total,sequenced,sequenced_fraction,BRCA_any_n,BRCA_lof_n,HRR_core_any_n,HRR_core_lof_n,HRR_extended_any_n,HRR_extended_lof_n
+CR,319,288,0.9028213166144201,21,16,26,16,48,22
+PR,64,54,0.84375,2,2,3,2,8,4
+SD,30,27,0.9,2,2,2,2,3,3
+PD,41,40,0.975609756097561,3,0,5,1,8,3

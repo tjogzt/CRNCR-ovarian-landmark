@@ -1,0 +1,2 @@
+source,endpoint,files,cases,project_overlap,status
+GDC masked somatic mutation metadata,https://api.gdc.cancer.gov/files,482,419,327,success

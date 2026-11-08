@@ -1,0 +1,6 @@
+Operational HGSOC: TCGA-OV (serous by study design), grade G2-G4, FIGO III-IV.
+Landmark n=334; events=206; CR/PR/SD/PD=241/49/17/27.
+HR vs CR: PR 3.51, SD 3.96, PD 5.14; NCR 3.94 (95% CI 2.90-5.35).
+Plateau LRT p=0.3541; ORR constraint p=4.142e-09; PD-step p=0.1604.
+Best AIC=M3; best BIC=M3.
+Bootstrap HGSOC: M3 42.7%, M_PD 44.2%, M1 13.1%, ORR rejected 100.0%, plateau rejected 25.4%.
